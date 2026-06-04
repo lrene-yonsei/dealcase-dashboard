@@ -587,7 +587,7 @@ function render() {
 }
 
 // 내보내기 헤더 (사용자 지정 16컬럼) — 인수사/매각대상 각각 사업자번호·브랜드명 분리
-const EXPORT_HEADER = ['인수시기','인수사','사업자번호','브랜드명','매각대상','사업자번호','키워드','브랜드명',
+const EXPORT_HEADER = ['인수시기','상태','인수사','사업자번호','브랜드명','매각대상','사업자번호','키워드','브랜드명',
                        '지분율','규모(억)','밸류(억)','목적','뉴스url','다트url','참고','비고'];
 
 function _acqName(d) {
@@ -605,6 +605,7 @@ function buildExportRows() {
         const val   = d.valuation_krw ? Math.round(Number(d.valuation_krw)/1e8) : '';
         rows.push([
             d.closing_date || '',
+            statusGroup(d.status) || '',
             _acqName(d),
             d.acquirer_biz_no || '',
             d.acquirer_brand || '',
