@@ -4196,27 +4196,27 @@
       "reference": "https://mb.com.ph/2024/11/12/jollibee-s-q3-earnings-growth-boosted-by-compose-coffee-acquisition"
     },
     {
-      "closing_date": "2023-08-29",
+      "closing_date": "2023-10-11",
       "acquirer_name": "UCK파트너스",
       "target_name": "설빙",
       "target_brand": "",
-      "stake_pct": 0.7,
-      "deal_size_krw": "105000000000",
-      "valuation_krw": "",
+      "stake_pct": 0.9,
+      "deal_size_krw": "130500000000",
+      "valuation_krw": "145000000000",
       "status": "클로징",
-      "news_url": "https://dealsite.co.kr/articles/109372/025075",
+      "news_url": "https://www.thebell.co.kr/front/newsview.asp?key=202310121013074960106649",
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240228002502",
-      "notes": "상태보정(2026-06-04, SPA체결→실제상태): SPA체결→클로징. 클로징된 지 오래된 거래(규칙: SPA보도만+시간경과=클로징). | DART보강(2026-06-04): 설빙 FY2023 감사보고서(rcpNo=20240228002502) 주석 — 최대주주 유씨케이설빙 유한회사 100%. 구조 공시검증. ※금액 보도 불일치: 1,050억/70%(서울경제) vs 1,300억/100%(딜사이트) — 인수SPC 감사보고서 DART 부재로 금액 1차검증 불가, 언론 유지.",
-      "snippet_html": "…시킨다는 방침이다. 업계는 UCK의 대표 포트폴리오인 '공차' 및 '메디트' 투자회수(엑시트) 사례에 주목하며 설빙으로도 '성공적인 레코드'를 남길 수 있을 지 주목하고 있다. 30일 투자은행(IB) 업계에 따르면 <mark>UCK는 최근 설빙을 창업한 정선희 대표 및 특수관계인으로부터 지분 70~80%를 약 1050억~1300억원에 인수하기로 했다.</mark> 다음달 초까지 잔금 지급을 마치고 딜을 클로징 하는 것이 목표다. 유의미한 지분을 남긴 정 대표는 이사회에 남아 회사 경영을 지원할 방침이다. UCK는 이번 인수를 통해 설빙을 글로벌 기업으로 성장시키겠다는 계획이…",
+      "notes": "상태보정(2026-06-04, SPA체결→실제상태): SPA체결→클로징. 클로징된 지 오래된 거래(규칙: SPA보도만+시간경과=클로징). | DART보강(2026-06-04): 설빙 FY2023 감사보고서(rcpNo=20240228002502) 주석 — 최대주주 유씨케이설빙 유한회사 100%. 구조 공시검증. ※금액 보도 불일치: 1,050억/70%(서울경제) vs 1,300억/100%(딜사이트) — 인수SPC 감사보고서 DART 부재로 금액 1차검증 불가, 언론 유지. | 종합기사 반영(2026-06-04): 더벨(2023-10-12) 상세기사로 확정 — 인수금액 1,305억·기업가치 1,450억·지분 90%·2023-10-11 마무리. 기존 range기사(1050~1300억/70~80%)·closing 2023-08-29 교체. SPC(유씨케이설빙 유한회사)가 설빙 100% 보유하되 경제적 지분 UCK 90%/정선희 10%(rollover).",
+      "snippet_html": "<mark>UCK파트너스가 설빙 지분 90%를 1,305억원(기업가치 1,450억)에 인수, 2023년 10월 11일 마무리. 창업주 정선희 대표는 10% 2대주주로 잔류.</mark>",
       "verification_level": "공시검증",
-      "confidence": "low",
-      "amount_basis": "추정치",
+      "confidence": "high",
+      "amount_basis": "거래가_명시",
       "source_count": 1,
       "is_below_floor": false,
-      "is_amount_estimated": true,
+      "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "extraction_clue": "UCK는 최근 설빙을 창업한 정선희 대표 및 특수관계인으로부터 지분 70~80%를 약 1050억~1300억원에 인수하기로 했다.",
+      "extraction_clue": "UCK파트너스가 설빙 지분 90%를 1,305억원에 인수(기업가치 1,450억), 이달 11일 마무리. 정선희 대표 10% 2대주주 잔류 (더벨 2023-10-12).",
       "target_keyword": "외식",
       "target_biz_no": "602-81-62460",
       "purpose": "포트폴리오 확장(카페·디저트)"
@@ -4272,7 +4272,8 @@
       "target_keyword": "식자재 유통",
       "acquirer_biz_no": "107-86-93518",
       "target_biz_no": "132-86-24093",
-      "purpose": "포트폴리오 확장(식자재 유통)"
+      "purpose": "포트폴리오 확장(식자재 유통)",
+      "reference": "https://biz.heraldcorp.com/view.php?ud=20240507050077 (헤럴드 투자360 종합기사: 700억대/90%)"
     },
     {
       "closing_date": "2024-09-04",
@@ -4337,7 +4338,7 @@
       "status": "클로징",
       "news_url": "https://www.asiae.co.kr/article/2024052814372586360",
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250402003600",
-      "notes": "[중복병합: 동일딜 別추출본 88억은 추출오류로 폐기. KPMG '37%=650억' 근거로 13%≈230억 채택] | DART보강(2026-06-04): 학산(테라로사 운영, corp 01087282) FY2024 감사보고서(rcpNo=20250402003600). 2024-05 UCK가 창업주 지분 13% 추가매입→50.1% 경영권, ~230억(언론, 구주). 주석 본문(최대주주 변동) 확인 시 공시검증 승격 가능.",
+      "notes": "[중복병합: 동일딜 別추출본 88억은 추출오류로 폐기. KPMG '37%=650억' 근거로 13%≈230억 채택] | DART보강(2026-06-04): 학산(테라로사 운영, corp 01087282) FY2024 감사보고서(rcpNo=20250402003600). 2024-05 UCK가 창업주 지분 13% 추가매입→50.1% 경영권, ~230억(언론, 구주). 주석 본문(최대주주 변동) 확인 시 공시검증 승격 가능. | 지분 정리(2026-06-04): stake 50.1%=누적 경영권 확보 결과(2024-05 13% 추가취득, 전기 37%). 230억=이번 13% 거래분. 헤드라인은 경영권 확보(50.1%) 유지 권고(메가커피식 이번거래분 13% 원하면 변경).",
       "snippet_html": "…권을 인수했다. UCK는 학산 창업자인 김용덕 전 대표로부터 학산 지분을 13% 추가로 인수하며 총 지분 50.1%를 확보했다. 앞서 UCK는 2021년 11월 학산 지분 37%를 약 650억원에 인수한 바 있다. <mark>이번 추가 지분 인수에 투입된 금액은 약 2</mark>30억원 규모로 알려져 총 투입금액은 약 880억원 규모다. 김수민 UCK파트너스 대표는 기업을 선정할 때 중요하게 보는 점이 두 가지 있다. 김수민 대표는 \"맛, 브랜드, 제품 등 그 브랜드만의 확실한 강점이 1개…",
       "verification_level": "언론검증",
       "confidence": "low",
@@ -4350,7 +4351,8 @@
       "extraction_clue": "이번 추가 지분 인수에 투입된 금액은 약 230억원 규모로 알려져 총 투자금액은 약 880억원 규모다.",
       "target_keyword": "외식",
       "target_biz_no": "226-81-28273",
-      "purpose": "포트폴리오 확장(카페·커피)"
+      "purpose": "포트폴리오 확장(카페·커피)",
+      "reference": "https://www.newstopkorea.com/news/articleView.html?idxno=42997 (뉴스톱 더비스타: 2024-05 13% 추가→누적 50.1% 경영권, 전기 2021년 37%/약 650억)"
     },
     {
       "closing_date": "2023-01-01",
@@ -4632,7 +4634,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "이번 거래의 매각 대금은 2000억 원 초중반대로 알려졌다",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "reference": "https://www.fnnews.com/news/202512201228218451 (fn마켓워치: SPA 2025-12·클로징 2026Q1·약 2000억, 오케스트라 매입가 ~1000억 MOIC 3배)"
     },
     {
       "closing_date": "2026-05-29",
@@ -4657,7 +4660,8 @@
       "sector": "F&B",
       "extraction_clue": "오케스트라PE는 이달 초 매머드커피 운영사 매머드커피랩과 원두 로스팅 업체 서진로스터즈의 지분 100%를 약 1000억원에 인수하는 주식매매계약(SPA)을 체결했다",
       "target_keyword": "외식",
-      "purpose": "수직계열화(원두 조달부터 가맹 운영까지 통합)"
+      "purpose": "수직계열화(원두 조달부터 가맹 운영까지 통합)",
+      "reference": "https://www.bloter.net/news/articleView.html?idxno=663966 (블로터 PE 종합: 1000억/100%)"
     },
     {
       "closing_date": "2025-12-25",
@@ -5645,13 +5649,13 @@
       "target_name": "더조은워터",
       "target_brand": "",
       "stake_pct": 1.0,
-      "deal_size_krw": "4318392123",
+      "deal_size_krw": "13270000000",
       "valuation_krw": "",
       "status": "클로징",
       "news_url": "https://biz.newdaily.co.kr/site/data/html/2023/08/18/2023081800047.html",
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240401002854",
-      "notes": "완전성 감사 추가(2026-06-02): KPMG/PwC 리포트·리그테이블·PE 포트폴리오 전수 대조로 발견된 누락 딜. 남원 생수업체 더조은워터 지분 100%를 43억원에 인수. | DART보강(2026-06-04): 웅진식품 FY2023 사업보고서(rcpNo=20240401002854) 종속기업투자 취득 4,318,392,123원=더조은워터 인수(2023.6). 보도 43억과 정합→DART 정밀값. 공시검증.",
-      "snippet_html": "<mark>남원 생수업체 더조은워터 지분 100%를 43억원에 인수.</mark>",
+      "notes": "완전성 감사 추가(2026-06-02): KPMG/PwC 리포트·리그테이블·PE 포트폴리오 전수 대조로 발견된 누락 딜. 남원 생수업체 더조은워터 지분 100%를 43억원에 인수. | DART보강(2026-06-04): 웅진식품 FY2023 사업보고서(rcpNo=20240401002854) 종속기업투자 취득 4,318,392,123원=더조은워터 인수(2023.6). 보도 43억과 정합→DART 정밀값. 공시검증. | 금액정정(2026-06-04): 취득가 4,318,392,123(43.18억)→13,270,000,000(132.7억). 43.18억은 연결현금흐름표 \"종속기업 투자자산 취득\" 순현금유출(=취득가-인수한현금)이었고, 뉴스 \"43억\"도 이 순현금. DART 사업결합 주석 \"더조은워터 지분 전량을 13,270백만원에 취득\"이 실제 취득가(132.7억). 차액 89.5억=더조은워터 보유현금. ★현금흐름표 순현금을 취득가로 오인한 오류 — DART 사업결합 주석으로 최종 점검.",
+      "snippet_html": "<mark>웅진식품은 당기 중 (주)더조은워터 지분 전량(100%)을 13,270백만원(132.7억)에 취득.</mark> (뉴스 \"43억\"은 순현금유출, 취득가는 132.7억)",
       "verification_level": "공시검증",
       "confidence": "high",
       "amount_basis": "거래가_명시",
@@ -5660,7 +5664,7 @@
       "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "extraction_clue": "종속기업에 대한 투자자산의 취득 ... 4,318,392,123 (웅진식품 FY2023 사업보고서 연결현금흐름표)",
+      "extraction_clue": "(*) 회사는 당기 중 (주)더조은워터의 지분 전량을 13,270백만원에 취득하였습니다. (웅진식품 FY2023 사업보고서 사업결합 주석)",
       "target_keyword": "음료 제조",
       "acquirer_biz_no": "307-81-08858",
       "target_biz_no": "271-86-01148",
@@ -5677,7 +5681,7 @@
       "status": "클로징",
       "news_url": "https://dealsite.co.kr/articles/149735",
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240527800573",
-      "notes": "완전성 감사 추가(2026-06-02): KPMG/PwC 리포트·리그테이블·PE 포트폴리오 전수 대조로 발견된 누락 딜. 조미김(명가김) 제조 삼해상사 지분 100% 인수(CJ제일제당→CJ씨푸드 계열편입). 금액 미공개. | DART검증(2026-06-04, 재탐색): CJ씨푸드 타법인주식취득결정 rcept 20240527800573 확인. 공시검증 승격.",
+      "notes": "완전성 감사 추가(2026-06-02): KPMG/PwC 리포트·리그테이블·PE 포트폴리오 전수 대조로 발견된 누락 딜. 조미김(명가김) 제조 삼해상사 지분 100% 인수(CJ제일제당→CJ씨푸드 계열편입). 금액 미공개. | DART검증(2026-06-04, 재탐색): CJ씨푸드 타법인주식취득결정 rcept 20240527800573 확인. 공시검증 승격. | A 확정(2026-06-04, 사용자): CJ제일제당(CJ씨푸드 지배회사)→CJ씨푸드 계열 내부 이전(지배주체 CJ 불변)이라 arm's-length M&A 아님 + 2024-05-29 80억은 이미 100%보유 자회사 대상 유상증자 출자(취득금액 아님). → is_intragroup로 표·엑셀·집계 제외(레코드 보존).",
       "snippet_html": "<mark>조미김(명가김) 제조 삼해상사 지분 100% 인수(CJ제일제당→CJ씨푸드 계열편입). 금액 미공개.</mark>",
       "verification_level": "공시검증",
       "confidence": "medium",
@@ -5691,7 +5695,8 @@
       "target_keyword": "식료품 제조",
       "acquirer_biz_no": "229-81-12289",
       "target_biz_no": "215-81-03457",
-      "purpose": "포트폴리오 확장(조미김 영역)"
+      "purpose": "포트폴리오 확장(조미김 영역)",
+      "is_intragroup": true
     },
     {
       "closing_date": "2021-05",
@@ -5906,7 +5911,7 @@
       "status": "클로징",
       "news_url": "https://www.etnews.com/20231004000021",
       "dart_url": "",
-      "notes": "완전성 감사 2차(2026-06-03): 전 하위카테고리×다출처 재스윕으로 발견된 추가 누락. 롯데칠성, 공개매수로 필리핀펩시(Pepsi-Cola Products Philippines) 누적 지분 73.6% 경영권 확보. 금액 미상. | 날짜정정(2026-06-04): 09-01 placeholder→2023-09-29(필리핀 SEC 경영권 취득 최종절차 완료, 발표 2023-10-04 전자신문).",
+      "notes": "완전성 감사 2차(2026-06-03): 전 하위카테고리×다출처 재스윕으로 발견된 추가 누락. 롯데칠성, 공개매수로 필리핀펩시(Pepsi-Cola Products Philippines) 누적 지분 73.6% 경영권 확보. 금액 미상. | 날짜정정(2026-06-04): 09-01 placeholder→2023-09-29(필리핀 SEC 경영권 취득 최종절차 완료, 발표 2023-10-04 전자신문). | 검증(2026-06-04): 인수 완료 2023-09-29 맞음(news etnews 2023-10-04은 발표일). 2023 인수대금은 국내·필리핀(KED·Inquirer·PSE) 기사 모두 미공개. 검색상 P4.16B는 2019~2020 공개매수(57.78%, 21.34억주×P1.95)로 별개 건. 73.6%=2010년 34.4%부터 PepsiCo 직접매입+공개매수 누적분.",
       "snippet_html": "<mark>롯데칠성, 공개매수로 필리핀펩시(Pepsi-Cola Products Philippines) 누적 지분 73.6% 경영권 확보. 금액 미상.</mark>",
       "verification_level": "언론검증",
       "confidence": "medium",
@@ -5919,7 +5924,8 @@
       "extraction_clue": "롯데칠성, 공개매수로 필리핀펩시(Pepsi-Cola Products Philippines) 누적 지분 73.6% 경영권 확보. 금액 미상.",
       "target_keyword": "음료 제조",
       "acquirer_biz_no": "214-81-07770",
-      "purpose": "동남아 거점 확보(필리핀 시장)"
+      "purpose": "동남아 거점 확보(필리핀 시장)",
+      "reference": "https://www.kedglobal.com/mergers-acquisitions/newsView/ked202310040012 (영문, 73.6%·완료 확인); 2019~2020 공개매수: 2.134억주×P1.95=P4.16B(별개)"
     },
     {
       "closing_date": "2023-03",
@@ -6024,7 +6030,7 @@
       "target_biz_no": "526-86-00239"
     },
     {
-      "closing_date": "2023-12-01",
+      "closing_date": "2023-11-28",
       "acquirer_name": "LF푸드",
       "target_name": "한스코리아",
       "target_brand": "",
@@ -6033,21 +6039,22 @@
       "valuation_krw": "",
       "status": "클로징",
       "news_url": "https://biz.newdaily.co.kr/site/data/html/2023/11/28/2023112800072.html",
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240405002964",
-      "notes": "완전성 감사 3차(2026-06-04): 공정위·PE포트폴리오는 신규 0(수렴), 세부섹터·크로스보더에서 발견. LF푸드, 쌀국수·마카로니·면류 제조 한스코리아 지분 90%를 207억원에 인수. | DART검증(2026-06-04): 한스코리아(corp 01771895, 인천 강화, 면제조 쌀국수면·마카로니, induty 10820) 확정 — 과거 'REIT 코크렙안양' 혼동 디버그(그건 LF의 별건 코람코자산신탁 딜). LF(모회사)가 90%(19.8천주) 약 207억 인수(2023-12-06). 한스코리아 FY2023 감사보고서(rcpNo=20240405002964)에 신규 90% 주주 반영.",
+      "dart_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240329000407&dcmNo=9779984&eleId=4&offset=74663&length=369352&dtd=dart4.xsd#:~:text=한스코리아",
+      "notes": "완전성 감사 3차(2026-06-04): 공정위·PE포트폴리오는 신규 0(수렴), 세부섹터·크로스보더에서 발견. LF푸드, 쌀국수·마카로니·면류 제조 한스코리아 지분 90%를 207억원에 인수. | DART검증(2026-06-04): 한스코리아(corp 01771895, 인천 강화, 면제조 쌀국수면·마카로니, induty 10820) 확정 — 과거 'REIT 코크렙안양' 혼동 디버그(그건 LF의 별건 코람코자산신탁 딜). LF(모회사)가 90%(19.8천주) 약 207억 인수(2023-12-06). 한스코리아 FY2023 감사보고서(rcpNo=20240405002964)에 신규 90% 주주 반영. | 보정(2026-06-04): closing 2023-12-01→2023-11-28(뉴데일리·검색 일치, LF 90% 인수). dart_url 교체: 대상(한스코리아) 감사보고서는 90% 주주현황만 있고 금액 無 → 인수사 LF푸드 2023 감사보고서(rcpNo=20240329000407) 주석 사업결합 \"이전대가 207억\"으로 교체(기존 한스 audit는 reference). 금액 207억 공시검증.",
       "snippet_html": "<mark>LF푸드, 쌀국수·마카로니·면류 제조 한스코리아 지분 90%를 207억원에 인수.</mark>",
       "verification_level": "공시검증",
-      "confidence": "medium",
+      "confidence": "high",
       "amount_basis": "거래가_명시",
       "source_count": 1,
       "is_below_floor": true,
       "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "extraction_clue": "LF푸드, 쌀국수·마카로니·면류 제조 한스코리아 지분 90%를 207억원에 인수.",
+      "extraction_clue": "LF푸드 2023 감사보고서 주석: 한스코리아 지분 90% 취득, 이전대가 207억(2023-11-28 지배력 획득)",
       "target_keyword": "식료품 제조",
       "target_biz_no": "420-86-00381",
-      "purpose": "포트폴리오 확장(면류 제조)"
+      "purpose": "포트폴리오 확장(면류 제조)",
+      "reference": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240405002964 (한스코리아 FY2023 감사보고서: 신규 주주 90% 반영, 이전대가 미기재)"
     },
     {
       "closing_date": "2025-12-01",
