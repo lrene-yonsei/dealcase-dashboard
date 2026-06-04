@@ -612,7 +612,7 @@ function doExportCSV() {
     const csv = '﻿' + rows.map(r => r.map(v => `"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8;' }));
-    a.download = 'mma_deals.csv';
+    a.download = 'MMP Deal Case Archive.csv';
     a.click();
 }
 
@@ -639,7 +639,7 @@ function doExportExcel() {
     const ws = XLSX.utils.aoa_to_sheet(rows);
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, 'Deals');
-    XLSX.writeFile(wb, 'mma_deals.xlsx');
+    XLSX.writeFile(wb, 'MMP Deal Case Archive.xlsx');
 }
 
 async function loadData() {
