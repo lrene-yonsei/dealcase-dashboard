@@ -47,8 +47,6 @@
         .empty-state .empty-title { font-size: 0.95rem; color: var(--text); font-weight: 600; }
         .empty-state .empty-sub { font-size: 0.8rem; text-align: center; line-height: 1.6; }
 
-        .add-btn { width: 100%; padding: 8px; border: 1px dashed var(--border); background: transparent; color: var(--muted); border-radius: 8px; font-size: 0.8rem; cursor: pointer; transition: all .15s; }
-        .add-btn:hover { border-color: var(--blue); color: var(--blue); }
 
         .f-sec { display: flex; flex-direction: column; gap: 8px; }
         .f-lbl { font-size: 0.65rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; }
@@ -58,7 +56,7 @@
         .search-box::placeholder { color: var(--muted); }
 
         .pill-grp { display: flex; flex-wrap: wrap; gap: 5px; }
-        .pill { padding: 3px 9px; border: 1px solid var(--border); background: transparent; color: var(--muted); border-radius: 20px; font-size: 0.73rem; cursor: pointer; white-space: nowrap; transition: all .12s; }
+        .pill { box-sizing: border-box; height: 26px; display: inline-flex; align-items: center; padding: 0 10px; line-height: 1; border: 1px solid var(--border); background: transparent; color: var(--muted); border-radius: 20px; font-size: 0.73rem; cursor: pointer; white-space: nowrap; transition: all .12s; }
         .pill:hover { border-color: var(--blue); color: var(--blue); }
         .pill.active { background: var(--blue); border-color: var(--blue); color: #fff; font-weight: 600; }
 
@@ -155,8 +153,6 @@
         <button class="sector-tab active" data-sector="cosmetics">화장품 <span class="tab-count" id="catTotal">0</span></button>
         <button class="sector-tab" data-sector="fnb">F&amp;B <span class="tab-count" id="fnbTotal">0</span></button>
     </div>
-
-    <button class="add-btn">+ 신규 딜 추가</button>
 
     <div class="f-sec">
         <div class="f-lbl">검색</div>
