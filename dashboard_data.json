@@ -3840,7 +3840,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "사조대림은 전분당업체인 인그리디언코리아를 3840억원에 인수한다고 12일 밝혔다.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "acquirer_biz_no": "114-81-34190",
+      "purpose": "수직계열화(원재료 내재화)"
     },
     {
       "closing_date": "2024-06-24",
@@ -3864,7 +3866,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "사조오양이 800억 원을 내 지분 31.70%를 확보하고 사조CPK가 1720억 원을 내 지분 68.16%를 가져간다.",
-      "target_keyword": "식자재 유통"
+      "target_keyword": "식자재 유통",
+      "purpose": "포트폴리오 확장(식자재 유통)"
     },
     {
       "closing_date": "2024-07-02",
@@ -3888,7 +3891,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "양 회장은 지난 2일 컴포즈커피 지분 100%를 약 4700억 원(3억4000만달러)에 매각하기로 주식매매계약(SPA)를 체결했다.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "target_biz_no": "521-81-02386",
+      "purpose": "해외(한국) 진출"
     },
     {
       "closing_date": "2023-08-29",
@@ -3912,7 +3917,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "UCK는 최근 설빙을 창업한 정선희 대표 및 특수관계인으로부터 지분 70~80%를 약 1050억~1300억원에 인수하기로 했다.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "target_biz_no": "602-81-62460",
+      "purpose": "포트폴리오 확장(카페·디저트)"
     },
     {
       "closing_date": "2023-06-22",
@@ -3936,7 +3943,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "케이스톤파트너스는 한성그린팩토리 보통주와 전환사채(CB)를 포함해 지분 80%를 400억원에 인수하는 계약을 체결했다.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "acquirer_biz_no": "107-86-93518",
+      "purpose": "포트폴리오 확장(식료품 제조)"
     },
     {
       "closing_date": "2024-05-07",
@@ -3960,13 +3969,16 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "전체 지분가치는 700억원 초반대로 책정했다",
-      "target_keyword": "식자재 유통"
+      "target_keyword": "식자재 유통",
+      "acquirer_biz_no": "107-86-93518",
+      "target_biz_no": "132-86-24093",
+      "purpose": "포트폴리오 확장(식자재 유통)"
     },
     {
       "closing_date": "2024-09-04",
       "acquirer_name": "임마누엘코퍼레이션",
       "target_name": "MFG코리아(매드포갈릭)",
-      "target_brand": "",
+      "target_brand": "매드포갈릭",
       "stake_pct": 1.0,
       "deal_size_krw": "50000000000",
       "valuation_krw": "",
@@ -3984,7 +3996,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "매각가액은 500억원으로 전해졌다",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "포트폴리오 확장(외식)"
     },
     {
       "closing_date": "2024-09-11",
@@ -3996,10 +4009,10 @@
       "valuation_krw": "",
       "status": "클로징",
       "news_url": "https://biz.heraldcorp.com/article/3850121",
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20210623000429",
-      "notes": "",
+      "dart_url": "",
+      "notes": "매매대금 비공개(업계 추정치, 미확정) | 거래구조=영업양수도(생산용지·설비·지하수이용권 양도). 주식인수 아님 → 지분율 공란 정상. | 공시URL 삭제(2026-06-04): 기존 rcpNo 20210623000429는 2021년 공시로 2024년 본 거래와 무관한 오매칭. 오비맥주·제주소주 모두 비상장+영업양수도 → DART 없음, 언론검증.",
       "snippet_html": "<mark>인수 금액은 120억원 규모로 추정된다.</mark>",
-      "verification_level": "공시검증",
+      "verification_level": "언론검증",
       "confidence": "high",
       "amount_basis": "추정치",
       "source_count": 2,
@@ -4008,13 +4021,16 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "인수 금액은 120억원 규모로 추정된다.",
-      "target_keyword": "음료 제조"
+      "target_keyword": "음료 제조",
+      "acquirer_biz_no": "126-81-32671",
+      "target_biz_no": "616-81-88509",
+      "purpose": "포트폴리오 확장(주류)"
     },
     {
       "closing_date": "2024-05-28",
       "acquirer_name": "UCK파트너스",
       "target_name": "학산(테라로사)",
-      "target_brand": "",
+      "target_brand": "테라로사",
       "stake_pct": 0.501,
       "deal_size_krw": "23000000000",
       "valuation_krw": "",
@@ -4032,7 +4048,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "이번 추가 지분 인수에 투입된 금액은 약 230억원 규모로 알려져 총 투자금액은 약 880억원 규모다.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "target_biz_no": "226-81-28273",
+      "purpose": "포트폴리오 확장(카페·커피)"
     },
     {
       "closing_date": "2023-01-01",
@@ -4043,9 +4061,9 @@
       "deal_size_krw": "17000000000",
       "valuation_krw": "",
       "status": "클로징",
-      "news_url": "https://v.daum.net/v/20250928173812983",
+      "news_url": "https://m.thebell.co.kr/m/newsview.asp?newskey=202304281452092440102277",
       "dart_url": "",
-      "notes": "",
+      "notes": "출처 교체(2026-06-04): thebell 기사(UCK파트너스 엄지식품 매각 과정 설명)로 변경. 수지스퀴진은 부차적 언급이나 기존 출처보다 적합.",
       "snippet_html": "….07%다. 엄지식품은 1989년 설립된 국내 최초 냉동만두 회사다. 냉동만두를 국내 대기업에 공급하면서 사세를 확장했고 현재는 각종 냉동 볶음밥, 국밥, 왕만두, 가공육 등 HMR 일체를 취급하고 있다. UCK는 <mark>2023년 170억 원을 들여 HMR 전문업체인 수지스퀴진을 인수한 뒤 엄지식품과 합병했다.</mark> 일종의 볼트온 인수합병(M&amp;A) 전략이었다. 엄지식품은 자체 생산설비를 갖췄다는 강점이 있고 수지스퀴진은 신제품 개발력, 마케팅 전문성, 해외 거래선에 장점이 있다. 양사 합병으로 엄지식품은 수지스퀴진의 역량을 흡…",
       "verification_level": "언론검증",
       "confidence": "medium",
@@ -4056,7 +4074,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "2023년 170억 원을 들여 HMR 전문업체인 수지스퀴진을 인수한 뒤 엄지식품과 합병했다.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "target_biz_no": "106-86-81644",
+      "purpose": "HMR 전문성 확보 및 포트폴리오 강화"
     },
     {
       "closing_date": "2025-07-11",
@@ -4080,7 +4100,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "삼양식품은 이날 지앤에프 지분 100%를 인수하는 주식매매계약(SPA)을 체결했다. 거래가는 약 600억원으로 알려졌다.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "acquirer_biz_no": "102-81-05450",
+      "purpose": "수직계열화(라면 스프 원재료 내재화)"
     },
     {
       "closing_date": "2025-05-15",
@@ -4104,7 +4126,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "거래 규모는 총 8695억원에 달한다",
-      "target_keyword": "식자재 유통"
+      "target_keyword": "식자재 유통",
+      "acquirer_biz_no": "101-81-30747",
+      "target_biz_no": "107-81-76324",
+      "purpose": "포트폴리오 확장(급식사업) 및 시너지 강화"
     },
     {
       "closing_date": "2025-08-01",
@@ -4128,7 +4153,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "취득금액(원) | 99,999,900,000 (지분 100%)",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "acquirer_biz_no": "108-81-61052",
+      "target_biz_no": "133-81-22171",
+      "purpose": "수직계열화(장류·조미식품 원재료 내재화)"
     },
     {
       "closing_date": "2025-08-13",
@@ -4152,13 +4180,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "LF푸드는 500억원에 해당 기업의 지분 100%를 취득한다.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "target_biz_no": "127-86-36321",
+      "purpose": "포트폴리오 확장(소스·조미료 역량 강화)"
     },
     {
       "closing_date": "2026-05-31",
       "acquirer_name": "케이클라비스인베스트먼트·윈터골드PE",
       "target_name": "한국피자헛(영업권)",
-      "target_brand": "",
+      "target_brand": "피자헛",
       "stake_pct": "",
       "deal_size_krw": "11000000000",
       "valuation_krw": "",
@@ -4176,13 +4206,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "PEF 운용사인 케이클라비스인베스트먼트와 윈터골드프라이빗에쿼티는 한국피자헛의 영업권을 약 110억 원에 매입하기로 결정했다.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "target_biz_no": "120-81-63948",
+      "purpose": "브랜드 존속형 회생(영업권 인수)"
     },
     {
       "closing_date": "2026-04-20",
       "acquirer_name": "졸리비푸드코퍼레이션(Jollibee Foods)",
       "target_name": "샤브올데이(올데이프레쉬)",
-      "target_brand": "",
+      "target_brand": "올데이프레쉬",
       "stake_pct": 1.0,
       "deal_size_krw": "130000000000",
       "valuation_krw": "",
@@ -4200,7 +4232,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "올데이프레쉬의 지분 100%를 약 1300억원에 인수하는 주식매매계약(SPA)을 최종 완료했다",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "국내 식음료 포트폴리오 강화"
     },
     {
       "closing_date": "2026-05-29",
@@ -4224,13 +4257,14 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "취득금액(원) | 387,679,600,000",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "purpose": "신사업 진출(향료·향장사업으로 외연 확대)"
     },
     {
       "closing_date": "2023-09-22",
       "acquirer_name": "TTU PE(티티유프라이빗에쿼티)",
       "target_name": "PSP F&D(크라운호프)",
-      "target_brand": "",
+      "target_brand": "크라운호프",
       "stake_pct": 0.75,
       "deal_size_krw": "44000000000",
       "valuation_krw": "",
@@ -4248,7 +4282,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "박상용 대표 등 공동창업자 2인의 지분 100%를 440억원에 인수했다",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "사업 확장(점포 확대 및 해외 진출)"
     },
     {
       "closing_date": "2023-04-27",
@@ -4272,7 +4307,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "지분 투자 형태로 600억~700억원을 조달하고, 인수금융 대출로 나머지 300~400억원을 충당한다",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "포트폴리오 확장(외식 프랜차이즈)"
     },
     {
       "closing_date": "2026-04-17",
@@ -4302,7 +4338,7 @@
       "closing_date": "2026-05-29",
       "acquirer_name": "오케스트라PE(Orchestra Private Equity)",
       "target_name": "매머드커피랩·서진로스터즈",
-      "target_brand": "",
+      "target_brand": "매머드커피",
       "stake_pct": 1.0,
       "deal_size_krw": "100000000000",
       "valuation_krw": "",
@@ -4320,7 +4356,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "오케스트라PE는 이달 초 매머드커피 운영사 매머드커피랩과 원두 로스팅 업체 서진로스터즈의 지분 100%를 약 1000억원에 인수하는 주식매매계약(SPA)을 체결했다",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "수직계열화(원두 조달부터 가맹 운영까지 통합)"
     },
     {
       "closing_date": "2024-09-30",
@@ -4344,13 +4381,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "거래 규모는 1000억원 수준이 될 것으로 거론된다",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "target_biz_no": "101-81-26409",
+      "purpose": "해외(중동/카타르) 투자자의 한국 시장 진출"
     },
     {
       "closing_date": "2025-12-09",
       "acquirer_name": "리딩에이스캐피탈(Leading Ace Capital)",
       "target_name": "명륜당·올데이프레쉬·펜플(명륜진사갈비·샤브올데이)",
-      "target_brand": "",
+      "target_brand": "명륜진사갈비·샤브올데이",
       "stake_pct": "",
       "deal_size_krw": "280000000000",
       "valuation_krw": "",
@@ -4368,7 +4407,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "리딩에이스캐피탈이 외식 프랜차이즈 브랜드 '명륜진사갈비'를 운영하는 명륜당과 '샤브올데이' 운영사 올데이프레쉬, 육류도매업체 펜플을 함께 인수하는 형태로 진행 중이다. 총 거래금액은 2800억원이다",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "acquirer_biz_no": "525-81-01526",
+      "purpose": "포트폴리오 확장(다중 외식 브랜드 통합)"
     },
     {
       "closing_date": "2025-04-10",
@@ -4392,7 +4433,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "처분금액 15,715백만원 (Vietnam Lotteria, 거래상대방 롯데지알에스)",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "자회사 구조 재편(소유·경영 일치화)"
     },
     {
       "closing_date": "2026-05-15",
@@ -4440,7 +4482,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "삼화식품이 트릴리언즈로부터 요아정 지분 100%를 400억원으로 인수했다.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "acquirer_biz_no": "503-81-17066",
+      "target_biz_no": "696-86-02195",
+      "purpose": "포트폴리오 확장(디저트 브랜드)"
     },
     {
       "closing_date": "2024-10-22",
@@ -4464,13 +4509,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "포레스트파트너스가 명륜진사갈비 1600억에 경영권 인수 추진…배타적협상권 확보",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "acquirer_biz_no": "456-88-00384",
+      "purpose": "경영 효율화(오너 리스크 해소로 기업가치 제고)"
     },
     {
       "closing_date": "2025-06-10",
       "acquirer_name": "졸리비푸즈(Jollibee Foods) 컨소시엄",
       "target_name": "노랑통닭(노랑푸드)",
-      "target_brand": "",
+      "target_brand": "노랑통닭",
       "stake_pct": 1.0,
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -4488,7 +4535,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "예상 매각가는 1000억원 중반대다. 졸리비를 노랑통닭 인수 우선협상대상자로 선정하는 MOU를 체결했으나 이후 협상이 결렬됐다.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "글로벌 사업 확장"
     },
     {
       "closing_date": "2025-09-28",
@@ -4512,7 +4560,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "시장에서는 예상 매각가로 2000억원 중반대를 점쳤다. UCK는 엄지식품 매각 주관사로 삼정KPMG를 선정했다.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "target_biz_no": "134-86-05205",
+      "purpose": "투자금 회수"
     },
     {
       "closing_date": "2026-03-26",
@@ -4536,13 +4586,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "취득금액(원) | 119,480,894,820 (지분 100%)",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "target_biz_no": "318-81-06151",
+      "purpose": "포트폴리오 확장(김/조미식품)"
     },
     {
       "closing_date": "2025-08-25",
       "acquirer_name": "JKL파트너스",
       "target_name": "런던베이글뮤지엄(LBM)",
-      "target_brand": "",
+      "target_brand": "런던베이글뮤지엄",
       "stake_pct": 1.0,
       "deal_size_krw": "200000000000",
       "valuation_krw": "",
@@ -4560,7 +4612,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "국내 사모펀드 JKL파트너스가 런던베이글뮤지엄 지분 100%를 2000억원에 인수했다.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "국내외 입점 확대"
     },
     {
       "closing_date": "2026-05",
@@ -4584,13 +4637,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "UCK파트너스는 최근 만전식품 지분 80%를 약 2100억원에 인수하는 주식매매계약(SPA)을 체결했다.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "target_biz_no": "126-81-21228",
+      "purpose": "해외(글로벌) 진출(김)"
     },
     {
       "closing_date": "2025-12-17",
       "acquirer_name": "H&Q에쿼티파트너스",
       "target_name": "에프지코리아(파이브가이즈 한국)",
-      "target_brand": "",
+      "target_brand": "파이브가이즈",
       "stake_pct": "",
       "deal_size_krw": "60000000000",
       "valuation_krw": "",
@@ -4608,7 +4663,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "매각가는 600억원대로 관측된다.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "target_biz_no": "583-86-02507",
+      "purpose": "포트폴리오 확장(프리미엄 버거 체인)"
     },
     {
       "closing_date": "2026-02-19",
@@ -4680,7 +4737,9 @@
       "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "단체급식"
+      "target_keyword": "단체급식",
+      "acquirer_biz_no": "107-81-76324",
+      "purpose": "사업 재편/구조조정"
     },
     {
       "closing_date": "2025-07-31",
@@ -4704,7 +4763,10 @@
       "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "acquirer_biz_no": "229-81-11150",
+      "target_biz_no": "214-86-68729",
+      "purpose": "자회사 완전자회사 전환"
     },
     {
       "closing_date": "2025-08-27",
@@ -4728,7 +4790,8 @@
       "is_amount_estimated": true,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "음료 제조"
+      "target_keyword": "음료 제조",
+      "acquirer_biz_no": "105-87-51367"
     },
     {
       "closing_date": "2026-01-19",
@@ -4752,13 +4815,16 @@
       "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "단체급식"
+      "target_keyword": "단체급식",
+      "acquirer_biz_no": "881-87-01258",
+      "target_biz_no": "135-81-66291",
+      "purpose": "포트폴리오 확장(B2B 단체급식 강화)"
     },
     {
       "closing_date": "2025-11-05",
       "acquirer_name": "위펀",
       "target_name": "스낵포(B2B 간식 서비스 영업권)",
-      "target_brand": "",
+      "target_brand": "스낵포",
       "stake_pct": "",
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -4776,7 +4842,10 @@
       "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "식자재 유통"
+      "target_keyword": "식자재 유통",
+      "acquirer_biz_no": "881-87-01258",
+      "target_biz_no": "752-87-00835",
+      "purpose": "포트폴리오 확장(B2B 간식 공급 강화)"
     },
     {
       "closing_date": "2024-01-30",
@@ -4854,7 +4923,7 @@
       "closing_date": "2024-01-01",
       "acquirer_name": "LIG그룹",
       "target_name": "한와담(호박패밀리)",
-      "target_brand": "",
+      "target_brand": "한와담",
       "stake_pct": 1.0,
       "deal_size_krw": "30000000000",
       "valuation_krw": "",
@@ -4872,7 +4941,8 @@
       "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "포트폴리오 확장(한우구이 프랜차이즈 강화)"
     },
     {
       "closing_date": "2025-02-11",
@@ -4944,7 +5014,8 @@
       "is_amount_estimated": true,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "target_biz_no": "310-81-23326"
     },
     {
       "closing_date": "2025-08-06",
@@ -5016,13 +5087,17 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "샐러디는 2024년 12월 다운타우너 지분 80%를 80억 원에 인수",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "acquirer_biz_no": "681-86-00031",
+      "target_biz_no": "145-86-01441",
+      "purpose": "볼트온(샐러디 포트폴리오 확장)",
+      "acquirer_brand": "샐러디"
     },
     {
       "closing_date": "2024-11-27",
       "acquirer_name": "오케스트라PE(반올림피자)",
       "target_name": "오구쌀피자(오구본가)",
-      "target_brand": "오구쌀피자",
+      "target_brand": "오구본가",
       "stake_pct": 1.0,
       "deal_size_krw": "10000000000",
       "valuation_krw": "",
@@ -5040,7 +5115,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "오케스트라PE는 오구본가 주식 전량을 약 100억 원에 인수",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "볼트온(반올림피자 포트폴리오 강화)"
     },
     {
       "closing_date": "2024-01-01",
@@ -5064,7 +5140,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "김순례 순살치킨강정을 운영하는 인푸드와 합병",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "신사업 진출(치킨시장)",
+      "acquirer_brand": "고돼지"
     },
     {
       "closing_date": "2024-01-30",
@@ -5088,13 +5166,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "최대주주 한앤코19호(52.63%, 378,938주), 대법원 판결로 대금완납. 거래가 약 3,107억(보도).",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "target_biz_no": "202-81-04367",
+      "purpose": "경영체제 전환(오너경영체제 종료)"
     },
     {
       "closing_date": "2025-03-01",
       "acquirer_name": "CJ프레시웨이",
       "target_name": "마켓보로",
-      "target_brand": "",
+      "target_brand": "식봄",
       "stake_pct": 0.55,
       "deal_size_krw": "40307386640",
       "valuation_krw": "",
@@ -5112,7 +5192,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "취득금액(원) 40,307,386,640 (지분 55.0%)",
-      "target_keyword": "식자재 유통"
+      "target_keyword": "식자재 유통",
+      "acquirer_biz_no": "603-81-11270",
+      "target_biz_no": "479-86-00423",
+      "purpose": "신성장동력(온라인 식자재 유통)"
     },
     {
       "closing_date": "2024-07-09",
@@ -5136,7 +5219,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "취득금액 25,341,987,263원(밀양 생수 샘소슬 100%). 이후 흡수합병.",
-      "target_keyword": "음료 제조"
+      "target_keyword": "음료 제조",
+      "acquirer_biz_no": "301-81-71746",
+      "target_biz_no": "615-81-19616",
+      "purpose": "수원지 확보(생수공장)"
     },
     {
       "closing_date": "2025-03-01",
@@ -5160,7 +5246,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "양념육·밀키트 제조 참푸드 지분 100%를 약 250억원에 인수(SPA 2025-02).",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "acquirer_biz_no": "109-81-14886",
+      "target_biz_no": "109-81-57115",
+      "purpose": "시너지 강화(식육 유통사업)"
     },
     {
       "closing_date": "2024-12-01",
@@ -5208,7 +5297,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "샐러드 프랜차이즈 샐러디(샐러드유) 신주 100억원 투자로 지분 60% 확보. 이후 다운타우너 볼트온.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "acquirer_biz_no": "205-87-00436",
+      "target_biz_no": "681-86-00031",
+      "purpose": "포트폴리오 강화(샐러드 프랜차이즈)"
     },
     {
       "closing_date": "2023-06-01",
@@ -5232,7 +5324,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "남원 생수업체 더조은워터 지분 100%를 43억원에 인수.",
-      "target_keyword": "음료 제조"
+      "target_keyword": "음료 제조",
+      "acquirer_biz_no": "307-81-08858",
+      "target_biz_no": "271-86-01148",
+      "purpose": "수원지 확보(생수사업)"
     },
     {
       "closing_date": "2023-12-01",
@@ -5256,13 +5351,16 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "조미김(명가김) 제조 삼해상사 지분 100% 인수(CJ제일제당→CJ씨푸드 계열편입). 금액 미공개.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "acquirer_biz_no": "229-81-12289",
+      "target_biz_no": "215-81-03457",
+      "purpose": "포트폴리오 확장(조미김 영역)"
     },
     {
       "closing_date": "2025-01-01",
       "acquirer_name": "SPC GFS",
       "target_name": "몬즈컴퍼니",
-      "target_brand": "",
+      "target_brand": "베이킹몬",
       "stake_pct": 1.0,
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -5280,7 +5378,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "베이커리·카페 식자재 온라인 베이킹몬 운영 몬즈컴퍼니 흡수합병(SPC삼립 계열). 금액 미공개.",
-      "target_keyword": "식자재 유통"
+      "target_keyword": "식자재 유통",
+      "target_biz_no": "134-87-35900",
+      "purpose": "포트폴리오 확장(베이커리·카페 식자재 플랫폼)"
     },
     {
       "closing_date": "2024-04-01",
@@ -5304,7 +5404,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "사내 카페테리아 1위 넥스트씨앤씨 인수(위펀 B2B 푸드 볼트온). 금액 미공개.",
-      "target_keyword": "단체급식"
+      "target_keyword": "단체급식",
+      "acquirer_biz_no": "881-87-01258",
+      "purpose": "볼트온(B2B 사내 카페테리아 플랫폼 강화)"
     },
     {
       "closing_date": "2024-08-01",
@@ -5328,7 +5430,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "기업 중식 구독(B2B 런치) 푸드테크 푸딩 인수(위펀 볼트온). 금액 미공개.",
-      "target_keyword": "단체급식"
+      "target_keyword": "단체급식",
+      "acquirer_biz_no": "881-87-01258",
+      "target_biz_no": "688-87-01440",
+      "purpose": "신사업 진출(B2B 중식 구독 시장)"
     },
     {
       "closing_date": "2026-04-01",
@@ -5358,7 +5463,7 @@
       "closing_date": "2025-10-01",
       "acquirer_name": "VIG파트너스(매각 추진)",
       "target_name": "본촌치킨(본촌인터내셔날)",
-      "target_brand": "",
+      "target_brand": "본촌치킨",
       "stake_pct": "",
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -5382,7 +5487,7 @@
       "closing_date": "2025-12-01",
       "acquirer_name": "미정(매물화)",
       "target_name": "파파이스코리아",
-      "target_brand": "",
+      "target_brand": "파파이스",
       "stake_pct": "",
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -5430,7 +5535,7 @@
       "closing_date": "2025-03-01",
       "acquirer_name": "우윤파트너스(김대영 일가)",
       "target_name": "메가커피 프리미어 잔여지분",
-      "target_brand": "",
+      "target_brand": "메가커피",
       "stake_pct": 0.414,
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -5448,7 +5553,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "프리미어파트너스 보유 메가커피(엠지씨글로벌) 41.4% 잔여지분을 우윤이 매입, 프리미어 완전 엑시트(회수누계 최소 1,327억). 잔여지분 거래.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "purpose": "주요 주주권 확보(메가커피 단독 최대주주 전환)"
     },
     {
       "closing_date": "2023-09-01",
@@ -5472,7 +5578,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "롯데칠성, 공개매수로 필리핀펩시(Pepsi-Cola Products Philippines) 누적 지분 73.6% 경영권 확보. 금액 미상.",
-      "target_keyword": "음료 제조"
+      "target_keyword": "음료 제조",
+      "acquirer_biz_no": "214-81-07770",
+      "purpose": "동남아 거점 확보(필리핀 시장)"
     },
     {
       "closing_date": "2023-06-01",
@@ -5496,13 +5604,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "대상, 미국 김치·아시안식품 럭키푸즈 지분 100%를 약 380억원에 인수(자회사 DSF DE 유상증자).",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "acquirer_biz_no": "109-81-14886",
+      "purpose": "북미(미국) 진출(김치 시장 확대)"
     },
     {
       "closing_date": "2024-04-27",
       "acquirer_name": "대한제분",
       "target_name": "보나비(아티제)",
-      "target_brand": "",
+      "target_brand": "아티제",
       "stake_pct": 1.0,
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -5520,7 +5630,10 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "대한제분, 호텔신라로부터 베이커리·카페 아티제 운영사 보나비 지분 100% 인수. 금액 미공개.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "acquirer_biz_no": "104-81-04345",
+      "target_biz_no": "220-87-92541",
+      "purpose": "포트폴리오 확장(카페/베이커리)"
     },
     {
       "closing_date": "2025-03-01",
@@ -5544,7 +5657,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "뱅커스트릿PE(홍콩계), 모건스탠리PE로부터 놀부NBG(보쌈·부대찌개) 지분 53% 약 120억에 인수.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "target_biz_no": "112-81-22058"
     },
     {
       "closing_date": "2025-06-01",
@@ -5592,7 +5706,8 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "수제맥주 어메이징브루잉 기업회생절차, 스토킹호스 불발→공개경쟁입찰(딜로이트안진). 회생/매각 진행.",
-      "target_keyword": "음료 제조"
+      "target_keyword": "음료 제조",
+      "target_biz_no": "526-86-00239"
     },
     {
       "closing_date": "2023-12-01",
@@ -5616,7 +5731,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "LF푸드, 쌀국수·마카로니·면류 제조 한스코리아 지분 90%를 207억원에 인수.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "target_biz_no": "420-86-00381",
+      "purpose": "포트폴리오 확장(면류 제조)"
     },
     {
       "closing_date": "2025-12-01",
@@ -5640,7 +5757,9 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "에쓰푸드, 미국 육가공·델리 제조사 Old World Provisions 과반 지분 인수(북미 진출, 아웃바운드). 금액 미공개.",
-      "target_keyword": "식료품 제조"
+      "target_keyword": "식료품 제조",
+      "acquirer_biz_no": "383-87-01055",
+      "purpose": "북미 진출(미국 프리미엄 육가공)"
     }
   ]
 }

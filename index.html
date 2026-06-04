@@ -581,34 +581,57 @@ function applyFiltersNoYear() {
 function render() {
     const deals = applyFilters();
     const dealsAllYears = applyFiltersNoYear();  // 바차트용: 연도 필터 제외
-    // 잔여지분 후속인수(is_followon)는 연도/카테고리/stats 집계에서 제외(원거래 1건만 계상). 테이블엔 전체 표시(이력 보존). [불변규칙 #8]
-    const aggDeals = deals.filter(d => !d.is_followon);
-    const aggAllYears = dealsAllYears.filter(d => !d.is_followon);
+    // 집계 제외(테이블엔 전체 표시·이력 보존):
+    //  · is_followon = 잔여지분 후속인수(원거래 1건만 계상) [불변규칙 #8]
+    //  · is_intragroup = 계열사 내부 거래(지배주체 불변, arm's-length 아님 → comps 오염 방지) [불변규칙 #10]
+    const aggDeals = deals.filter(d => !d.is_followon && !d.is_intragroup);
+    const aggAllYears = dealsAllYears.filter(d => !d.is_followon && !d.is_intragroup);
     updateStats(aggDeals);
     updateCharts(aggDeals, aggAllYears);
     renderTable(deals);
 }
 
-function doExportCSV() {
+// 내보내기 헤더 (사용자 지정 16컬럼) — 인수사/매각대상 각각 사업자번호·브랜드명 분리
+const EXPORT_HEADER = ['인수시기','인수사','사업자번호','브랜드명','매각대상','사업자번호','키워드','브랜드명',
+                       '지분율','규모(억)','밸류(억)','목적','뉴스url','다트url','참고','비고'];
+
+function _acqName(d) {
+    let a = d.acquirer_name;
+    try { const p = JSON.parse(d.acquirer_name); a = Array.isArray(p) ? p.join('/') : p; } catch(e) {}
+    return a || '';
+}
+
+function buildExportRows() {
     const deals = applyFilters();
-    const rows = [['인수시기','인수사','매각대상','키워드','지분율(%)','규모(억)','밸류(억)','상태','뉴스URL','공시URL','비고']];
+    const rows = [EXPORT_HEADER.slice()];
     deals.forEach(d => {
-        let acqs = d.acquirer_name;
-        try { const p = JSON.parse(d.acquirer_name); acqs = Array.isArray(p) ? p.join('/') : p; } catch(e) {}
+        const stake = d.stake_pct ? +(Number(d.stake_pct) <= 1 ? Number(d.stake_pct)*100 : Number(d.stake_pct)).toFixed(1) : '';
+        const size  = d.deal_size_krw ? Math.round(Number(d.deal_size_krw)/1e8) : '';
+        const val   = d.valuation_krw ? Math.round(Number(d.valuation_krw)/1e8) : '';
         rows.push([
             d.closing_date || '',
-            acqs,
-            d.target_name,
-            d.target_keyword,
-            d.stake_pct ? (Number(d.stake_pct) <= 1 ? Number(d.stake_pct)*100 : Number(d.stake_pct)).toFixed(1) : '',
-            d.deal_size_krw ? Math.round(Number(d.deal_size_krw)/1e8) : '',
-            d.valuation_krw ? Math.round(Number(d.valuation_krw)/1e8) : '',
-            d.status,
+            _acqName(d),
+            d.acquirer_biz_no || '',
+            d.acquirer_brand || '',
+            d.target_name || '',
+            d.target_biz_no || '',
+            d.target_keyword || '',
+            d.target_brand || '',
+            stake,
+            size,
+            val,
+            d.purpose || '',
             d.news_url || '',
             d.dart_url || '',
+            d.reference || '',
             d.notes || ''
         ]);
     });
+    return rows;
+}
+
+function doExportCSV() {
+    const rows = buildExportRows();
     const csv = '﻿' + rows.map(r => r.map(v => `"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8;' }));
@@ -617,26 +640,7 @@ function doExportCSV() {
 }
 
 function doExportExcel() {
-    const deals = applyFilters();
-    const rows = [['인수시기','인수사','매각대상','키워드','지분율(%)','규모(억)','밸류(억)','상태','뉴스URL','공시URL','비고']];
-    deals.forEach(d => {
-        let acqs = d.acquirer_name;
-        try { const p = JSON.parse(d.acquirer_name); acqs = Array.isArray(p) ? p.join('/') : p; } catch(e) {}
-        rows.push([
-            d.closing_date || '',
-            acqs,
-            d.target_name,
-            d.target_keyword,
-            d.stake_pct ? +Number((Number(d.stake_pct) <= 1 ? Number(d.stake_pct)*100 : Number(d.stake_pct)).toFixed(1)) : '',
-            d.deal_size_krw ? Math.round(Number(d.deal_size_krw)/1e8) : '',
-            d.valuation_krw ? Math.round(Number(d.valuation_krw)/1e8) : '',
-            d.status,
-            d.news_url || '',
-            d.dart_url || '',
-            d.notes || ''
-        ]);
-    });
-    const ws = XLSX.utils.aoa_to_sheet(rows);
+    const ws = XLSX.utils.aoa_to_sheet(buildExportRows());
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, 'Deals');
     XLSX.writeFile(wb, 'MMP Deal Case Archive.xlsx');
