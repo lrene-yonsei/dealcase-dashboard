@@ -322,8 +322,7 @@ function applyFilters() {
     const wantFnb = state.sector === 'fnb';
     return allDeals.filter(d => {
         if ((d.sector === 'F&B') !== wantFnb) return false;
-        if (d.is_intragroup) return false;   // 계열 내부거래(#10): 표·엑셀·집계 모두 제외
-        if (wantFnb) { const _y = dealYear(d); if (_y && +_y < 2023) return false; }   // F&B는 2023+만 노출(2010~2022 미리서치)
+        if (d.is_intragroup) return false;   // 계열 내부거래(#10)·스코프밖: 표·엑셀·집계 모두 제외
         const pool = `${d.target_name} ${d.acquirer_name} ${d.target_keyword || ''}`.toLowerCase();
         if (state.search && !pool.includes(state.search.toLowerCase())) return false;
         if (state.status && statusGroup(d.status) !== state.status) return false;
@@ -552,15 +551,14 @@ function buildKeywordPills() {
         b.classList.toggle('active', b.dataset.v === state.kw));
 }
 
-// 섹터별 연도 pill 재생성. F&B는 2023+만(2010~2022 미리서치 → 노출 제외).
-const SECTOR_YEAR_FLOOR = { fnb: 2023 };
+// 섹터별 연도 pill 재생성 — 해당 섹터에 실제 존재하는 인수시기(연도)만 데이터에서 도출.
+// (화장품 2010~, F&B 2023~ 처럼 리서치된 범위가 자연히 반영됨. 스코프 밖 건은 is_intragroup로 제외.)
 function buildYearPills() {
     const yg = document.getElementById('yearGrp');
     yg.querySelectorAll('.pill').forEach(b => { if (b.dataset.v !== '') b.remove(); });
-    const floor = SECTOR_YEAR_FLOOR[state.sector] || 0;
     const yrSet = new Set();
     allDeals.filter(d => dealInSector(d, state.sector) && !d.is_intragroup).forEach(d => {
-        const y = dealYear(d); if (y && +y >= floor) yrSet.add(y);
+        const y = dealYear(d); if (y) yrSet.add(y);
     });
     [...yrSet].sort().reverse().forEach(y => {
         const b = document.createElement('button');
@@ -586,8 +584,7 @@ function applyFiltersNoYear() {
     const wantFnb = state.sector === 'fnb';
     return allDeals.filter(d => {
         if ((d.sector === 'F&B') !== wantFnb) return false;
-        if (d.is_intragroup) return false;   // 계열 내부거래(#10): 표·엑셀·집계 모두 제외
-        if (wantFnb) { const _y = dealYear(d); if (_y && +_y < 2023) return false; }   // F&B는 2023+만 노출(2010~2022 미리서치)
+        if (d.is_intragroup) return false;   // 계열 내부거래(#10)·스코프밖: 표·엑셀·집계 모두 제외
         const pool = `${d.target_name} ${d.acquirer_name} ${d.target_keyword || ''}`.toLowerCase();
         if (state.search && !pool.includes(state.search.toLowerCase())) return false;
         if (state.status && statusGroup(d.status) !== state.status) return false;
@@ -673,7 +670,7 @@ async function loadData() {
     // 섹터별 탭 카운트 (전체 기준)
     document.getElementById('catTotal').textContent = allDeals.filter(d => d.sector !== 'F&B' && !d.is_intragroup).length;
     const _ft = document.getElementById('fnbTotal');
-    if (_ft) _ft.textContent = allDeals.filter(d => d.sector === 'F&B' && !d.is_intragroup && !(dealYear(d) && +dealYear(d) < 2023)).length;
+    if (_ft) _ft.textContent = allDeals.filter(d => d.sector === 'F&B' && !d.is_intragroup).length;
 
     // Updated badge — 데이터 갱신일(stats.updated_at) 우선, 없으면 최신 closing_date(월)
     const _upd = data.stats && data.stats.updated_at;
