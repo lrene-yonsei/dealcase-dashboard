@@ -200,7 +200,6 @@
 
     <!-- Stats -->
     <div class="stats-row">
-        <div class="stat"><div class="stat-lbl">Total Deals</div><div class="stat-val"><span id="sTotal">—</span><span class="stat-unit">건</span></div></div>
         <div class="stat"><div class="stat-lbl">Completed</div><div class="stat-val"><span id="sCompleted">—</span><span class="stat-unit">건</span></div></div>
         <div class="stat"><div class="stat-lbl">Pending</div><div class="stat-val"><span id="sPending">—</span><span class="stat-unit">건</span></div></div>
         <div class="stat"><div class="stat-lbl">Rumored</div><div class="stat-val"><span id="sRumored">—</span><span class="stat-unit">건</span></div></div>
@@ -340,7 +339,6 @@ function updateStats(deals) {
     const sized     = deals.filter(d => Number(d.deal_size_krw) > 0);
     const avg       = sized.length ? totalSize / sized.length : 0;
 
-    document.getElementById('sTotal').textContent     = deals.length;
     document.getElementById('sCompleted').textContent = completed;
     document.getElementById('sPending').textContent   = pending;
     document.getElementById('sRumored').textContent   = rumored;
@@ -668,9 +666,10 @@ async function loadData() {
     allDeals   = data.deals;
 
     // 섹터별 탭 카운트 (전체 기준)
-    document.getElementById('catTotal').textContent = allDeals.filter(d => d.sector !== 'F&B' && !d.is_intragroup).length;
+    // 탭 배지 = 집계 대상(실제 딜) 건수 — 후속인수(#8)·계열내부(#10) 제외
+    document.getElementById('catTotal').textContent = allDeals.filter(d => d.sector !== 'F&B' && !d.is_intragroup && !d.is_followon).length;
     const _ft = document.getElementById('fnbTotal');
-    if (_ft) _ft.textContent = allDeals.filter(d => d.sector === 'F&B' && !d.is_intragroup).length;
+    if (_ft) _ft.textContent = allDeals.filter(d => d.sector === 'F&B' && !d.is_intragroup && !d.is_followon).length;
 
     // Updated badge — 데이터 갱신일(stats.updated_at) 우선, 없으면 최신 closing_date(월)
     const _upd = data.stats && data.stats.updated_at;
