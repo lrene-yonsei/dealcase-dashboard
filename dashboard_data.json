@@ -37,7 +37,7 @@
       "closing_date": "인수 예정",
       "acquirer_name": "씨제이올리브영",
       "target_name": "이즈앤트리",
-      "target_brand": "",
+      "target_brand": "이즈앤트리",
       "stake_pct": "",
       "deal_size_krw": "185500000000",
       "valuation_krw": "300000000000",
@@ -55,7 +55,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "신주 발행가액: 169,560원, 신주 수: 802,100주",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "809-81-01574",
+      "target_biz_no": "130-86-66821"
     },
     {
       "closing_date": "인수 예정",
@@ -82,7 +84,8 @@
       ],
       "sector": "화장품",
       "extraction_clue": "3,999,999,850",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "206-81-47219"
     },
     {
       "closing_date": "인수 예정",
@@ -106,7 +109,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "570억원",
-      "target_keyword": "피부미용 의료기기 (히알루론산 필러)"
+      "target_keyword": "피부미용 의료기기 (히알루론산 필러)",
+      "acquirer_biz_no": "010-08-88833",
+      "target_biz_no": "451-86-01856"
     },
     {
       "closing_date": "인수 예정",
@@ -130,7 +135,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 OEM·ODM"
+      "target_keyword": "화장품 OEM·ODM",
+      "acquirer_biz_no": "124-81-22463",
+      "purpose": "유럽 진출"
     },
     {
       "closing_date": "인수 예정",
@@ -156,13 +163,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "약 300억원",
-      "target_keyword": "피부미용 의료기기 (보톡스)"
+      "target_keyword": "피부미용 의료기기 (보톡스)",
+      "acquirer_biz_no": "892-81-00368"
     },
     {
       "closing_date": "매각 거론",
       "acquirer_name": "솔브레인그룹",
       "target_name": "클래시스",
-      "target_brand": "",
+      "target_brand": "슈링크",
       "stake_pct": 0.4591,
       "deal_size_krw": null,
       "valuation_krw": "3570000000000",
@@ -182,7 +190,9 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "피부미용 의료기기"
+      "target_keyword": "피부미용 의료기기",
+      "acquirer_biz_no": "524-86-01789",
+      "target_biz_no": "107-88-39288"
     },
     {
       "closing_date": "매각 거론",
@@ -212,7 +222,7 @@
       "closing_date": "매각 거론",
       "acquirer_name": "",
       "target_name": "달바글로벌",
-      "target_brand": "",
+      "target_brand": "달바",
       "stake_pct": "",
       "deal_size_krw": "40045200000",
       "valuation_krw": "",
@@ -232,13 +242,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "신주 발행가액: 66,300원, 신주 수: 604,000주",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "840-88-00333"
     },
     {
       "closing_date": "매각 거론",
       "acquirer_name": "",
       "target_name": "아로마티카",
-      "target_brand": "",
+      "target_brand": "아로마티카",
       "stake_pct": 1.0,
       "deal_size_krw": "",
       "valuation_krw": "70000000000",
@@ -256,7 +267,8 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "214-86-75782"
     },
     {
       "closing_date": "매각 거론",
@@ -280,7 +292,8 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "target_biz_no": "130-81-43987"
     },
     {
       "closing_date": "매각 거론",
@@ -360,7 +373,7 @@
       "closing_date": "매각 거론",
       "acquirer_name": "",
       "target_name": "페렌벨",
-      "target_brand": "",
+      "target_brand": "썸바이미",
       "stake_pct": 1.0,
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -384,7 +397,7 @@
       "closing_date": "매각 거론",
       "acquirer_name": "",
       "target_name": "더스킨팩토리",
-      "target_brand": "",
+      "target_brand": "쿤달",
       "stake_pct": 1.0,
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -408,7 +421,7 @@
       "closing_date": "매각 거론",
       "acquirer_name": "",
       "target_name": "에이블씨앤씨",
-      "target_brand": "",
+      "target_brand": "어퓨",
       "stake_pct": "",
       "deal_size_krw": "",
       "valuation_krw": "50000000000",
@@ -432,7 +445,7 @@
       "closing_date": "매각 거론",
       "acquirer_name": "",
       "target_name": "원텍",
-      "target_brand": "",
+      "target_brand": "올리지오",
       "stake_pct": "",
       "deal_size_krw": "1000000000000",
       "valuation_krw": "1000000000000",
@@ -474,13 +487,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "이를 반영한 회사의 기업가치는 1000억 원 수준이 거론된다",
-      "target_keyword": "화장용 퍼프"
+      "target_keyword": "화장용 퍼프",
+      "target_biz_no": "109-81-59151"
     },
     {
       "closing_date": "매각 거론",
       "acquirer_name": "",
       "target_name": "해브앤비",
-      "target_brand": "",
+      "target_brand": "닥터자르트",
       "stake_pct": "",
       "deal_size_krw": "1000000000000",
       "valuation_krw": "",
@@ -498,13 +512,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "(이미지=에스티로더그룹 제공)\n미국 화장품 그룹 에스티로더컴퍼니즈(이하 에스티로더)가 2019년 1조원대에 인수한 K-뷰티 브랜드 '닥터자르트(Dr",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "214-87-63681"
     },
     {
       "closing_date": "매각 거론",
       "acquirer_name": "",
       "target_name": "바임",
-      "target_brand": "",
+      "target_brand": "쥬베룩",
       "stake_pct": "",
       "deal_size_krw": "2000000000000",
       "valuation_krw": "2000000000000",
@@ -522,13 +537,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "이후 실적이 급성장하며 시장에서 거론되는 현재 바임의 기업가치는 2조원 안팎까지 치솟았다",
-      "target_keyword": "피부미용 의료기기 (스킨부스터)"
+      "target_keyword": "피부미용 의료기기 (스킨부스터)",
+      "target_biz_no": "757-87-01595"
     },
     {
       "closing_date": "매각 거론",
       "acquirer_name": "",
       "target_name": "세화피앤씨",
-      "target_brand": "",
+      "target_brand": "모레모",
       "stake_pct": 0.3168,
       "deal_size_krw": "50000000000",
       "valuation_krw": "2500000000",
@@ -546,13 +562,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "매각 희망가는 약 500억 원 수준으로 알려졌다",
-      "target_keyword": "헤어·바디케어"
+      "target_keyword": "헤어·바디케어",
+      "target_biz_no": "869-87-00472"
     },
     {
       "closing_date": "인수 검토",
       "acquirer_name": "LG생활건강",
       "target_name": "토리든",
-      "target_brand": "",
+      "target_brand": "토리든",
       "stake_pct": "",
       "deal_size_krw": "500000000000",
       "valuation_krw": "500000000000",
@@ -570,7 +587,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "시장에서는 이를 감안한 토리든의 기업가치를 5000억 원 이상으로 추정했다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "target_biz_no": "760-86-00222"
     },
     {
       "closing_date": "매각 거론",
@@ -600,7 +619,7 @@
       "closing_date": "2026-03-27",
       "acquirer_name": "케이스톤파트너스",
       "target_name": "세모컴퍼니",
-      "target_brand": "",
+      "target_brand": "휩드",
       "stake_pct": 0.7,
       "deal_size_krw": "35000000000",
       "valuation_krw": "50000000000",
@@ -620,13 +639,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "최근 누적 운용자산(AUM)은 3조 원에 달한다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "730-81-02087"
     },
     {
       "closing_date": "2026-03-26",
       "acquirer_name": "태광산업-티투PE-유안타인베",
       "target_name": "애경산업",
-      "target_brand": "",
+      "target_brand": "시그닉, 원씽, 에이지투웨니스, 루나",
       "stake_pct": 0.6312,
       "deal_size_krw": "447500000000",
       "valuation_krw": "2900000000",
@@ -647,13 +667,16 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품, 생활용품"
+      "target_keyword": "화장품, 생활용품",
+      "acquirer_biz_no": "610-81-02593",
+      "target_biz_no": "113-81-11573",
+      "purpose": "성장동력 돌파구"
     },
     {
       "closing_date": "2026-03-04",
       "acquirer_name": "클래시스",
       "target_name": "JL Health",
-      "target_brand": "",
+      "target_brand": "매드시스템즈",
       "stake_pct": 0.775,
       "deal_size_krw": "16661117979",
       "valuation_krw": "21500000000",
@@ -671,13 +694,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "취득금액(원) | 16,661,117,979 |",
-      "target_keyword": "미용의료기기 유통사"
+      "target_keyword": "미용의료기기 유통사",
+      "acquirer_biz_no": "107-88-39288",
+      "purpose": "남미 진출"
     },
     {
       "closing_date": "2026-03-03",
       "acquirer_name": "어뮤즈코리아",
       "target_name": "바이네츄럴",
-      "target_brand": "",
+      "target_brand": "듀어썸",
       "stake_pct": "",
       "deal_size_krw": "2380197933",
       "valuation_krw": "",
@@ -695,7 +720,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "취득가액 (원) | 2,380,197,933 |",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "392-87-00797",
+      "target_biz_no": "505-87-01198"
     },
     {
       "closing_date": "2026-02-10",
@@ -719,13 +746,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 유통사"
+      "target_keyword": "화장품 유통사",
+      "acquirer_biz_no": "151-87-00589"
     },
     {
       "closing_date": "2025-12-30",
       "acquirer_name": "포컴퍼니",
       "target_name": "헤이다컴퍼니",
-      "target_brand": "",
+      "target_brand": "투크",
       "stake_pct": "",
       "deal_size_krw": "9000000000",
       "valuation_krw": "",
@@ -743,7 +771,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "90억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "232-88-00610",
+      "target_biz_no": "819-88-01925"
     },
     {
       "closing_date": "2025-12-29",
@@ -773,7 +803,7 @@
       "closing_date": "2025-12-26",
       "acquirer_name": "서울리거",
       "target_name": "모먼츠컴퍼니",
-      "target_brand": "",
+      "target_brand": "비플레인",
       "stake_pct": 0.8594,
       "deal_size_krw": "81243720000",
       "valuation_krw": "94500000000",
@@ -791,13 +821,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "취득금액(원) | 81,243,720,000 |",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "139-81-12555",
+      "target_biz_no": "842-86-01047"
     },
     {
       "closing_date": "2025-12-05",
       "acquirer_name": "브이아이지파트너스",
       "target_name": "울트라브이",
-      "target_brand": "",
+      "target_brand": "울트라콜",
       "stake_pct": 0.605,
       "deal_size_krw": "35000000000",
       "valuation_krw": "",
@@ -817,7 +849,10 @@
       ],
       "sector": "화장품",
       "extraction_clue": "약 350억 원",
-      "target_keyword": "미용의료기기"
+      "target_keyword": "미용의료기기",
+      "acquirer_biz_no": "892-81-00368",
+      "target_biz_no": "211-88-73299",
+      "purpose": "미용의료 볼트온"
     },
     {
       "closing_date": "2025-11-28",
@@ -843,13 +878,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "400억원",
-      "target_keyword": "화장품 OEM·ODM"
+      "target_keyword": "화장품 OEM·ODM",
+      "target_biz_no": "140-81-14325"
     },
     {
       "closing_date": "2025-11-20",
       "acquirer_name": "오션프론트파트너스",
       "target_name": "픽톤",
-      "target_brand": "",
+      "target_brand": "토코보",
       "stake_pct": 0.65297,
       "deal_size_krw": "52000000000",
       "valuation_krw": "86666666666",
@@ -869,13 +905,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "520억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "196-81-02410"
     },
     {
       "closing_date": "2025-10-22",
       "acquirer_name": "구다이글로벌",
       "target_name": "서린컴퍼니",
-      "target_brand": "",
+      "target_brand": "라운드랩",
       "stake_pct": 1.0,
       "deal_size_krw": "600000000000",
       "valuation_krw": "3900000000",
@@ -893,13 +930,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "6000억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "151-87-00589",
+      "target_biz_no": "843-88-00934"
     },
     {
       "closing_date": "2025-10-20",
       "acquirer_name": "",
       "target_name": "뮤드메이트",
-      "target_brand": "",
+      "target_brand": "뮤드",
       "stake_pct": "",
       "deal_size_krw": "7100000000",
       "valuation_krw": "",
@@ -917,7 +956,8 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 (색조)"
+      "target_keyword": "화장품 (색조)",
+      "target_biz_no": "752-81-01851"
     },
     {
       "closing_date": "2025-10-31",
@@ -941,7 +981,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "2850억원",
-      "target_keyword": "화장품 (색조) ODM"
+      "target_keyword": "화장품 (색조) ODM",
+      "target_biz_no": "135-86-38179",
+      "purpose": "유통망 결합 및 시너지"
     },
     {
       "closing_date": "2025-10-01",
@@ -968,13 +1010,15 @@
       "sector": "화장품",
       "extraction_clue": "102억원",
       "target_keyword": "화장품",
-      "is_followon": true
+      "is_followon": true,
+      "target_biz_no": "138-81-03204",
+      "purpose": "토털 라이프케어 플랫폼 기업으로의 진화"
     },
     {
       "closing_date": "2025-09-30",
       "acquirer_name": "폰드그룹",
       "target_name": "올그레이스",
-      "target_brand": "",
+      "target_brand": "셀레베",
       "stake_pct": 1.0,
       "deal_size_krw": "19000000000",
       "valuation_krw": "19000000000",
@@ -992,13 +1036,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "190억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "424-81-03196",
+      "target_biz_no": "225-88-01659"
     },
     {
       "closing_date": "2025-09-26",
       "acquirer_name": "브이아이지파트너스",
       "target_name": "비올",
-      "target_brand": "",
+      "target_brand": "실펌엑스, 스칼렛, 올리지오",
       "stake_pct": 0.9666,
       "deal_size_krw": "521300000000",
       "valuation_krw": "4400000000",
@@ -1019,13 +1065,16 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "미용의료기기 RF"
+      "target_keyword": "미용의료기기 RF",
+      "acquirer_biz_no": "892-81-00368",
+      "target_biz_no": "114-86-53880",
+      "purpose": "공개매수 진행 후 상장폐지 예정"
     },
     {
       "closing_date": "2025-09-19",
       "acquirer_name": "케일런EP-스마일게이트인베스트먼트",
       "target_name": "엔엔비코스메틱",
-      "target_brand": "",
+      "target_brand": "바이아우어",
       "stake_pct": 0.491,
       "deal_size_krw": "17000000000",
       "valuation_krw": "34623217922",
@@ -1045,13 +1094,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "약 170억원",
-      "target_keyword": "헤어·바디케어"
+      "target_keyword": "헤어·바디케어",
+      "target_biz_no": "276-88-01851"
     },
     {
       "closing_date": "2025-09-15",
       "acquirer_name": "SCM생명과학",
       "target_name": "더마시모",
-      "target_brand": "",
+      "target_brand": "리덴실",
       "stake_pct": 1.0,
       "deal_size_krw": "6500000000",
       "valuation_krw": "6500000000",
@@ -1069,7 +1119,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "65억원",
-      "target_keyword": "헤어케어"
+      "target_keyword": "헤어케어",
+      "acquirer_biz_no": "121-86-34816",
+      "target_biz_no": "121-86-34816"
     },
     {
       "closing_date": "2025-09-04",
@@ -1093,13 +1145,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "7330억원",
-      "target_keyword": "화장품 용기업체"
+      "target_keyword": "화장품 용기업체",
+      "target_biz_no": "119-81-87974"
     },
     {
       "closing_date": "2025-09-01",
       "acquirer_name": "구다이글로벌-더함파트너스 컨소시엄",
       "target_name": "스킨푸드",
-      "target_brand": "",
+      "target_brand": "스킨푸드",
       "stake_pct": 1.0,
       "deal_size_krw": "150000000000",
       "valuation_krw": "4800000000",
@@ -1117,13 +1170,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "약 1500억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "125-81-54503"
     },
     {
       "closing_date": "2025-08-25",
       "acquirer_name": "에이치피오",
       "target_name": "더마코스메틱",
-      "target_brand": "",
+      "target_brand": "주닥",
       "stake_pct": 0.52,
       "deal_size_krw": "1750000000",
       "valuation_krw": "4900000000",
@@ -1141,13 +1195,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "피부 진단"
+      "target_keyword": "피부 진단",
+      "acquirer_biz_no": "105-87-70267",
+      "acquirer_brand": "덴프스 (건기식)",
+      "purpose": "뷰티·헬스케어 영역으로 사업 포트폴리오 확장"
     },
     {
       "closing_date": "2025-08-21",
       "acquirer_name": "",
       "target_name": "라카코스메틱스",
-      "target_brand": "",
+      "target_brand": "라카",
       "stake_pct": 0.88,
       "deal_size_krw": "53000000000",
       "valuation_krw": "5000000000",
@@ -1168,13 +1225,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "530억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "763-87-00999"
     },
     {
       "closing_date": "2025-08-07",
       "acquirer_name": "브이아이지파트너스",
       "target_name": "LG화학 에스테틱 사업부",
-      "target_brand": "",
+      "target_brand": "이브아르,  비타란",
       "stake_pct": "",
       "deal_size_krw": "200000000000",
       "valuation_krw": "",
@@ -1192,7 +1250,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "2000억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "892-81-00368",
+      "purpose": "볼트온"
     },
     {
       "closing_date": "2025-07-23",
@@ -1218,7 +1278,9 @@
       ],
       "sector": "화장품",
       "extraction_clue": "1365억원",
-      "target_keyword": "화장품 ODM, OEM"
+      "target_keyword": "화장품 ODM, OEM",
+      "acquirer_biz_no": "107-88-28821",
+      "target_biz_no": "125-81-84521"
     },
     {
       "closing_date": "2025-06-25",
@@ -1242,7 +1304,8 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "거래 규모는 해당 금액의 절반 수준으로 추산된다",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "target_biz_no": "131-86-30461"
     },
     {
       "closing_date": "2025-06-30",
@@ -1269,7 +1332,9 @@
       "sector": "화장품",
       "extraction_clue": "| 취득금액 (원) | 27,722,493,414 |",
       "target_keyword": "화장품, OEM·ODM",
-      "is_followon": true
+      "is_followon": true,
+      "acquirer_biz_no": "863-86-03455",
+      "target_biz_no": "130-86-60341"
     },
     {
       "closing_date": "2025-06-11",
@@ -1293,13 +1358,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "138-81-03204"
     },
     {
       "closing_date": "2025-04-30",
       "acquirer_name": "케이뷰티홀딩스",
       "target_name": "마녀공장",
-      "target_brand": "",
+      "target_brand": "마녀공장",
       "stake_pct": 0.5187,
       "deal_size_krw": "190000000000",
       "valuation_krw": "370000000000",
@@ -1317,7 +1383,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 자기자금(원) | 190,000,000,000 |",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "338-87-03446",
+      "target_biz_no": "108-86-00365"
     },
     {
       "closing_date": "2025-04-18",
@@ -1341,13 +1409,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 용기"
+      "target_keyword": "화장품 용기",
+      "acquirer_biz_no": "113-81-11573",
+      "target_biz_no": "403-81-84950",
+      "purpose": "수직계열화"
     },
     {
       "closing_date": "2025-03-31",
       "acquirer_name": "동구바이오제약",
       "target_name": "아름메딕스",
-      "target_brand": "",
+      "target_brand": "미라클",
       "stake_pct": 0.334,
       "deal_size_krw": "3500000000",
       "valuation_krw": "5800000000",
@@ -1365,7 +1436,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "피부미용 (필러)"
+      "target_keyword": "피부미용 (필러)",
+      "acquirer_biz_no": "113-81-03336",
+      "target_biz_no": "395-88-03067",
+      "purpose": "미용·성형 시장 본격 진출, 필러 기술 활용을 통한 사업 확대 및 글로벌 시너지 창출"
     },
     {
       "closing_date": "2025-03-01",
@@ -1389,7 +1463,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 유리 용기 (B2B)"
+      "target_keyword": "화장품 유리 용기 (B2B)",
+      "acquirer_biz_no": "848-88-02941",
+      "target_biz_no": "124-81-37059",
+      "purpose": "글로벌 경쟁력을 갖춘 화장품 패키징 전문 회사로 키우겠다는 구상"
     },
     {
       "closing_date": "2025-02-06",
@@ -1414,13 +1491,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "화장품 ODM, OEM",
-      "is_followon": true
+      "is_followon": true,
+      "acquirer_biz_no": "303-81-24119",
+      "purpose": "현지 고객사 확보로 미국 시장 진출"
     },
     {
       "closing_date": "2025-01-20",
       "acquirer_name": "스튜어드파트너스",
       "target_name": "풀리오",
-      "target_brand": "",
+      "target_brand": "풀리오, 인텐더",
       "stake_pct": 0.163,
       "deal_size_krw": "100000000000",
       "valuation_krw": "",
@@ -1438,13 +1517,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "인수가격은 1000억원대 초중반이다",
-      "target_keyword": "뷰티 디바이스(마사지기)"
+      "target_keyword": "뷰티 디바이스(마사지기)",
+      "acquirer_biz_no": "120-86-00439",
+      "target_biz_no": "548-87-02137"
     },
     {
       "closing_date": "2025-01-08",
       "acquirer_name": "레그테크",
       "target_name": "디와이디",
-      "target_brand": "",
+      "target_brand": "릴리바이레드, 해서린, 슬로우허밍",
       "stake_pct": 0.1458,
       "deal_size_krw": "10000000000",
       "valuation_krw": "6200000000",
@@ -1462,13 +1543,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "16일 관련 업계에 따르면 디와이디의 경영권 매각은 우여곡절 끝에 레그테크가 100억원 규모의 유상증자 납입을 완료하며 마무리됐다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "874-88-01655",
+      "target_biz_no": "119-86-51286",
+      "purpose": "바이오 헬스케어 신사업 본격 추진"
     },
     {
       "closing_date": "2024년 말",
       "acquirer_name": "프리미어파트너스",
       "target_name": "바임",
-      "target_brand": "",
+      "target_brand": "쥬베룩",
       "stake_pct": 0.1028,
       "deal_size_krw": "103800000000",
       "valuation_krw": "830000000000",
@@ -1496,7 +1580,7 @@
       "closing_date": "2024-12-23",
       "acquirer_name": "로레알",
       "target_name": "고운세상코스메틱",
-      "target_brand": "",
+      "target_brand": "닥터지",
       "stake_pct": 1.0,
       "deal_size_krw": "255000000000",
       "valuation_krw": "255000000000",
@@ -1516,13 +1600,15 @@
       ],
       "sector": "화장품",
       "extraction_clue": "로레알, 닥터지 2550억원에 인수 등",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "209-81-23948",
+      "purpose": "스킨케어 포트폴리오 보완"
     },
     {
       "closing_date": "2024-12-11",
       "acquirer_name": "비츠로시스",
       "target_name": "피에프디",
-      "target_brand": "",
+      "target_brand": "미즈온, 빌라쥬11팩토리, 스떼블랑, 쁘띠누베",
       "stake_pct": 0.1891,
       "deal_size_krw": "8000000000",
       "valuation_krw": "6500000000",
@@ -1542,7 +1628,10 @@
       ],
       "sector": "화장품",
       "extraction_clue": "각각 50억원 규모로 발행해 총 100억원의 자금을 조달했다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "218-81-01953",
+      "target_biz_no": "792-86-00267",
+      "purpose": "사업다각화를 통한 새로운 성장동력 확보"
     },
     {
       "closing_date": "2024-12-01",
@@ -1568,7 +1657,8 @@
       ],
       "sector": "화장품",
       "extraction_clue": "KB증권 PE본부와 나우IB캐피탈이 인가전 인수합병(M＆A) 매물로 나왔던 화장품 제조사 이시스코스메틱을 900억 원에 인수한다",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "target_biz_no": "423-86-00298"
     },
     {
       "closing_date": "2024-09-01",
@@ -1594,7 +1684,9 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "acquirer_biz_no": "863-86-03455",
+      "target_biz_no": "130-86-60341"
     },
     {
       "closing_date": "2024-10-01",
@@ -1618,7 +1710,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 개발, 수출"
+      "target_keyword": "화장품 개발, 수출",
+      "acquirer_biz_no": "120-81-22608",
+      "target_biz_no": "307-81-32061"
     },
     {
       "closing_date": "2024-09-01",
@@ -1642,7 +1736,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 양수도 대금(원) | 120,719,188,800",
-      "target_keyword": "피부미용 의료기기"
+      "target_keyword": "피부미용 의료기기",
+      "acquirer_biz_no": "110-81-00102",
+      "target_biz_no": "206-86-21359"
     },
     {
       "closing_date": "2024-09-01",
@@ -1668,7 +1764,9 @@
       ],
       "sector": "화장품",
       "extraction_clue": "100억원",
-      "target_keyword": "화장품 유통"
+      "target_keyword": "화장품 유통",
+      "acquirer_biz_no": "424-81-03196",
+      "target_biz_no": "761-88-01117"
     },
     {
       "closing_date": "2024-08-20",
@@ -1695,13 +1793,14 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "피부미용 의료기기",
-      "is_followon": true
+      "is_followon": true,
+      "target_biz_no": "424-87-00852"
     },
     {
       "closing_date": "2024-08-02",
       "acquirer_name": "구다이글로벌",
       "target_name": "크레이버코퍼레이션",
-      "target_brand": "",
+      "target_brand": "스킨1004",
       "stake_pct": 0.8571,
       "deal_size_krw": "245600000000",
       "valuation_krw": "7200000000",
@@ -1719,13 +1818,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "2456억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "151-87-00589",
+      "acquirer_brand": "조선미녀",
+      "target_biz_no": "261-81-14845"
     },
     {
       "closing_date": "2024-08-02",
       "acquirer_name": "신세계인터내셔날",
       "target_name": "어뮤즈",
-      "target_brand": "",
+      "target_brand": "어뮤즈",
       "stake_pct": 1.0,
       "deal_size_krw": "71300000000",
       "valuation_krw": "7300000000",
@@ -1743,13 +1845,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "713억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "201-81-53657",
+      "target_biz_no": "392-87-00797",
+      "purpose": "포트폴리오 확대를 통한 국내/외 코스메틱 사업 확장"
     },
     {
       "closing_date": "2024-06-17",
       "acquirer_name": "구다이글로벌",
       "target_name": "라카코스메틱스",
-      "target_brand": "",
+      "target_brand": "라카",
       "stake_pct": 0.88,
       "deal_size_krw": "42500000000",
       "valuation_krw": "7400000000",
@@ -1767,7 +1872,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "425억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "151-87-00589",
+      "acquirer_brand": "조선미녀",
+      "target_biz_no": "763-87-00999"
     },
     {
       "closing_date": "2024-07-24",
@@ -1791,7 +1899,8 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "피부미용 의료기기"
+      "target_keyword": "피부미용 의료기기",
+      "target_biz_no": "424-87-00852"
     },
     {
       "closing_date": "2024-05-22",
@@ -1815,13 +1924,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "특수 화장품 원료"
+      "target_keyword": "특수 화장품 원료",
+      "target_biz_no": "575-86-03048"
     },
     {
       "closing_date": "2024-04-22",
       "acquirer_name": "구다이글로벌",
       "target_name": "티르티르",
-      "target_brand": "",
+      "target_brand": "티르티르",
       "stake_pct": 0.636,
       "deal_size_krw": "150000000000",
       "valuation_krw": "7700000000",
@@ -1841,7 +1951,10 @@
       ],
       "sector": "화장품",
       "extraction_clue": "당시 890억원을 투입해 티르티르 주식 50%를 인수했다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "151-87-00589",
+      "acquirer_brand": "조선미녀",
+      "target_biz_no": "845-86-01347"
     },
     {
       "closing_date": "2024-04-01",
@@ -1865,7 +1978,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 취득금액(원) | 7,046,424,000 |",
-      "target_keyword": "화장품 유통"
+      "target_keyword": "화장품 유통",
+      "acquirer_biz_no": "211-86-22189",
+      "acquirer_brand": "클리오",
+      "purpose": "일본 뷰티 시장 유통 및 마케팅 경쟁력 강화를 통한 글로벌 매출 확대"
     },
     {
       "closing_date": "2024-04-01",
@@ -1889,7 +2005,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 취득금액(원) | 1,342,176,000 |",
-      "target_keyword": "화장품 유통"
+      "target_keyword": "화장품 유통",
+      "acquirer_biz_no": "211-86-22189",
+      "acquirer_brand": "클리오",
+      "purpose": "일본 화장품 제조판매업허가 보유 기업 인수를 통해 일본 현지 안정적 판매 구조 확보"
     },
     {
       "closing_date": "2024-04-01",
@@ -1913,13 +2032,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "총 인수대금은 167억원이며, 티앤알바이오팹은 60억원을 투입하고, 나머지는 SPC를 통한 펀딩으로 충당한다",
-      "target_keyword": "화장품, OEM, 패키징"
+      "target_keyword": "화장품, OEM, 패키징",
+      "acquirer_biz_no": "140-81-73187",
+      "target_biz_no": "109-81-80936"
     },
     {
       "closing_date": "2024-02-01",
       "acquirer_name": "모건스탠리프라이빗에쿼티",
       "target_name": "스킨이데아",
-      "target_brand": "",
+      "target_brand": "메디필, 더마메종",
       "stake_pct": 0.67,
       "deal_size_krw": "100500000000",
       "valuation_krw": "8100000000",
@@ -1939,7 +2060,10 @@
       ],
       "sector": "화장품",
       "extraction_clue": "이번 거래에서 스킨이데아 기업가치는 1500억원 수준으로 책정됐다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "101-86-15872",
+      "target_biz_no": "132-86-30770",
+      "purpose": "높은 실적 성장세, 글로벌 시장에서 높은 인기"
     },
     {
       "closing_date": "2024-01-01",
@@ -1963,7 +2087,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "6%)로 매각가는 주당 1896원씩 총 87억원이다",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "acquirer_biz_no": "206-81-84567",
+      "acquirer_brand": "JM솔루션",
+      "target_biz_no": "124-81-60808"
     },
     {
       "closing_date": "2024-01-01",
@@ -1989,13 +2116,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "구체적인 계약 내용은 공개되지 않았으나, 거래 규모는 약 3천500억원 수준으로 알려졌다",
-      "target_keyword": "피부미용 의료기기"
+      "target_keyword": "피부미용 의료기기",
+      "acquirer_biz_no": "229-81-28272"
     },
     {
       "closing_date": "2023-11-12",
       "acquirer_name": "광동제약, 케이디인베스트먼트",
       "target_name": "데이지크",
-      "target_brand": "",
+      "target_brand": "데이지크",
       "stake_pct": 0.75,
       "deal_size_krw": "30000000000",
       "valuation_krw": "8400000000",
@@ -2013,13 +2141,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "769-86-01723"
     },
     {
       "closing_date": "2023-10-31",
       "acquirer_name": "아모레퍼시픽",
       "target_name": "코스알엑스",
-      "target_brand": "",
+      "target_brand": "코스알엑스",
       "stake_pct": 0.932,
       "deal_size_krw": "755108455462",
       "valuation_krw": "8500000000",
@@ -2039,13 +2168,17 @@
       ],
       "sector": "화장품",
       "extraction_clue": "| 양수금액(원)(A) | 755,108,455,462 |",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "106-86-43373",
+      "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
+      "target_biz_no": "144-81-20381",
+      "purpose": "글로벌 뷰티 시장 공략의 노하우를 상호 교환하며 높은 시너지를 창출할 계획, 연구기술 및 생산 인프라 공유, 상품 개발 등의 협업 체제를 만들어갈 예정"
     },
     {
       "closing_date": "2023-10-01",
       "acquirer_name": "에코마케팅",
       "target_name": "파켓",
-      "target_brand": "",
+      "target_brand": "믹순",
       "stake_pct": 0.234,
       "deal_size_krw": "4599000000",
       "valuation_krw": "8600000000",
@@ -2063,13 +2196,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "220-86-60192",
+      "target_biz_no": "260-87-00321",
+      "purpose": "사업시너지 확보를 통한 경쟁력 강화"
     },
     {
       "closing_date": "2023-09-26",
       "acquirer_name": "더함파트너스",
       "target_name": "티르티르",
-      "target_brand": "",
+      "target_brand": "티르티르",
       "stake_pct": 0.636,
       "deal_size_krw": "89000000000",
       "valuation_krw": "8700000000",
@@ -2087,13 +2223,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "당시 890억원을 투입해 티르티르 주식 50%를 인수했다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "845-86-01347"
     },
     {
       "closing_date": "2023-09-26",
       "acquirer_name": "엘지생활건강",
       "target_name": "비바웨이브",
-      "target_brand": "",
+      "target_brand": "힌스",
       "stake_pct": 0.75,
       "deal_size_krw": "44424000000",
       "valuation_krw": "8800000000",
@@ -2111,7 +2248,11 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "영업손실이나 탁월한 브랜딩, 일본시장 반응▲",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵",
+      "target_biz_no": "632-88-00936",
+      "purpose": "색조 화장품 경쟁 역량 확보"
     },
     {
       "closing_date": "2023-09-01",
@@ -2135,7 +2276,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "피부미용 의료기기"
+      "target_keyword": "피부미용 의료기기",
+      "acquirer_biz_no": "107-88-39288",
+      "target_biz_no": "123-86-07799",
+      "purpose": "전략적 파트너십 구축 및 기존 사업과의 시너지 창출"
     },
     {
       "closing_date": "2023-07-14",
@@ -2161,13 +2305,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "약 3000억원",
-      "target_keyword": "화장품 용기업체"
+      "target_keyword": "화장품 용기업체",
+      "target_biz_no": "113-81-44792"
     },
     {
       "closing_date": "2023-07-11",
       "acquirer_name": "프리미어파트너스",
       "target_name": "바임",
-      "target_brand": "",
+      "target_brand": "쥬베룩",
       "stake_pct": 0.76,
       "deal_size_krw": "70000000000",
       "valuation_krw": "110000000000",
@@ -2194,7 +2339,7 @@
       "closing_date": "2023-06-01",
       "acquirer_name": "칼립스캐피탈",
       "target_name": "서린컴퍼니",
-      "target_brand": "",
+      "target_brand": "라운드랩",
       "stake_pct": 1.0,
       "deal_size_krw": "235300000000",
       "valuation_krw": "9200000000",
@@ -2214,7 +2359,8 @@
       ],
       "sector": "화장품",
       "extraction_clue": "2353억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "843-88-00934"
     },
     {
       "closing_date": "2023-06-01",
@@ -2240,13 +2386,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "피부미용 의료기기"
+      "target_keyword": "피부미용 의료기기",
+      "target_biz_no": "229-81-28272"
     },
     {
       "closing_date": "2023-04-01",
       "acquirer_name": "엔에이치엔커머스",
       "target_name": "더블유랩",
-      "target_brand": "",
+      "target_brand": "더블유랩",
       "stake_pct": "",
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -2264,7 +2411,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "120-86-46911",
+      "target_biz_no": "211-87-15370",
+      "purpose": "중국 시장 공략"
     },
     {
       "closing_date": "2023-02-01",
@@ -2288,13 +2438,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "스카이레이크에쿼티파트너스는 이르면 3일 솔루스바이오텍 지분 100%를 크로다에 매각하는 주식매매계약(SPA)을 체결할 예정이다.",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "247-86-02649"
     },
     {
       "closing_date": "2022-12-29",
       "acquirer_name": "더스킨팩토리",
       "target_name": "에이빌코리아",
-      "target_brand": "",
+      "target_brand": "네시픽",
       "stake_pct": "",
       "deal_size_krw": "12500000000",
       "valuation_krw": "",
@@ -2312,13 +2463,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "669-88-00530",
+      "target_biz_no": "206-87-00220",
+      "purpose": "사업 포트폴리오 확장"
     },
     {
       "closing_date": "2022-10-25",
       "acquirer_name": "코스톤아시아",
       "target_name": "하이네이처",
-      "target_brand": "",
+      "target_brand": "퓨리토",
       "stake_pct": 1.0,
       "deal_size_krw": "37300000000",
       "valuation_krw": "9700000000",
@@ -2336,7 +2490,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "코스톤아시아는 약 370억원을 투입해 하이네이처를 인수했다.",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "105-87-31094",
+      "target_biz_no": "507-88-00644"
     },
     {
       "closing_date": "2022-09-08",
@@ -2360,13 +2516,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "260-86-00101",
+      "target_biz_no": "676-86-01187",
+      "purpose": "프랑스 컨템포러리 브랜드까지 상품 구성을 확장, 상품 구성의 다양화 및 기존 주요 고객층인 20-30대 유저 외에 구매력이 우수한 30-40대 여성 고객까지 확보하며 기존 서비스 성장세에 더욱 탄력, 유럽 현지 물류 창고 운영을 바탕으로 본격적인 상품 카테고리 확장 작업 및 물류 효율화를 통해 지속적인 성장세"
     },
     {
       "closing_date": "2022-09-01",
       "acquirer_name": "아모레퍼시픽",
       "target_name": "Tata’s Natural Alchemy",
-      "target_brand": "",
+      "target_brand": "타타 하퍼",
       "stake_pct": 1.0,
       "deal_size_krw": "168137500000",
       "valuation_krw": "9900000000",
@@ -2384,7 +2543,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 취득금액(원) | 168,137,500,000 |",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "106-86-43373",
+      "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
+      "purpose": "글로벌 시장으로의 진출을 가속화"
     },
     {
       "closing_date": "2022-06-16",
@@ -2410,7 +2572,10 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "101-86-48596",
+      "target_biz_no": "130-81-69444",
+      "purpose": "화성코스메틱 볼트온"
     },
     {
       "closing_date": "2022-04-28",
@@ -2434,7 +2599,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "113-81-11573",
+      "target_biz_no": "298-88-02073"
     },
     {
       "closing_date": "2022-04-13",
@@ -2458,13 +2625,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 양수금액(원)(A) | 286,393,800,000 |",
-      "target_keyword": "화장품 용기"
+      "target_keyword": "화장품 용기",
+      "acquirer_biz_no": "307-81-38444",
+      "target_biz_no": "137-81-10376",
+      "purpose": "화장품 사업의 밸류체인 경쟁력을 강화하고, 글로벌 시장에서의 확실한 성장 모멘텀을 확보해 나간다는 계획"
     },
     {
       "closing_date": "2022-04-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "The Creme Shop",
-      "target_brand": "",
+      "target_brand": "더크렘샵",
       "stake_pct": 0.65,
       "deal_size_krw": "148500000000",
       "valuation_krw": "10300000000",
@@ -2482,7 +2652,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "1485억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵"
     },
     {
       "closing_date": "2022-04-01",
@@ -2506,13 +2678,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 취득금액(원) | 3,095,087,500 |",
-      "target_keyword": "피부미용 의료기기"
+      "target_keyword": "피부미용 의료기기",
+      "acquirer_biz_no": "425-86-01594",
+      "target_biz_no": "509-87-01716"
     },
     {
       "closing_date": "2022-01-01",
       "acquirer_name": "베인캐피탈",
       "target_name": "클래시스",
-      "target_brand": "",
+      "target_brand": "슈링크",
       "stake_pct": 0.6084,
       "deal_size_krw": "669919000000",
       "valuation_krw": "10500000000",
@@ -2532,13 +2706,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "약 6700억원",
-      "target_keyword": "피부미용 의료기기"
+      "target_keyword": "피부미용 의료기기",
+      "target_biz_no": "107-88-39288"
     },
     {
       "closing_date": "2021-11-17",
       "acquirer_name": "셀리버리",
       "target_name": "아진크린",
-      "target_brand": "",
+      "target_brand": "슈슈떼",
       "stake_pct": 1.0,
       "deal_size_krw": "14900035500",
       "valuation_krw": "10600000000",
@@ -2556,13 +2731,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 양수금액(원)(A) | 14,900,035,500 |",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "617-86-16037",
+      "target_biz_no": "126-81-26790",
+      "purpose": "독자적 신약개발 플랫폼기술인 약리물질 생체 내 전송기술(TSDT)의 범용성 확대 및 미래성장동력을 확보하기 위해"
     },
     {
       "closing_date": "2021-11-05",
       "acquirer_name": "제이케이엘파트너스",
       "target_name": "페렌벨",
-      "target_brand": "",
+      "target_brand": "페렌벨",
       "stake_pct": 1.0,
       "deal_size_krw": "255400000000",
       "valuation_krw": "10700000000",
@@ -2580,7 +2758,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "649-88-00410",
+      "purpose": "‘위드 코로나’(단계적 일상회복) 국면을 맞이해 수혜가 예상되는 업종을 선제적으로 투자/동남아 시장을 기반으로 중동아시아 등 주변 시장으로 확대해 지속적인 성장을 이끌어내겠다는 복안"
     },
     {
       "closing_date": "2021-11-05",
@@ -2604,13 +2784,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 용기"
+      "target_keyword": "화장품 용기",
+      "target_biz_no": "134-81-63156",
+      "purpose": "친환경 플라스틱 부문은 잠재력이 높은 데다 환경·책임·투명경영(ESG) 투자 트렌드와도 부합"
     },
     {
       "closing_date": "2021-09-17",
       "acquirer_name": "아모레퍼시픽",
       "target_name": "코스알엑스",
-      "target_brand": "",
+      "target_brand": "코스알엑스",
       "stake_pct": 0.384,
       "deal_size_krw": "180000000000",
       "valuation_krw": "10900000000",
@@ -2629,13 +2811,17 @@
       "sector": "화장품",
       "extraction_clue": "| 취득금액(원) | 180,000,000,000 |",
       "target_keyword": "화장품",
-      "is_followon": true
+      "is_followon": true,
+      "acquirer_biz_no": "106-86-43373",
+      "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
+      "target_biz_no": "144-81-20381",
+      "purpose": "글로벌 뷰티 시장 공략의 노하우를 상호 교환하며 높은 시너지를 창출할 계획, 연구기술 및 생산 인프라 공유, 상품 개발 등의 협업 체제를 만들어갈 예정"
     },
     {
       "closing_date": "2021-08-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "Boinca",
-      "target_brand": "",
+      "target_brand": "알틱폭스",
       "stake_pct": 0.5604,
       "deal_size_krw": "117000000000",
       "valuation_krw": "11000000000",
@@ -2653,7 +2839,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "엄\n패션\n헤어케어\n브랜드\n'\n알틱폭스\n'(Arctic Fox)\n를\n소유한\n㈜보인카\n(Boinca)\n의\n지분\n56%\n를\n1\n억\n달러\n(\n한화\n약\n1170\n억\n원\n)\n에\n인수했다고\n31\n일\n밝혔다\n.\n알틱폭스는\n2014\n년\n미국에서\n출시된\n비건\n브랜드로\n고급\n패션\n염모제가\n주력\n상품이다\n.\n이\n회사의\n염",
-      "target_keyword": "헤어제품"
+      "target_keyword": "헤어제품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵"
     },
     {
       "closing_date": "2021-04-30",
@@ -2680,13 +2868,15 @@
       ],
       "sector": "화장품",
       "extraction_clue": "은행(IB) 업계에 따르면 헬리오스PE는 최근 솔레오코스메틱 지분 67%와 경영권을 인수하는 주식매매계약(SPA)을 체결했다. 거래 지분가치는 400억원 내외로 추정된다.\n거래에 정통한 IB 관계자는 \"헬리오스PE는 기존 경영진과 특수관계인이 보유한 지분 중 경영권 행사가 가능한 지분까지 인수하",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "target_biz_no": "229-81-29359",
+      "purpose": "코로나19 사태 이후 시장 상황 개선을 노림"
     },
     {
       "closing_date": "2021-04-08",
       "acquirer_name": "앵커에쿼티파트너스",
       "target_name": "더마펌",
-      "target_brand": "",
+      "target_brand": "더마펌",
       "stake_pct": 0.7,
       "deal_size_krw": "7200000000",
       "valuation_krw": "",
@@ -2704,13 +2894,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "220-86-44305",
+      "purpose": "지배구조 정리"
     },
     {
       "closing_date": "2021-03-30",
       "acquirer_name": "브이아이지파트너스",
       "target_name": "더스킨팩토리",
-      "target_brand": "",
+      "target_brand": "쿤달",
       "stake_pct": 1.0,
       "deal_size_krw": "173000000000",
       "valuation_krw": "11300000000",
@@ -2730,7 +2922,9 @@
       ],
       "sector": "화장품",
       "extraction_clue": "다.\n13일 VIG파트너스는 \"생활용품 브랜드 '쿤달(KUNDAL)'을 보유한 ㈜더스킨팩토리의 지분 100%를 인수했다\"고 밝혔다. 거래금액은 1000억원 후반대다.\n쿤달은 2016년10월 설립된 생활용품 전문 업체다. 샴푸와 트리트먼트 등 헤어케어 제품에서 시작해 바디케어, 스킨케어, 핸드케어,",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "669-88-00530",
+      "purpose": "제품과 유통채널의 차별화를 통해 고객들에게 명확한 가치를 제안하는 케이케어(K-Care)의 대표 기업으로 성장할 수 있을 것이라고 확신/제품군 다변화와 해외 유통채널 확대를 통해 회사의 성장을 도모"
     },
     {
       "closing_date": "2021-02-22",
@@ -2754,7 +2948,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "썼다. 자금 수혈과 더불어 잦은 최대주주 변동으로 불안정했던 지배구조를 재정립해 나가는 모습이다.\n스킨앤스킨은 지난 24일 더편한을 대상으로 125억원 규모 제3자 배정 유상증자를 결정했다. 신주 1억2135만9223주를 103원에 발행한다. 다음달 5일 납입 절차를 마치면 더편한이 지분 46",
-      "target_keyword": "화장품, OEM, 패키징"
+      "target_keyword": "화장품, OEM, 패키징",
+      "acquirer_biz_no": "639-86-00971",
+      "target_biz_no": "129-81-98293"
     },
     {
       "closing_date": "2021-02-01",
@@ -2778,13 +2974,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "529-86-00091",
+      "acquirer_brand": "본느",
+      "target_biz_no": "113-86-44332"
     },
     {
       "closing_date": "2020-06-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "GSK",
-      "target_brand": "",
+      "target_brand": "피지오겔(아시아, 북미 사업권)",
       "stake_pct": 1.0,
       "deal_size_krw": "190000000000",
       "valuation_krw": "",
@@ -2805,13 +3004,15 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵"
     },
     {
       "closing_date": "2020-05-01",
       "acquirer_name": "아모레퍼시픽",
       "target_name": "Rationale Group",
-      "target_brand": "",
+      "target_brand": "래셔널",
       "stake_pct": 0.49,
       "deal_size_krw": "48845000000",
       "valuation_krw": "11800000000",
@@ -2829,7 +3030,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "106-86-43373",
+      "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
+      "purpose": "오세아니아 시장 럭셔리 브랜드 포트폴리오 강화, 맞춤형 화장품 솔루션 분야 강화"
     },
     {
       "closing_date": "2020-05-01",
@@ -2855,13 +3059,16 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 유통"
+      "target_keyword": "화장품 유통",
+      "acquirer_biz_no": "124-81-60808",
+      "target_biz_no": "128-86-89758",
+      "purpose": "용기, 수출, 유통 사업 영역 확대"
     },
     {
       "closing_date": "2019-12-01",
       "acquirer_name": "아모레퍼시픽",
       "target_name": "Milk Makeup (현. Waldencast)",
-      "target_brand": "",
+      "target_brand": "밀크메이크업",
       "stake_pct": 0.023,
       "deal_size_krw": "11704000000",
       "valuation_krw": "12000000000",
@@ -2881,13 +3088,16 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "106-86-43373",
+      "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
+      "purpose": "클린뷰티, 아리따움에 밀크메이크업 입점"
     },
     {
       "closing_date": "2019-11-01",
       "acquirer_name": "에스티로더",
       "target_name": "헤브앤비",
-      "target_brand": "",
+      "target_brand": "닥터자르트",
       "stake_pct": 0.667,
       "deal_size_krw": "1320000000000",
       "valuation_krw": "12100000000",
@@ -2907,13 +3117,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "12,240\nCopy Link\nAHC, 3CE 그리고 최근 닥터자르트까지… 글로벌 기업이 인수한 한국 토종 뷰티 브랜드다. 유니레버, 로레알, 에스티로더 등 이름만 대면 알 만한 해외 뷰티 기업은 1~3조대의 거금을 주고 이들 브랜드를 각각 품에 안았다. K뷰티의 위상이 한국을 넘어 해외에서도",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "214-87-63681"
     },
     {
       "closing_date": "2019-09-01",
       "acquirer_name": "파인트리파트너스",
       "target_name": "스킨푸드",
-      "target_brand": "",
+      "target_brand": "스킨푸드",
       "stake_pct": 0.9994,
       "deal_size_krw": "177600000000",
       "valuation_krw": "12200000000",
@@ -2933,13 +3144,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "던졌다. 회생계획안은 100% 채무 변제다.\n파인트리파트너스가 스킨푸드 및 아이피어리스 인수대금으로 제시한 규모는 2000억원으로, 스킨푸드는 이 자금을 채무 변제액으로 지급할 계획이다.\n이에 따라 스킨푸드 가맹점",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "125-81-54503"
     },
     {
       "closing_date": "2019-09-01",
       "acquirer_name": "파인트리파트너스",
       "target_name": "아이피어리스",
-      "target_brand": "",
+      "target_brand": "스킨푸드",
       "stake_pct": 1.0,
       "deal_size_krw": "22400000000",
       "valuation_krw": "12300000000",
@@ -2959,7 +3171,8 @@
       ],
       "sector": "화장품",
       "extraction_clue": "던졌다. 회생계획안은 100% 채무 변제다.\n파인트리파트너스가 스킨푸드 및 아이피어리스 인수대금으로 제시한 규모는 2000억원으로, 스킨푸드는 이 자금을 채무 변제액으로 지급할 계획이다.\n이에 따라 스킨푸드 가맹점",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "220-86-43932"
     },
     {
       "closing_date": "2019-07-01",
@@ -2985,7 +3198,9 @@
       ],
       "sector": "화장품",
       "extraction_clue": "체 매출액을 반영한 프로포마(Pro-Forma) 매출액은 2019년 868억원에서 지난해 1221억원으로 연평균 8.9% 성장했다.",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "acquirer_biz_no": "101-86-48596",
+      "target_biz_no": "130-81-43987"
     },
     {
       "closing_date": "2019-04-01",
@@ -3009,7 +3224,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵",
+      "purpose": "북미사업 교두보 확보"
     },
     {
       "closing_date": "2019-01-01",
@@ -3036,13 +3254,16 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 유통"
+      "target_keyword": "화장품 유통",
+      "acquirer_biz_no": "119-81-34685",
+      "acquirer_brand": "미샤",
+      "target_biz_no": "220-88-47325"
     },
     {
       "closing_date": "2019-01-01",
       "acquirer_name": "에이블씨엔씨",
       "target_name": "지엠홀딩스",
-      "target_brand": "",
+      "target_brand": "셀라피",
       "stake_pct": 0.6,
       "deal_size_krw": "40000000000",
       "valuation_krw": "12700000000",
@@ -3063,7 +3284,9 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "119-81-34685",
+      "acquirer_brand": "미샤"
     },
     {
       "closing_date": "2019-01-01",
@@ -3087,7 +3310,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 취득금액(원) | 79,378,000,000 |",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵",
+      "purpose": "중국 내 화장품 및 생활용품 생산시설 확보"
     },
     {
       "closing_date": "2018-12-01",
@@ -3111,13 +3337,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "109-86-17345",
+      "acquirer_brand": "메디힐",
+      "target_biz_no": "108-86-00365"
     },
     {
       "closing_date": "2018-12-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "케이앤아이",
-      "target_brand": "",
+      "target_brand": "실크테라피",
       "stake_pct": 0.4,
       "deal_size_krw": "12000000000",
       "valuation_krw": "13000000000",
@@ -3136,13 +3365,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "헤어제품",
-      "is_followon": true
+      "is_followon": true,
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵"
     },
     {
       "closing_date": "2018-11-01",
       "acquirer_name": "에이블씨엔씨",
       "target_name": "미팩토리",
-      "target_brand": "",
+      "target_brand": "미팩토리",
       "stake_pct": 1.0,
       "deal_size_krw": "32400000000",
       "valuation_krw": "13100000000",
@@ -3163,13 +3394,16 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "119-81-34685",
+      "acquirer_brand": "미샤",
+      "target_biz_no": "206-87-00972"
     },
     {
       "closing_date": "2018-08-01",
       "acquirer_name": "동원(현. 에이치엘비글로벌)",
       "target_name": "엘리샤코이(현. 에이치엘비생활건강)",
-      "target_brand": "",
+      "target_brand": "엘리샤코이",
       "stake_pct": 1.0,
       "deal_size_krw": "3279510000",
       "valuation_krw": "13200000000",
@@ -3187,7 +3421,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "화장품 연구·개발·판매업체 '엘리샤코이'의 지분 100%(145만 6,636주)를 33억원에 취득한다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "225-81-00025",
+      "target_biz_no": "215-87-16032",
+      "purpose": "화장품 신규 진출"
     },
     {
       "closing_date": "2018-08-01",
@@ -3211,13 +3448,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "NS쇼핑은 최근 비상장사인 에버미라클 지분 25.1%(25만1668주)를 20억원에 인수했다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "117-81-33642",
+      "target_biz_no": "402-81-45615",
+      "purpose": "EM 접목 제품 개발"
     },
     {
       "closing_date": "2018-07-01",
       "acquirer_name": "미그노스",
       "target_name": "고운세상코스메틱",
-      "target_brand": "",
+      "target_brand": "닥터지",
       "stake_pct": 0.51,
       "deal_size_krw": "30000000000",
       "valuation_krw": "13400000000",
@@ -3237,7 +3477,9 @@
       ],
       "sector": "화장품",
       "extraction_clue": "약 300억원",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "209-81-23948",
+      "purpose": "미벨AG 원료 적용 화장품 개발"
     },
     {
       "closing_date": "2018-07-01",
@@ -3261,7 +3503,11 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "100억원",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "acquirer_biz_no": "220-87-23971",
+      "acquirer_brand": "잇츠스킨",
+      "target_biz_no": "131-81-88162",
+      "purpose": "색조 라인 강화"
     },
     {
       "closing_date": "2018-07-01",
@@ -3285,13 +3531,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 취득금액(원) | 2,700,000,000 |",
-      "target_keyword": "화장품 용기"
+      "target_keyword": "화장품 용기",
+      "acquirer_biz_no": "124-81-60808",
+      "target_biz_no": "364-81-01391",
+      "purpose": "용기, 수출, 유통 사업 영역 확대"
     },
     {
       "closing_date": "2018-06-01",
       "acquirer_name": "브레인콘텐츠(현. 한성크린텍)",
       "target_name": "스와니코코",
-      "target_brand": "",
+      "target_brand": "스와니코코",
       "stake_pct": 0.7,
       "deal_size_krw": "22300000000",
       "valuation_krw": "13700000000",
@@ -3309,13 +3558,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "125-81-26555",
+      "target_biz_no": "515-81-39817",
+      "purpose": "화장품 신규 진출"
     },
     {
       "closing_date": "2018-05-01",
       "acquirer_name": "로레알",
       "target_name": "난다",
-      "target_brand": "",
+      "target_brand": "3CE, 스타일난다",
       "stake_pct": 0.7,
       "deal_size_krw": "600000000000",
       "valuation_krw": "13800000000",
@@ -3333,7 +3585,8 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "130-86-24632"
     },
     {
       "closing_date": "2018-04-01",
@@ -3357,7 +3610,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "80억원",
-      "target_keyword": "화장품 처리공정 제어장비"
+      "target_keyword": "화장품 처리공정 제어장비",
+      "target_biz_no": "130-86-86259",
+      "purpose": "화장품 원료, 용기 부자재 제조 확대"
     },
     {
       "closing_date": "2018-04-01",
@@ -3381,7 +3636,10 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "| 취득금액(원) | 103,251,750,000 |",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵",
+      "purpose": "일본사업 강화"
     },
     {
       "closing_date": "2018-04-01",
@@ -3405,7 +3663,9 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 ODM, OEM"
+      "target_keyword": "화장품 ODM, OEM",
+      "acquirer_biz_no": "303-81-24119",
+      "purpose": "현지 고객사 확보로 미국 시장 진출"
     },
     {
       "closing_date": "2018-03-01",
@@ -3430,7 +3690,11 @@
       "sector": "화장품",
       "extraction_clue": "신주 발행가액 | 보통주 (원) | 2,403",
       "target_keyword": "약국용 화장품",
-      "is_followon": true
+      "is_followon": true,
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵",
+      "target_biz_no": "124-81-34163",
+      "purpose": "화장품 사업의 경쟁력 강화"
     },
     {
       "closing_date": "2017-11-01",
@@ -3456,13 +3720,17 @@
       ],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "약국용 화장품"
+      "target_keyword": "약국용 화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵",
+      "target_biz_no": "124-81-34163",
+      "purpose": "화장품 사업의 경쟁력 강화"
     },
     {
       "closing_date": "2017-09-01",
       "acquirer_name": "유니레버",
       "target_name": "카버코리아",
-      "target_brand": "",
+      "target_brand": "AHC",
       "stake_pct": 0.9539,
       "deal_size_krw": "3061100000000",
       "valuation_krw": "14400000000",
@@ -3482,7 +3750,10 @@
       ],
       "sector": "화장품",
       "extraction_clue": "우리 돈으로 3조611억원에 달한다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_brand": "도브, 바세린",
+      "target_biz_no": "105-87-62694",
+      "purpose": "중국시장 재도약"
     },
     {
       "closing_date": "2017-08-01",
@@ -3508,13 +3779,16 @@
       ],
       "sector": "화장품",
       "extraction_clue": "취득금액(원) | 14,000,000,553",
-      "target_keyword": "약국용 화장품"
+      "target_keyword": "약국용 화장품",
+      "acquirer_biz_no": "114-86-53270",
+      "acquirer_brand": "토니모리",
+      "target_biz_no": "124-81-34163"
     },
     {
       "closing_date": "2017-04-01",
       "acquirer_name": "IMM PE",
       "target_name": "에이블씨엔씨",
-      "target_brand": "",
+      "target_brand": "미샤",
       "stake_pct": 0.5725,
       "deal_size_krw": "188200000000",
       "valuation_krw": "14600000000",
@@ -3534,13 +3808,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "지난 2017년 회사 창립자인 서영필 전 회장의 보유 지분 25.5%를 1882억원에 인수하고",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "119-81-34685"
     },
     {
       "closing_date": "2017-03-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "씨앤피코스메틱",
-      "target_brand": "",
+      "target_brand": "차앤박",
       "stake_pct": 0.14,
       "deal_size_krw": "20000000000",
       "valuation_krw": "14700000000",
@@ -3562,13 +3837,15 @@
       "sector": "화장품",
       "extraction_clue": "CNP코스메틱은 지난 2014년 10월 코스메슈티컬 시장 확대를 위해 LG생활건강이 742억원을 지불하고 인수했다",
       "target_keyword": "화장품",
-      "is_followon": true
+      "is_followon": true,
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵"
     },
     {
       "closing_date": "2016-11-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "Johnson & Johnson Consumer",
-      "target_brand": "",
+      "target_brand": "리치(아시아, 오세아니아 사업부문)",
       "stake_pct": 0.0,
       "deal_size_krw": "54275000000",
       "valuation_krw": "",
@@ -3586,13 +3863,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵",
+      "purpose": "아시아 사업 확장"
     },
     {
       "closing_date": "2016-06-01",
       "acquirer_name": "골드만삭스, 베인캐피탈",
       "target_name": "카버코리아",
-      "target_brand": "",
+      "target_brand": "AHC",
       "stake_pct": 0.6,
       "deal_size_krw": "430000000000",
       "valuation_krw": "14900000000",
@@ -3612,13 +3892,14 @@
       ],
       "sector": "화장품",
       "extraction_clue": "우리 돈으로 3조611억원에 달한다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "target_biz_no": "105-87-62694"
     },
     {
       "closing_date": "2015-10-01",
       "acquirer_name": "에스티로더",
       "target_name": "헤브앤비",
-      "target_brand": "",
+      "target_brand": "닥터자르트",
       "stake_pct": 0.333,
       "deal_size_krw": "",
       "valuation_krw": "",
@@ -3637,7 +3918,8 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "화장품",
-      "is_followon": true
+      "is_followon": true,
+      "target_biz_no": "214-87-63681"
     },
     {
       "closing_date": "2015-07-01",
@@ -3661,7 +3943,11 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "LG생활건강은 색조화장품 시장에서 기술 경쟁력을 높이고 제품공급 안정성을 확보하기 위해 국내 색조화장품 전문 OEM·ODM 업체인 ㈜제니스의 지분 70%를 100억원에 인수하는 계약을 체결했다고 28일 밝혔다.",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵",
+      "target_biz_no": "221-81-19973",
+      "purpose": "색조화장품 시장에서 기술 경쟁력을 높이고 제품공급 안정성 확보"
     },
     {
       "closing_date": "2015-07-01",
@@ -3685,13 +3971,14 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "마유(馬乳) 크림으로 유명한 화장품 주문자상표부착생산(OEM) 업체 비앤비코리아가 최근 1300억 원에 매각된 것으로 파악됐다. 최근 K뷰티가 인기를 끌면서 인수합병(M＆A) 시장에서도 성과가 하나둘 나오고 있다. 25일 투자은행(IB) 업계에 따르면 사모펀드(PEF) 운용사인 SKS 프라이빗에쿼티(PE)와 워터브릿지파트너스는 2015년 비앤비코리아를 인수한 지 10년 만인 이달 비앤비코리아 자금 회수(엑시트)에 성공했다. 비앤비코리아의 지분 100%를 인수한 기업은 주식회사 진백글로벌이라는 국내 기업으로 알려졌다. 업계에서는 SKS PE와 워터브릿지파트너스가 인고의 시간을 견디고 ‘본전은 건졌다’는 평가를 내놓고 있다. 이들은 2015년 비앤비코리아 경영권 인수를 위한 특수목적법인(SPC) 더블유에스뷰티를 설립하고 1250억 원에 회사를 매입했다. 하지만 바로 이듬해 ‘중국 사드 사태’가 터졌고 주요 매출처인 중국 납품이 끊겼다. 매출은 505억 원에서 100억 원으로 수직 하락했고 영업이익도 적자로 돌아섰다. SKS PE와 워터브릿지파트너스는 2022년 비앤비코리아를 매물로 내놓았다. 희망 매도가는 매입가의 절반인 600억 원 수준으로 알려졌지만 이마저도 시장에서 비싸다는 반응이 나오자 절치부심했던 것으로 알려졌다. 비앤비코리아는 국내 화장품 브랜드인 달바나 메디큐브·시드물 등과 위탁 생산 파트너십을 맺고 제품을 생산해오는 등 활로를 찾았다. 특히 글로벌 시장에서 K뷰티가 흥행하며 매출도 상승했다. 매출은 2020년 225억 원 수준에서 지난해 443억 원으로 2배로 늘었다. 최근 나노 기술을 보유한 국내 화장품 OEM사인 피코스텍도 매물로 나오는 등 한국산 화장품에 대한 M＆A 시도가 많은 상황이다. 피코스텍은 삼일PwC를 자문사로 선정, 회사가 희망하는 기업가치는 1000억 원 내외로 알려졌다. 리서치 업체 BR인사이트에 따르면 전 세계 화장품 OEM 및 제조자개발생산(ODM) 업체는 연평균 5.6% 성장해 2032년까지 5억 2198만 달러(약 6960억 원)로 증가할 것으로 전망된다. 지난해 한국의 화장품 수출액은 84억 6000만 달러(약 11조 2839억 원)로 역대 2위 규모다. 프랑스와 미국·독일 이어 세계 4위 수준으로 파악됐다.\n뉴스 듣기\n글자 크기\n글자 크기 설정\n가\n보통\n가\n크게\n가\n아주 크게\n기사 공유\n기사공유\n페이스북",
-      "target_keyword": "화장품, OEM·ODM"
+      "target_keyword": "화장품, OEM·ODM",
+      "target_biz_no": "130-86-60341"
     },
     {
       "closing_date": "2015-01-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "케이앤아이",
-      "target_brand": "",
+      "target_brand": "실크테라피",
       "stake_pct": 0.2,
       "deal_size_krw": "4000000000",
       "valuation_krw": "15300000000",
@@ -3713,13 +4000,15 @@
       "sector": "화장품",
       "extraction_clue": "240\n억원을 지불하고 인수한 계열사다",
       "target_keyword": "헤어제품",
-      "is_followon": true
+      "is_followon": true,
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵"
     },
     {
       "closing_date": "2014-10-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "씨앤피코스메틱",
-      "target_brand": "",
+      "target_brand": "차앤박",
       "stake_pct": 0.86,
       "deal_size_krw": "54200000000",
       "valuation_krw": "15400000000",
@@ -3740,13 +4029,15 @@
       ],
       "sector": "화장품",
       "extraction_clue": "240\n억원을 지불하고 인수한 계열사다",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵"
     },
     {
       "closing_date": "2013-02-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "케이앤아이",
-      "target_brand": "",
+      "target_brand": "실크테라피",
       "stake_pct": 0.4,
       "deal_size_krw": "8000000000",
       "valuation_krw": "15500000000",
@@ -3766,13 +4057,15 @@
       ],
       "sector": "화장품",
       "extraction_clue": "240\n억원을 지불하고 인수한 계열사다",
-      "target_keyword": "헤어제품"
+      "target_keyword": "헤어제품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵"
     },
     {
       "closing_date": "2012-03-01",
       "acquirer_name": "신세계인터내셔날",
       "target_name": "비디비치코스메틱",
-      "target_brand": "",
+      "target_brand": "비디비치",
       "stake_pct": 0.7038,
       "deal_size_krw": "6000000000",
       "valuation_krw": "15600000000",
@@ -3790,13 +4083,16 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "201-81-53657",
+      "target_biz_no": "211-87-31837",
+      "purpose": "신규사업 추가"
     },
     {
       "closing_date": "2010-01-01",
       "acquirer_name": "엘지생활건강",
       "target_name": "더페이스샵",
-      "target_brand": "",
+      "target_brand": "더페이스샵",
       "stake_pct": 0.9,
       "deal_size_krw": "340000000000",
       "valuation_krw": "15700000000",
@@ -3816,7 +4112,9 @@
       ],
       "sector": "화장품",
       "extraction_clue": "최종 총 매매가는 3400억원으로 당초보다 100억원 줄었다. LG생활건강 관계자는 \"당초 총 매매가는 계약서상 가격 4200억원에 더페이스샵의 회수 가능한 유보 현금 700억원을 감안해 3500억원으로 예상됐지만 회수 가능한 유보현금이 800억원으로 증가해 실질적인 인수가격은 100억원이 줄었다\"고 설명했다.",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "acquirer_biz_no": "107-81-98143",
+      "acquirer_brand": "더페이스샵"
     },
     {
       "closing_date": "2024-02-01",
