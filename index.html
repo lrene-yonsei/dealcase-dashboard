@@ -652,10 +652,15 @@ async function loadData() {
     const _ft = document.getElementById('fnbTotal');
     if (_ft) _ft.textContent = allDeals.filter(d => d.sector === 'F&B').length;
 
-    // Updated badge from latest closing_date
-    const dates = allDeals.map(d => d.closing_date).filter(Boolean).sort();
-    if (dates.length) {
-        document.getElementById('updatedBadge').textContent = 'UPDATED ' + dates[dates.length-1].replace(/-/g,'.').slice(0,7);
+    // Updated badge — 데이터 갱신일(stats.updated_at) 우선, 없으면 최신 closing_date(월)
+    const _upd = data.stats && data.stats.updated_at;
+    if (_upd) {
+        document.getElementById('updatedBadge').textContent = 'UPDATED ' + _upd.replace(/-/g, '.');
+    } else {
+        const dates = allDeals.map(d => d.closing_date).filter(Boolean).sort();
+        if (dates.length) {
+            document.getElementById('updatedBadge').textContent = 'UPDATED ' + dates[dates.length-1].replace(/-/g,'.').slice(0,7);
+        }
     }
 
     // Year pills (descending)
