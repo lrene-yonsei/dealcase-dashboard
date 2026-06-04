@@ -323,6 +323,7 @@ function applyFilters() {
     return allDeals.filter(d => {
         if ((d.sector === 'F&B') !== wantFnb) return false;
         if (d.is_intragroup) return false;   // 계열 내부거래(#10): 표·엑셀·집계 모두 제외
+        if (wantFnb) { const _y = dealYear(d); if (_y && +_y < 2023) return false; }   // F&B는 2023+만 노출(2010~2022 미리서치)
         const pool = `${d.target_name} ${d.acquirer_name} ${d.target_keyword || ''}`.toLowerCase();
         if (state.search && !pool.includes(state.search.toLowerCase())) return false;
         if (state.status && statusGroup(d.status) !== state.status) return false;
@@ -551,6 +552,25 @@ function buildKeywordPills() {
         b.classList.toggle('active', b.dataset.v === state.kw));
 }
 
+// 섹터별 연도 pill 재생성. F&B는 2023+만(2010~2022 미리서치 → 노출 제외).
+const SECTOR_YEAR_FLOOR = { fnb: 2023 };
+function buildYearPills() {
+    const yg = document.getElementById('yearGrp');
+    yg.querySelectorAll('.pill').forEach(b => { if (b.dataset.v !== '') b.remove(); });
+    const floor = SECTOR_YEAR_FLOOR[state.sector] || 0;
+    const yrSet = new Set();
+    allDeals.filter(d => dealInSector(d, state.sector) && !d.is_intragroup).forEach(d => {
+        const y = dealYear(d); if (y && +y >= floor) yrSet.add(y);
+    });
+    [...yrSet].sort().reverse().forEach(y => {
+        const b = document.createElement('button');
+        b.className = 'pill'; b.dataset.v = y; b.textContent = y;
+        yg.appendChild(b);
+    });
+    if (state.year && !yrSet.has(state.year)) state.year = '';
+    yg.querySelectorAll('.pill').forEach(b => b.classList.toggle('active', b.dataset.v === state.year));
+}
+
 function initGroup(id, key) {
     document.getElementById(id).addEventListener('click', e => {
         const btn = e.target.closest('.pill');
@@ -567,6 +587,7 @@ function applyFiltersNoYear() {
     return allDeals.filter(d => {
         if ((d.sector === 'F&B') !== wantFnb) return false;
         if (d.is_intragroup) return false;   // 계열 내부거래(#10): 표·엑셀·집계 모두 제외
+        if (wantFnb) { const _y = dealYear(d); if (_y && +_y < 2023) return false; }   // F&B는 2023+만 노출(2010~2022 미리서치)
         const pool = `${d.target_name} ${d.acquirer_name} ${d.target_keyword || ''}`.toLowerCase();
         if (state.search && !pool.includes(state.search.toLowerCase())) return false;
         if (state.status && statusGroup(d.status) !== state.status) return false;
@@ -652,7 +673,7 @@ async function loadData() {
     // 섹터별 탭 카운트 (전체 기준)
     document.getElementById('catTotal').textContent = allDeals.filter(d => d.sector !== 'F&B' && !d.is_intragroup).length;
     const _ft = document.getElementById('fnbTotal');
-    if (_ft) _ft.textContent = allDeals.filter(d => d.sector === 'F&B' && !d.is_intragroup).length;
+    if (_ft) _ft.textContent = allDeals.filter(d => d.sector === 'F&B' && !d.is_intragroup && !(dealYear(d) && +dealYear(d) < 2023)).length;
 
     // Updated badge — 데이터 갱신일(stats.updated_at) 우선, 없으면 최신 closing_date(월)
     const _upd = data.stats && data.stats.updated_at;
@@ -665,15 +686,8 @@ async function loadData() {
         }
     }
 
-    // Year pills (descending)
-    const yrSet = new Set();
-    allDeals.forEach(d => { const y = dealYear(d); if (y) yrSet.add(y); });
-    const yg = document.getElementById('yearGrp');
-    [...yrSet].sort().reverse().forEach(y => {
-        const b = document.createElement('button');
-        b.className = 'pill'; b.dataset.v = y; b.textContent = y;
-        yg.appendChild(b);
-    });
+    // Year pills — 섹터별 재생성(F&B 2023+). 섹터 전환 시에도 재생성.
+    buildYearPills();
 
     // Keyword pills — 활성 섹터의 딜에서만 키워드 수집 (섹터 전환 시 재생성)
     buildKeywordPills();
@@ -685,6 +699,7 @@ async function loadData() {
         document.querySelectorAll('.sector-tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
         state.sector = tab.dataset.sector;
+        buildYearPills();      // 섹터별 연도 pill 재생성 (F&B 2023+)
         buildKeywordPills();   // 섹터별 키워드 pill 재생성 (+ 타섹터 키워드 선택 해제)
         render();
     });
