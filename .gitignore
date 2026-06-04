@@ -1,0 +1,15 @@
+# 이 repo는 공개 대시보드 전용 — 아래는 실수로라도 올리지 않도록 차단
+.env
+.env.*
+*.key
+*.pem
+secrets*
+# 데이터 백업본(파이프라인 산출물) 유입 방지
+dashboard_data.bak*.json
+dashboard_data.json.bak*
+*.bak
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

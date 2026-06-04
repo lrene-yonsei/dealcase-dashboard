@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMP M&A Deal Archive</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --sb: #161b22;
+            --panel: #1c2128;
+            --border: #30363d;
+            --text: #e6edf3;
+            --muted: #8b949e;
+            --blue: #58a6ff;
+            --green: #3fb950;
+            --yellow: #e3b341;
+            --red: #f85149;
+            --purple: #bc8cff;
+        }
+        html, body { height: 100%; }
+        body { font-family: -apple-system, 'Inter', BlinkMacSystemFont, sans-serif; background: var(--bg); color: var(--text); display: flex; overflow: hidden; }
+
+        /* ── SIDEBAR ── */
+        .sidebar {
+            width: 220px; min-width: 220px;
+            background: var(--sb); border-right: 1px solid var(--border);
+            display: flex; flex-direction: column; padding: 18px 13px;
+            height: 100vh; overflow-y: auto; gap: 16px;
+        }
+        .logo { display: flex; align-items: center; gap: 10px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+        .logo-m { font-size: 1rem; font-weight: 800; letter-spacing: 2px; color: var(--text); font-family: Georgia, 'Times New Roman', serif; }
+        .logo-t { font-size: 0.57rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.4px; line-height: 1.5; }
+
+        .sector-tabs { display: flex; gap: 6px; }
+        .sector-tab { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; cursor: pointer; border: 1px solid var(--border); background: transparent; color: var(--muted); transition: all .15s; white-space: nowrap; }
+        .sector-tab:hover { border-color: var(--blue); color: var(--blue); }
+        .sector-tab.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+        .sector-tab .tab-count { font-size: 0.72rem; opacity: 0.85; }
+
+        .empty-state { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 60px 20px; color: var(--muted); gap: 10px; }
+        .empty-state .empty-icon { font-size: 2rem; }
+        .empty-state .empty-title { font-size: 0.95rem; color: var(--text); font-weight: 600; }
+        .empty-state .empty-sub { font-size: 0.8rem; text-align: center; line-height: 1.6; }
+
+        .add-btn { width: 100%; padding: 8px; border: 1px dashed var(--border); background: transparent; color: var(--muted); border-radius: 8px; font-size: 0.8rem; cursor: pointer; transition: all .15s; }
+        .add-btn:hover { border-color: var(--blue); color: var(--blue); }
+
+        .f-sec { display: flex; flex-direction: column; gap: 8px; }
+        .f-lbl { font-size: 0.65rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; }
+
+        .search-box { width: 100%; padding: 8px 10px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 0.8rem; outline: none; }
+        .search-box:focus { border-color: var(--blue); }
+        .search-box::placeholder { color: var(--muted); }
+
+        .pill-grp { display: flex; flex-wrap: wrap; gap: 5px; }
+        .pill { padding: 3px 9px; border: 1px solid var(--border); background: transparent; color: var(--muted); border-radius: 20px; font-size: 0.73rem; cursor: pointer; white-space: nowrap; transition: all .12s; }
+        .pill:hover { border-color: var(--blue); color: var(--blue); }
+        .pill.active { background: var(--blue); border-color: var(--blue); color: #fff; font-weight: 600; }
+
+        .legend { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border); display: flex; flex-direction: column; gap: 6px; }
+        .leg-item { display: flex; align-items: center; gap: 8px; font-size: 0.75rem; color: var(--muted); }
+        .leg-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+
+        /* ── MAIN ── */
+        .main { flex: 1; height: 100vh; overflow-y: auto; padding: 20px 24px; display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+
+        .top-bar { display: flex; justify-content: flex-end; }
+        .updated { font-size: 0.7rem; color: var(--muted); background: var(--panel); border: 1px solid var(--border); padding: 4px 12px; border-radius: 20px; }
+
+        /* ── STATS ── */
+        .stats-row { display: flex; gap: 10px; }
+        .stat { flex: 1; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 13px 14px; min-width: 0; }
+        .stat-lbl { font-size: 0.63rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 5px; }
+        .stat-val { font-size: 1.7rem; font-weight: 700; line-height: 1; white-space: nowrap; }
+        .stat-val.sm { font-size: 1.3rem; }
+        .stat-unit { font-size: 0.82rem; color: var(--muted); margin-left: 2px; font-weight: 400; }
+
+        /* ── CHARTS ── */
+        .charts-row { display: flex; gap: 14px; height: 270px; }
+        .chart-box { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; }
+        .chart-box.bar-box { flex: 1.3; }
+        .chart-box.donut-box { flex: 1; }
+        .chart-lbl { font-size: 0.73rem; color: var(--muted); margin-bottom: 8px; flex-shrink: 0; }
+        .chart-inner { position: relative; flex: 1; min-height: 0; }
+
+        /* ── TABLE SECTION ── */
+        .tbl-top { display: flex; justify-content: space-between; align-items: center; }
+        .tbl-count { font-size: 0.88rem; color: var(--muted); }
+        .tbl-count b { color: var(--text); }
+        .exp-btns { display: flex; gap: 8px; }
+        .exp-btn { padding: 5px 12px; border: 1px solid var(--border); background: var(--panel); color: var(--muted); border-radius: 6px; font-size: 0.75rem; cursor: pointer; transition: all .12s; }
+        .exp-btn:hover { border-color: var(--blue); color: var(--blue); }
+
+        .src-legend { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+        .src-b { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; border-radius: 3px; font-size: 0.65rem; font-weight: 700; flex-shrink: 0; text-decoration: none; }
+        .src-b.n { background: #1a3a2a; color: var(--green); }
+        .src-b.d { background: #1a2a45; color: var(--blue); }
+        .src-b.r { background: #2a1f3a; color: var(--purple); }
+        .src-lbl { font-size: 0.7rem; color: var(--muted); }
+        .src-sep { color: var(--border); margin: 0 2px; }
+
+        table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 10px; }
+        th { background: var(--panel); color: var(--muted); padding: 9px 10px; text-align: left; font-size: 0.67rem; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid var(--border); border-top: 1px solid var(--border); white-space: nowrap; }
+        td { padding: 11px 10px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+        tr:hover td { background: #21262d; }
+
+        .acq { color: var(--blue); font-weight: 600; font-size: 0.82rem; }
+        .tgt { font-weight: 600; }
+        .tgt-sub { font-size: 0.71rem; color: var(--muted); margin-top: 2px; }
+        .kw-tag { display: inline-block; background: #1a2f4a; color: #58a6ff; padding: 2px 6px; border-radius: 4px; font-size: 0.67rem; margin: 1px; }
+
+        .sbadge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; white-space: nowrap; }
+        .s-완료 { background: #1a3a25; color: var(--green); }
+        .s-인수예정 { background: #2d2510; color: var(--yellow); }
+        .s-매각거론 { background: #12213a; color: var(--blue); }
+        .s-무산 { background: #3a1515; color: var(--red); }
+
+        .src-cell { display: flex; gap: 3px; flex-wrap: wrap; }
+
+        .snip-wrap { position: relative; color: var(--muted); font-size: 0.74rem; max-width: 160px; cursor: default; }
+        .snip-wrap.has-link { cursor: pointer; }
+        .snip-short { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: flex; align-items: center; gap: 4px; transition: color .15s; }
+        .snip-wrap.has-link:hover .snip-short { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+        .link-icon { font-size: 0.7rem; opacity: 0; transition: opacity .15s; flex-shrink: 0; }
+        .snip-wrap.has-link:hover .link-icon { opacity: 1; }
+        .snip-tip { display: none; position: fixed; background: #1c2128; color: var(--text); padding: 12px 14px; border-radius: 10px; z-index: 1000; width: 380px; max-width: 90vw; box-shadow: 0 16px 40px rgba(0,0,0,0.8); font-size: 0.82rem; line-height: 1.7; pointer-events: none; border: 1px solid var(--border); }
+        .snip-wrap:hover .snip-tip { display: block; }
+        .snip-tip mark { background: #fef08a; color: #1a1a2e; padding: 1px 3px; border-radius: 2px; }
+        .snip-tip-footer { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); font-size: 0.72rem; color: var(--blue); display: flex; align-items: center; gap: 4px; }
+        mark { background: #fef08a; color: #1a1a2e; padding: 1px 2px; border-radius: 2px; }
+
+        .note-cell { font-size: 0.72rem; color: var(--muted); max-width: 130px; word-break: break-all; }
+
+        /* scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    </style>
+</head>
+<body>
+
+<!-- ── SIDEBAR ── -->
+<aside class="sidebar">
+    <div class="logo">
+        <span class="logo-m">MMP</span>
+        <span class="logo-t">M&A DEAL<br>CASE ARCHIVE</span>
+    </div>
+
+    <div class="sector-tabs">
+        <button class="sector-tab active" data-sector="cosmetics">화장품 <span class="tab-count" id="catTotal">0</span></button>
+        <button class="sector-tab" data-sector="fnb">F&amp;B <span class="tab-count" id="fnbTotal">0</span></button>
+    </div>
+
+    <button class="add-btn">+ 신규 딜 추가</button>
+
+    <div class="f-sec">
+        <div class="f-lbl">검색</div>
+        <input class="search-box" id="searchInput" placeholder="인수사, 매각대상, 키워드...">
+    </div>
+
+    <div class="f-sec">
+        <div class="f-lbl">거래 상태</div>
+        <div class="pill-grp" id="statusGrp">
+            <button class="pill active" data-v="">전체</button>
+            <button class="pill" data-v="완료">완료</button>
+            <button class="pill" data-v="인수예정">인수예정</button>
+            <button class="pill" data-v="매각거론">매각거론</button>
+        </div>
+    </div>
+
+    <div class="f-sec">
+        <div class="f-lbl">연도</div>
+        <div class="pill-grp" id="yearGrp">
+            <button class="pill active" data-v="">전체</button>
+        </div>
+    </div>
+
+    <div class="f-sec">
+        <div class="f-lbl">키워드</div>
+        <div class="pill-grp" id="kwGrp">
+            <button class="pill active" data-v="">전체</button>
+        </div>
+    </div>
+
+    <div class="legend">
+        <div class="f-lbl" style="margin-bottom:2px">범례</div>
+        <div class="leg-item"><div class="leg-dot" style="background:var(--green)"></div>완료</div>
+        <div class="leg-item"><div class="leg-dot" style="background:var(--yellow)"></div>인수예정</div>
+        <div class="leg-item"><div class="leg-dot" style="background:var(--blue)"></div>매각거론</div>
+        <div class="leg-item"><div class="leg-dot" style="background:var(--red)"></div>무산</div>
+    </div>
+</aside>
+
+<!-- ── MAIN ── -->
+<main class="main">
+    <div class="top-bar">
+        <div class="updated" id="updatedBadge">UPDATED —</div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-row">
+        <div class="stat"><div class="stat-lbl">Total Deals</div><div class="stat-val"><span id="sTotal">—</span><span class="stat-unit">건</span></div></div>
+        <div class="stat"><div class="stat-lbl">Completed</div><div class="stat-val"><span id="sCompleted">—</span><span class="stat-unit">건</span></div></div>
+        <div class="stat"><div class="stat-lbl">Pending</div><div class="stat-val"><span id="sPending">—</span><span class="stat-unit">건</span></div></div>
+        <div class="stat"><div class="stat-lbl">Rumored</div><div class="stat-val"><span id="sRumored">—</span><span class="stat-unit">건</span></div></div>
+        <div class="stat"><div class="stat-lbl">Deal Size</div><div class="stat-val sm"><span id="sSize">—</span><span class="stat-unit">억</span></div></div>
+        <div class="stat"><div class="stat-lbl">Avg Size</div><div class="stat-val sm"><span id="sAvg">—</span><span class="stat-unit">억</span></div></div>
+    </div>
+
+    <!-- Charts -->
+    <div class="charts-row">
+        <div class="chart-box bar-box">
+            <div class="chart-lbl">연도별 딜 건수 (완료 기준)</div>
+            <div class="chart-inner"><canvas id="yearChart"></canvas></div>
+        </div>
+        <div class="chart-box donut-box">
+            <div class="chart-lbl">카테고리별 건수</div>
+            <div class="chart-inner"><canvas id="catCntChart"></canvas></div>
+        </div>
+        <div class="chart-box donut-box">
+            <div class="chart-lbl">카테고리별 금액(억)</div>
+            <div class="chart-inner"><canvas id="catAmtChart"></canvas></div>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <div>
+        <div class="tbl-top">
+            <div class="tbl-count"><b id="tblCount">0</b>건</div>
+            <div class="exp-btns">
+                <button class="exp-btn" onclick="doExportCSV()">CSV 내보내기</button>
+                <button class="exp-btn" onclick="doExportExcel()">EXCEL 내보내기</button>
+            </div>
+        </div>
+        <div class="src-legend">
+            <span class="src-b n">N</span><span class="src-lbl">뉴스</span>
+            <span class="src-sep">·</span>
+            <span class="src-b d">D</span><span class="src-lbl">DART 공시</span>
+            <span class="src-sep">·</span>
+            <span class="src-b r">R</span><span class="src-lbl">참고</span>
+            <span class="src-sep">·</span>
+            <span class="src-lbl">출처 미등록</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>인수시기</th>
+                    <th>인수사</th>
+                    <th>매각대상</th>
+                    <th>카테고리</th>
+                    <th>지분율</th>
+                    <th>규모(억)</th>
+                    <th>밸류(억)</th>
+                    <th>상태</th>
+                    <th>출처</th>
+                    <th>비고</th>
+                </tr>
+            </thead>
+            <tbody id="tblBody"></tbody>
+        </table>
+    </div>
+</main>
+
+<script>
+const state = { search: '', status: '', year: '', kw: '', sector: 'cosmetics' };
+let allDeals = [];
+const charts = {};
+
+// 섹터 탭 dataset.sector → deal.sector 값 매핑.
+// 새 섹터 추가 시 여기에 한 줄(탭키: 'deal의 sector값')만 더하면
+// 키워드 pill이 자동으로 해당 섹터 키워드만 표시한다.
+const SECTOR_TAB_TO_VALUE = { cosmetics: '화장품', fnb: 'F&B' };
+function dealInSector(d, tabKey) {
+    const val = SECTOR_TAB_TO_VALUE[tabKey] || tabKey;
+    return (d.sector || '') === val;
+}
+
+function statusGroup(s) {
+    if (['클로징', 'SPA체결'].includes(s)) return '완료';
+    if (s === '인수예정') return '인수예정';
+    if (s === '매각거론') return '매각거론';
+    if (s === '무산') return '무산';
+    return s;
+}
+
+function dealYear(deal) {
+    const cd = deal.closing_date || '';
+    if (/^20\d{2}/.test(cd)) return cd.slice(0, 4);     // 진짜 연도로 시작할 때만
+    if (!cd) { const m = (deal.extraction_clue || '').match(/20\d{2}/); return m ? m[0] : ''; }
+    return '';   // "매각 거론"·"인수 예정" 등 텍스트 closing_date → 연도 아님(연도 pill 오염 방지)
+}
+
+const CAT_COLORS = { '브랜드':'#58a6ff', 'OEM·ODM':'#3fb950', '의료기기':'#e3b341', '용기':'#f85149', '유통':'#bc8cff', '헤어케어':'#ff7b72', 'F&B':'#39d353', '기타':'#8b949e' };
+const CAT_ORDER  = ['브랜드','OEM·ODM','의료기기','용기','유통','헤어케어','F&B','기타'];
+
+// F&B 카테고리 = KSIC 1차 가치사슬 5분류 (식료품제조 C10 / 음료제조 C11 / 식자재유통 G46 / 단체급식·외식 I56)
+const CAT_COLORS_FNB = { '식료품 제조':'#f0883e', '음료 제조':'#58a6ff', '식자재 유통':'#8957e5', '단체급식':'#db61a2', '외식':'#3fb950', '기타':'#8b949e' };
+const CAT_ORDER_FNB  = ['식료품 제조','음료 제조','식자재 유통','단체급식','외식','기타'];
+
+function catOf(kw) {
+    if (!kw) return '기타';
+    if (/OEM|ODM/i.test(kw)) return 'OEM·ODM';
+    if (/의료기기/.test(kw))  return '의료기기';
+    if (/용기/.test(kw))      return '용기';
+    if (/유통/.test(kw))      return '유통';
+    if (/헤어/.test(kw))      return '헤어케어';
+    if (/F&B|식음료|식품/.test(kw)) return 'F&B';
+    if (/화장품|뷰티|코스메틱/.test(kw)) return '브랜드';
+    return '기타';
+}
+
+function categoryOf(d) {
+    if (d.sector === 'F&B') {
+        return CAT_ORDER_FNB.includes(d.target_keyword) ? d.target_keyword : '기타';
+    }
+    return catOf(d.target_keyword);   // cosmetics
+}
+
+function applyFilters() {
+    const wantFnb = state.sector === 'fnb';
+    return allDeals.filter(d => {
+        if ((d.sector === 'F&B') !== wantFnb) return false;
+        const pool = `${d.target_name} ${d.acquirer_name} ${d.target_keyword || ''}`.toLowerCase();
+        if (state.search && !pool.includes(state.search.toLowerCase())) return false;
+        if (state.status && statusGroup(d.status) !== state.status) return false;
+        if (state.year && dealYear(d) !== state.year) return false;
+        if (state.kw && !(d.target_keyword || '').includes(state.kw)) return false;
+        return true;
+    });
+}
+
+function updateStats(deals) {
+    const completed = deals.filter(d => statusGroup(d.status) === '완료').length;
+    const pending   = deals.filter(d => statusGroup(d.status) === '인수예정').length;
+    const rumored   = deals.filter(d => statusGroup(d.status) === '매각거론').length;
+    const totalSize = deals.reduce((s, d) => s + (Number(d.deal_size_krw) || 0), 0);
+    const sized     = deals.filter(d => Number(d.deal_size_krw) > 0);
+    const avg       = sized.length ? totalSize / sized.length : 0;
+
+    document.getElementById('sTotal').textContent     = deals.length;
+    document.getElementById('sCompleted').textContent = completed;
+    document.getElementById('sPending').textContent   = pending;
+    document.getElementById('sRumored').textContent   = rumored;
+    document.getElementById('sSize').textContent      = Math.round(totalSize / 1e8).toLocaleString();
+    document.getElementById('sAvg').textContent       = Math.round(avg / 1e8).toLocaleString();
+}
+
+function updateCharts(deals, dealsAllYears) {
+    // Bar: completed by year — 항상 전체 기간 표시 (연도 필터 무시)
+    const src = dealsAllYears || deals;
+    const byYear = {};
+    src.filter(d => statusGroup(d.status) === '완료').forEach(d => {
+        const y = dealYear(d); if (y) byYear[y] = (byYear[y] || 0) + 1;
+    });
+    const yrLabels = Object.keys(byYear).sort();
+    const yrData   = yrLabels.map(y => byYear[y]);
+
+    const barColors = yrLabels.map(y => (state.year && y === state.year) ? '#e3b341' : '#58a6ff');
+
+    if (charts.year) {
+        charts.year.data.labels = yrLabels;
+        charts.year.data.datasets[0].data = yrData;
+        charts.year.data.datasets[0].backgroundColor = barColors;
+        charts.year.update();
+    } else {
+        charts.year = new Chart(document.getElementById('yearChart'), {
+            type: 'bar',
+            data: { labels: yrLabels, datasets: [{ label: '완료', data: yrData, backgroundColor: barColors, borderRadius: 4 }] },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { ticks: { color: '#8b949e', font: { size: 10 } }, grid: { color: '#21262d' } },
+                    y: { ticks: { color: '#8b949e', font: { size: 10 } }, grid: { color: '#21262d' } }
+                }
+            }
+        });
+    }
+
+    // Donut: category
+    const isFnb = state.sector === 'fnb';
+    const ORDER  = isFnb ? CAT_ORDER_FNB  : CAT_ORDER;
+    const COLORS = isFnb ? CAT_COLORS_FNB : CAT_COLORS;
+    const catCnt = {}, catAmt = {};
+    deals.forEach(d => {
+        const c = categoryOf(d);
+        catCnt[c] = (catCnt[c] || 0) + 1;
+        catAmt[c] = (catAmt[c] || 0) + (Number(d.deal_size_krw) || 0);
+    });
+    const cats   = ORDER.filter(c => catCnt[c]);
+    const colors = cats.map(c => COLORS[c]);
+    const donutOpts = {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { position: 'right', labels: { color: '#8b949e', font: { size: 10 }, padding: 10, boxWidth: 10 } } }
+    };
+
+    if (charts.catCnt) {
+        charts.catCnt.data.labels = cats;
+        charts.catCnt.data.datasets[0].data = cats.map(c => catCnt[c]);
+        charts.catCnt.data.datasets[0].backgroundColor = colors;
+        charts.catCnt.update();
+    } else {
+        charts.catCnt = new Chart(document.getElementById('catCntChart'), {
+            type: 'doughnut',
+            data: { labels: cats, datasets: [{ data: cats.map(c => catCnt[c]), backgroundColor: colors, borderWidth: 0 }] },
+            options: donutOpts
+        });
+    }
+
+    const amtVals = cats.map(c => Math.round((catAmt[c] || 0) / 1e8));
+    if (charts.catAmt) {
+        charts.catAmt.data.labels = cats;
+        charts.catAmt.data.datasets[0].data = amtVals;
+        charts.catAmt.data.datasets[0].backgroundColor = colors;
+        charts.catAmt.update();
+    } else {
+        charts.catAmt = new Chart(document.getElementById('catAmtChart'), {
+            type: 'doughnut',
+            data: { labels: cats, datasets: [{ data: amtVals, backgroundColor: colors, borderWidth: 0 }] },
+            options: donutOpts
+        });
+    }
+}
+
+function renderTable(deals) {
+    document.getElementById('tblCount').textContent = deals.length;
+    const tbody = document.getElementById('tblBody');
+    tbody.innerHTML = '';
+
+    // 인수시기(closing_date) 내림차순 — 날짜 없는 건은 맨 아래
+    const sorted = [...deals].sort((a, b) => (b.closing_date || '').localeCompare(a.closing_date || ''));
+    sorted.forEach(deal => {
+        const sg = statusGroup(deal.status);
+        let timeText;
+        if (deal.closing_date) {
+            timeText = deal.closing_date.slice(0, 7);
+        } else if (sg === '인수예정') {
+            timeText = '인수 예정';
+        } else if (sg === '매각거론') {
+            timeText = '매각 거론';
+        } else if (sg === '무산') {
+            timeText = '무산';
+        } else {
+            timeText = dealYear(deal) || '—';
+        }
+
+        let acqs = deal.acquirer_name;
+        try {
+            const p = JSON.parse(deal.acquirer_name);
+            acqs = Array.isArray(p) ? p.join('<br>') : p;
+        } catch (e) {}
+
+        const size = deal.deal_size_krw ? Math.round(Number(deal.deal_size_krw) / 1e8).toLocaleString() : '—';
+        const val  = deal.valuation_krw ? Math.round(Number(deal.valuation_krw) / 1e8).toLocaleString() : '—';
+        const pct  = deal.stake_pct ? (Number(deal.stake_pct) <= 1 ? Number(deal.stake_pct) * 100 : Number(deal.stake_pct)).toFixed(1) + '%' : '—';  // ≤1=소수, >1=이미 퍼센트(방어)
+
+        const kwTags = (deal.target_keyword || '').split(/[,;·]/).map(k => k.trim()).filter(Boolean)
+            .map(k => `<span class="kw-tag">${k}</span>`).join('');
+
+        let srcs = '';
+        if (deal.news_url) srcs += `<a href="${deal.news_url}" target="_blank" class="src-b n">N</a>`;
+        if (deal.dart_url) srcs += `<a href="${deal.dart_url}" target="_blank" class="src-b d">D</a>`;
+        if (deal.primary_source_name) srcs += `<span class="src-b r" title="${deal.primary_source_name}">R</span>`;
+        if (!srcs) srcs = '<span style="color:var(--muted);font-size:0.7rem">—</span>';
+
+        const shortClue = deal.extraction_clue ? deal.extraction_clue.substring(0, 28) + '…' : '—';
+        // 공시검증 딜은 DART 우선, 언론검증은 뉴스 우선
+        const isDartPrimary = deal.verification_level === '공시검증';
+        const linkUrl = isDartPrimary
+            ? (deal.dart_url || deal.news_url)
+            : (deal.news_url || deal.dart_url);
+        const snipHtml = deal.snippet_html || '';
+        const srcLabel = (isDartPrimary && deal.dart_url) ? 'DART 공시로' : deal.news_url ? '뉴스 원문으로' : deal.dart_url ? 'DART 공시로' : '';
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td style="color:var(--muted);font-size:0.77rem;white-space:nowrap">${timeText}</td>
+            <td><div class="acq">${acqs || '—'}</div></td>
+            <td>
+                <div class="tgt">${deal.target_name}</div>
+                ${deal.target_brand ? `<div class="tgt-sub">(${deal.target_brand})</div>` : ''}
+            </td>
+            <td>${kwTags || '—'}</td>
+            <td style="color:var(--muted);font-size:0.77rem">${pct}</td>
+            <td style="font-weight:600">${size}</td>
+            <td style="color:var(--muted)">${val}</td>
+            <td><span class="sbadge s-${sg}">${sg}</span></td>
+            <td><div class="src-cell">${srcs}</div></td>
+            <td>
+                <div class="snip-wrap${linkUrl ? ' has-link' : ''}">
+                    <div class="snip-short">
+                        <span>${shortClue}</span>
+                        ${linkUrl ? '<span class="link-icon">↗</span>' : ''}
+                    </div>
+                    <div class="snip-tip">
+                        ${snipHtml || shortClue}
+                        ${linkUrl ? `<div class="snip-tip-footer">↗ 클릭하면 ${srcLabel}</div>` : ''}
+                    </div>
+                </div>
+            </td>
+        `;
+
+        if (linkUrl) {
+            const wrap = tr.querySelector('.snip-wrap');
+            wrap.addEventListener('click', () => window.open(linkUrl, '_blank'));
+        }
+
+        // Position tooltip above/below depending on scroll position
+        const wrap = tr.querySelector('.snip-wrap');
+        wrap.addEventListener('mouseenter', () => {
+            const tip = wrap.querySelector('.snip-tip');
+            const rect = wrap.getBoundingClientRect();
+            const spaceBelow = window.innerHeight - rect.bottom;
+            if (spaceBelow < 160) {
+                tip.style.top  = 'auto';
+                tip.style.bottom = (window.innerHeight - rect.top + 4) + 'px';
+            } else {
+                tip.style.bottom = 'auto';
+                tip.style.top  = (rect.bottom + 4) + 'px';
+            }
+            tip.style.left = Math.min(rect.left, window.innerWidth - 400) + 'px';
+        });
+
+        tbody.appendChild(tr);
+    });
+}
+
+// 활성 섹터(state.sector)의 딜에서만 키워드를 모아 kwGrp pill을 재생성.
+// "전체" pill(data-v="")은 유지하고 그 뒤를 갈아끼운다.
+function buildKeywordPills() {
+    const kg = document.getElementById('kwGrp');
+    // "전체"를 제외한 기존 키워드 pill 제거
+    kg.querySelectorAll('.pill').forEach(b => { if (b.dataset.v !== '') b.remove(); });
+
+    const kwSet = new Set();
+    allDeals.filter(d => dealInSector(d, state.sector)).forEach(d => {
+        (d.target_keyword || '').split(/[,;·]/).map(k => k.trim()).filter(Boolean).forEach(k => kwSet.add(k));
+    });
+    [...kwSet].sort().forEach(kw => {
+        const b = document.createElement('button');
+        b.className = 'pill'; b.dataset.v = kw;
+        b.textContent = kw.length > 13 ? kw.slice(0,12) + '…' : kw;
+        b.title = kw;
+        kg.appendChild(b);
+    });
+
+    // 현재 선택된 키워드가 새 섹터에 없으면 '전체'로 초기화
+    if (state.kw && !kwSet.has(state.kw)) state.kw = '';
+    kg.querySelectorAll('.pill').forEach(b =>
+        b.classList.toggle('active', b.dataset.v === state.kw));
+}
+
+function initGroup(id, key) {
+    document.getElementById(id).addEventListener('click', e => {
+        const btn = e.target.closest('.pill');
+        if (!btn) return;
+        document.querySelectorAll(`#${id} .pill`).forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state[key] = btn.dataset.v;
+        render();
+    });
+}
+
+function applyFiltersNoYear() {
+    const wantFnb = state.sector === 'fnb';
+    return allDeals.filter(d => {
+        if ((d.sector === 'F&B') !== wantFnb) return false;
+        const pool = `${d.target_name} ${d.acquirer_name} ${d.target_keyword || ''}`.toLowerCase();
+        if (state.search && !pool.includes(state.search.toLowerCase())) return false;
+        if (state.status && statusGroup(d.status) !== state.status) return false;
+        if (state.kw && !(d.target_keyword || '').includes(state.kw)) return false;
+        return true;
+    });
+}
+
+function render() {
+    const deals = applyFilters();
+    const dealsAllYears = applyFiltersNoYear();  // 바차트용: 연도 필터 제외
+    // 잔여지분 후속인수(is_followon)는 연도/카테고리/stats 집계에서 제외(원거래 1건만 계상). 테이블엔 전체 표시(이력 보존). [불변규칙 #8]
+    const aggDeals = deals.filter(d => !d.is_followon);
+    const aggAllYears = dealsAllYears.filter(d => !d.is_followon);
+    updateStats(aggDeals);
+    updateCharts(aggDeals, aggAllYears);
+    renderTable(deals);
+}
+
+function doExportCSV() {
+    const deals = applyFilters();
+    const rows = [['인수시기','인수사','매각대상','키워드','지분율(%)','규모(억)','밸류(억)','상태','뉴스URL','공시URL','비고']];
+    deals.forEach(d => {
+        let acqs = d.acquirer_name;
+        try { const p = JSON.parse(d.acquirer_name); acqs = Array.isArray(p) ? p.join('/') : p; } catch(e) {}
+        rows.push([
+            d.closing_date || '',
+            acqs,
+            d.target_name,
+            d.target_keyword,
+            d.stake_pct ? (Number(d.stake_pct) <= 1 ? Number(d.stake_pct)*100 : Number(d.stake_pct)).toFixed(1) : '',
+            d.deal_size_krw ? Math.round(Number(d.deal_size_krw)/1e8) : '',
+            d.valuation_krw ? Math.round(Number(d.valuation_krw)/1e8) : '',
+            d.status,
+            d.news_url || '',
+            d.dart_url || '',
+            d.notes || ''
+        ]);
+    });
+    const csv = '﻿' + rows.map(r => r.map(v => `"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8;' }));
+    a.download = 'mma_deals.csv';
+    a.click();
+}
+
+function doExportExcel() {
+    const deals = applyFilters();
+    const rows = [['인수시기','인수사','매각대상','키워드','지분율(%)','규모(억)','밸류(억)','상태','뉴스URL','공시URL','비고']];
+    deals.forEach(d => {
+        let acqs = d.acquirer_name;
+        try { const p = JSON.parse(d.acquirer_name); acqs = Array.isArray(p) ? p.join('/') : p; } catch(e) {}
+        rows.push([
+            d.closing_date || '',
+            acqs,
+            d.target_name,
+            d.target_keyword,
+            d.stake_pct ? +Number((Number(d.stake_pct) <= 1 ? Number(d.stake_pct)*100 : Number(d.stake_pct)).toFixed(1)) : '',
+            d.deal_size_krw ? Math.round(Number(d.deal_size_krw)/1e8) : '',
+            d.valuation_krw ? Math.round(Number(d.valuation_krw)/1e8) : '',
+            d.status,
+            d.news_url || '',
+            d.dart_url || '',
+            d.notes || ''
+        ]);
+    });
+    const ws = XLSX.utils.aoa_to_sheet(rows);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, 'Deals');
+    XLSX.writeFile(wb, 'mma_deals.xlsx');
+}
+
+async function loadData() {
+    const res  = await fetch('dashboard_data.json?v=' + Date.now(), { cache: 'no-store' });
+    const data = await res.json();
+    allDeals   = data.deals;
+
+    // 섹터별 탭 카운트 (전체 기준)
+    document.getElementById('catTotal').textContent = allDeals.filter(d => d.sector !== 'F&B').length;
+    const _ft = document.getElementById('fnbTotal');
+    if (_ft) _ft.textContent = allDeals.filter(d => d.sector === 'F&B').length;
+
+    // Updated badge from latest closing_date
+    const dates = allDeals.map(d => d.closing_date).filter(Boolean).sort();
+    if (dates.length) {
+        document.getElementById('updatedBadge').textContent = 'UPDATED ' + dates[dates.length-1].replace(/-/g,'.').slice(0,7);
+    }
+
+    // Year pills (descending)
+    const yrSet = new Set();
+    allDeals.forEach(d => { const y = dealYear(d); if (y) yrSet.add(y); });
+    const yg = document.getElementById('yearGrp');
+    [...yrSet].sort().reverse().forEach(y => {
+        const b = document.createElement('button');
+        b.className = 'pill'; b.dataset.v = y; b.textContent = y;
+        yg.appendChild(b);
+    });
+
+    // Keyword pills — 활성 섹터의 딜에서만 키워드 수집 (섹터 전환 시 재생성)
+    buildKeywordPills();
+
+    // 섹터 탭
+    document.querySelector('.sector-tabs').addEventListener('click', e => {
+        const tab = e.target.closest('.sector-tab');
+        if (!tab) return;
+        document.querySelectorAll('.sector-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        state.sector = tab.dataset.sector;
+        buildKeywordPills();   // 섹터별 키워드 pill 재생성 (+ 타섹터 키워드 선택 해제)
+        render();
+    });
+
+    initGroup('statusGrp', 'status');
+    initGroup('yearGrp',   'year');
+    initGroup('kwGrp',     'kw');
+
+    document.getElementById('searchInput').addEventListener('input', e => {
+        state.search = e.target.value;
+        render();
+    });
+
+    render();
+}
+
+loadData();
+</script>
+</body>
+</html>
