@@ -619,6 +619,20 @@ function _acqName(d) {
     return a || '';
 }
 
+// 엑셀 비고 = 대시보드 비고 열과 동일(깔끔한 근거 한 줄). 정정 로그(notes)는 내부용이라 export 제외.
+//   우선순위: extraction_clue → snippet_html(태그제거) → notes(로그성 세그먼트 제거)
+function exportNote(d) {
+    const clue = (d.extraction_clue || '').trim();
+    if (clue) return clue;
+    const snip = (d.snippet_html || '').replace(/<[^>]+>/g, '').trim();
+    if (snip) return snip;
+    // 폴백: notes에서 정정·보강 로그 세그먼트 제거(맨앞 마커 또는 '…정정(2026-..)' 형태)
+    const logSeg   = /^(정정|보강|보정|DART검증|DART보강|금액정정|금액 ?반영|완전성 감사 추가|상태보정|출처위계|지분정정|날짜정정)\b/;
+    const datedLog = /(정정|보강|보정|검증|반영)\s*\(20\d{2}/;
+    return (d.notes || '').split('|').map(s => s.trim())
+        .filter(s => s && !logSeg.test(s) && !datedLog.test(s)).join(' | ');
+}
+
 function buildExportRows() {
     const deals = applyFilters();
     const rows = [EXPORT_HEADER.slice()];
@@ -643,7 +657,7 @@ function buildExportRows() {
             d.news_url || '',
             d.dart_url || '',
             d.reference || '',
-            d.notes || ''
+            exportNote(d)
         ]);
     });
     return rows;
