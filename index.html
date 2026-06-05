@@ -461,7 +461,12 @@ function renderTable(deals) {
         let srcs = '';
         if (deal.news_url) srcs += `<a href="${deal.news_url}" target="_blank" class="src-b n">N</a>`;
         if (deal.dart_url) srcs += `<a href="${deal.dart_url}" target="_blank" class="src-b d">D</a>`;
-        if (deal.primary_source_name) srcs += `<span class="src-b r" title="${deal.primary_source_name}">R</span>`;
+        if (deal.reference) {
+            const _refUrl = (String(deal.reference).match(/https?:\/\/\S+/) || [])[0];
+            const _refTitle = String(deal.reference).replace(/"/g, '&quot;');
+            if (_refUrl) srcs += `<a href="${_refUrl}" target="_blank" class="src-b r" title="${_refTitle}">R</a>`;
+            else srcs += `<span class="src-b r" title="${_refTitle}">R</span>`;
+        }
         if (!srcs) srcs = '<span style="color:var(--muted);font-size:0.7rem">—</span>';
 
         const shortClue = deal.extraction_clue ? deal.extraction_clue.substring(0, 28) + '…' : '—';
