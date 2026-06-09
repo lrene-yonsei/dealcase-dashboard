@@ -277,8 +277,8 @@ function dealInSector(d, tabKey) {
 }
 
 function statusGroup(s) {
-    if (['클로징', 'SPA체결'].includes(s)) return '완료';
-    if (s === '인수예정') return '인수예정';
+    if (s === '클로징') return '완료';                       // 완료 = 실제 종결만
+    if (['인수예정', 'SPA체결'].includes(s)) return '인수예정';  // SPA체결 = 계약만, 미종결 → 인수예정
     if (s === '매각거론') return '매각거론';
     if (s === '무산') return '무산';
     return s;
