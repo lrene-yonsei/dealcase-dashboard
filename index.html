@@ -36,7 +36,7 @@
         .logo-m { font-size: 1rem; font-weight: 800; letter-spacing: 2px; color: var(--text); font-family: Georgia, 'Times New Roman', serif; }
         .logo-t { font-size: 0.57rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.4px; line-height: 1.5; }
 
-        .sector-tabs { display: flex; gap: 6px; }
+        .sector-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
         .sector-tab { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; cursor: pointer; border: 1px solid var(--border); background: transparent; color: var(--muted); transition: all .15s; white-space: nowrap; }
         .sector-tab:hover { border-color: var(--blue); color: var(--blue); }
         .sector-tab.active { background: var(--blue); border-color: var(--blue); color: #fff; }
@@ -152,6 +152,7 @@
     <div class="sector-tabs">
         <button class="sector-tab active" data-sector="cosmetics">화장품 <span class="tab-count" id="catTotal">0</span></button>
         <button class="sector-tab" data-sector="fnb">F&amp;B <span class="tab-count" id="fnbTotal">0</span></button>
+        <button class="sector-tab" data-sector="fashion">패션 <span class="tab-count" id="fashionTotal">0</span></button>
     </div>
 
     <div class="f-sec">
@@ -270,7 +271,7 @@ const charts = {};
 // 섹터 탭 dataset.sector → deal.sector 값 매핑.
 // 새 섹터 추가 시 여기에 한 줄(탭키: 'deal의 sector값')만 더하면
 // 키워드 pill이 자동으로 해당 섹터 키워드만 표시한다.
-const SECTOR_TAB_TO_VALUE = { cosmetics: '화장품', fnb: 'F&B' };
+const SECTOR_TAB_TO_VALUE = { cosmetics: '화장품', fnb: 'F&B', fashion: '패션' };
 function dealInSector(d, tabKey) {
     const val = SECTOR_TAB_TO_VALUE[tabKey] || tabKey;
     return (d.sector || '') === val;
@@ -298,6 +299,10 @@ const CAT_ORDER  = ['브랜드','OEM·ODM','의료기기','용기','유통','헤
 const CAT_COLORS_FNB = { '식료품 제조':'#f0883e', '음료 제조':'#58a6ff', '식자재 유통':'#8957e5', '단체급식':'#db61a2', '외식':'#3fb950', '기타':'#8b949e' };
 const CAT_ORDER_FNB  = ['식료품 제조','음료 제조','식자재 유통','단체급식','외식','기타'];
 
+// 패션 카테고리 = 가치사슬 4분류 (브랜드 / OEM·ODM 수출제조 / 잡화 / 유통·플랫폼[버티컬])
+const CAT_COLORS_FASHION = { '브랜드':'#58a6ff', 'OEM·ODM':'#3fb950', '잡화':'#e3b341', '플랫폼':'#bc8cff', '기타':'#8b949e' };
+const CAT_ORDER_FASHION  = ['브랜드','OEM·ODM','잡화','플랫폼','기타'];
+
 function catOf(kw) {
     if (!kw) return '기타';
     if (/OEM|ODM/i.test(kw)) return 'OEM·ODM';
@@ -314,13 +319,15 @@ function categoryOf(d) {
     if (d.sector === 'F&B') {
         return CAT_ORDER_FNB.includes(d.target_keyword) ? d.target_keyword : '기타';
     }
+    if (d.sector === '패션') {
+        return CAT_ORDER_FASHION.includes(d.target_keyword) ? d.target_keyword : '기타';
+    }
     return catOf(d.target_keyword);   // cosmetics
 }
 
 function applyFilters() {
-    const wantFnb = state.sector === 'fnb';
     return allDeals.filter(d => {
-        if ((d.sector === 'F&B') !== wantFnb) return false;
+        if (!dealInSector(d, state.sector)) return false;
         if (d.is_intragroup) return false;   // 계열 내부거래(#10)·스코프밖: 표·엑셀·집계 모두 제외
         const pool = `${d.target_name} ${d.acquirer_name} ${d.target_keyword || ''}`.toLowerCase();
         if (state.search && !pool.includes(state.search.toLowerCase())) return false;
@@ -379,9 +386,9 @@ function updateCharts(deals, dealsAllYears) {
     }
 
     // Donut: category
-    const isFnb = state.sector === 'fnb';
-    const ORDER  = isFnb ? CAT_ORDER_FNB  : CAT_ORDER;
-    const COLORS = isFnb ? CAT_COLORS_FNB : CAT_COLORS;
+    const _sv = SECTOR_TAB_TO_VALUE[state.sector];
+    const ORDER  = _sv==='F&B' ? CAT_ORDER_FNB  : _sv==='패션' ? CAT_ORDER_FASHION  : CAT_ORDER;
+    const COLORS = _sv==='F&B' ? CAT_COLORS_FNB : _sv==='패션' ? CAT_COLORS_FASHION : CAT_COLORS;
     const catCnt = {}, catAmt = {};
     deals.forEach(d => {
         const c = categoryOf(d);
@@ -584,9 +591,8 @@ function initGroup(id, key) {
 }
 
 function applyFiltersNoYear() {
-    const wantFnb = state.sector === 'fnb';
     return allDeals.filter(d => {
-        if ((d.sector === 'F&B') !== wantFnb) return false;
+        if (!dealInSector(d, state.sector)) return false;
         if (d.is_intragroup) return false;   // 계열 내부거래(#10)·스코프밖: 표·엑셀·집계 모두 제외
         const pool = `${d.target_name} ${d.acquirer_name} ${d.target_keyword || ''}`.toLowerCase();
         if (state.search && !pool.includes(state.search.toLowerCase())) return false;
@@ -686,9 +692,11 @@ async function loadData() {
 
     // 섹터별 탭 카운트 (전체 기준)
     // 탭 배지 = 집계 대상(실제 딜) 건수 — 후속인수(#8)·계열내부(#10) 제외
-    document.getElementById('catTotal').textContent = allDeals.filter(d => d.sector !== 'F&B' && !d.is_intragroup && !d.is_followon).length;
+    document.getElementById('catTotal').textContent = allDeals.filter(d => d.sector === '화장품' && !d.is_intragroup && !d.is_followon).length;
     const _ft = document.getElementById('fnbTotal');
     if (_ft) _ft.textContent = allDeals.filter(d => d.sector === 'F&B' && !d.is_intragroup && !d.is_followon).length;
+    const _fa = document.getElementById('fashionTotal');
+    if (_fa) _fa.textContent = allDeals.filter(d => d.sector === '패션' && !d.is_intragroup && !d.is_followon).length;
 
     // Updated badge — 데이터 갱신일(stats.updated_at) 우선, 없으면 최신 closing_date(월)
     const _upd = data.stats && data.stats.updated_at;
