@@ -30,7 +30,7 @@
       "2012": 1,
       "2010": 1
     },
-    "updated_at": "2026-07-15"
+    "updated_at": "2026-07-16"
   },
   "deals": [
     {
@@ -57,7 +57,15 @@
       "extraction_clue": "신주 발행가액: 169,560원, 신주 수: 802,100주",
       "target_keyword": "화장품",
       "acquirer_biz_no": "809-81-01574",
-      "target_biz_no": "130-86-66821"
+      "target_biz_no": "130-86-66821",
+      "news_sources": [
+        {
+          "url": "https://biz.chosun.com/distribution/fashion-beauty/2025/01/03/GGOVTD353VGGLMQ6R3HG7ZAXFU/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-11-25",
@@ -85,7 +93,15 @@
       "sector": "화장품",
       "extraction_clue": "3,999,999,850",
       "target_keyword": "화장품",
-      "target_biz_no": "206-81-47219"
+      "target_biz_no": "206-81-47219",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202510231515295880105437",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-02-01",
@@ -111,7 +127,15 @@
       "extraction_clue": "570억원",
       "target_keyword": "피부미용 의료기기 (히알루론산 필러)",
       "acquirer_biz_no": "010-08-88833",
-      "target_biz_no": "451-86-01856"
+      "target_biz_no": "451-86-01856",
+      "news_sources": [
+        {
+          "url": "https://m.thebell.co.kr/m/newsview.asp?svccode=00&newskey=202601191753407760101274",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "인수 예정",
@@ -137,7 +161,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품 OEM·ODM",
       "acquirer_biz_no": "124-81-22463",
-      "purpose": "유럽 진출"
+      "purpose": "유럽 진출",
+      "news_sources": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2558333",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "인수 예정",
@@ -164,7 +196,15 @@
       "sector": "화장품",
       "extraction_clue": "약 300억원",
       "target_keyword": "피부미용 의료기기 (보톡스)",
-      "acquirer_biz_no": "892-81-00368"
+      "acquirer_biz_no": "892-81-00368",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202511111110411240106035",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -192,7 +232,15 @@
       "extraction_clue": "",
       "target_keyword": "피부미용 의료기기",
       "acquirer_biz_no": "524-86-01789",
-      "target_biz_no": "107-88-39288"
+      "target_biz_no": "107-88-39288",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202502121004032760109186",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -216,7 +264,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "news_sources": [
+        {
+          "url": "https://www.bizhankook.com/bk/article/29786",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -243,7 +299,15 @@
       "sector": "화장품",
       "extraction_clue": "신주 발행가액: 66,300원, 신주 수: 604,000주",
       "target_keyword": "화장품",
-      "target_biz_no": "840-88-00333"
+      "target_biz_no": "840-88-00333",
+      "news_sources": [
+        {
+          "url": "https://www.newstopkorea.com/news/articleView.html?idxno=40288",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -268,7 +332,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "화장품",
-      "target_biz_no": "214-86-75782"
+      "target_biz_no": "214-86-75782",
+      "news_sources": [
+        {
+          "url": "https://www.mk.co.kr/news/business/10784247",
+          "outlet": "매일경제",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -293,7 +365,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "화장품, OEM·ODM",
-      "target_biz_no": "130-81-43987"
+      "target_biz_no": "130-81-43987",
+      "news_sources": [
+        {
+          "url": "https://biz.chosun.com/stock/market_trend/2025/05/08/EYIIDFYXMND6ZNEK3SXW3VPBCI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -317,7 +397,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "원금인 1500억원 이상을 보장받고자",
-      "target_keyword": "화장품 직접판매 회사"
+      "target_keyword": "화장품 직접판매 회사",
+      "news_sources": [
+        {
+          "url": "https://biz.chosun.com/stock/market_trend/2025/03/27/IROBYTRXQVB43FK5ZKTD6DG6YY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -341,7 +429,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "예상 매각가는 1000억원 초반대로 거론",
-      "target_keyword": "화장품 원재료 (마스크팩, 패드)"
+      "target_keyword": "화장품 원재료 (마스크팩, 패드)",
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/202503285807r",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -367,7 +463,15 @@
       ],
       "sector": "화장품",
       "extraction_clue": "거론되는 매각가는 300억~350억원",
-      "target_keyword": "화장품 제조사"
+      "target_keyword": "화장품 제조사",
+      "news_sources": [
+        {
+          "url": "https://www.newstopkorea.com/news/articleView.html?idxno=28334",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -391,7 +495,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/2GV9PKVT3M",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -415,7 +527,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202507141424549360103946",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -439,7 +559,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 (색조)"
+      "target_keyword": "화장품 (색조)",
+      "news_sources": [
+        {
+          "url": "https://view.asiae.co.kr/article/2025093017045042998",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -463,7 +591,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "시가총액이 1조원을 상회하거나 안팎의 미용 의료기기 코스닥 상장사 가운데 PEF의 손을 거치지 않은 기업은 손에 꼽을 정도다",
-      "target_keyword": "미용의료기기"
+      "target_keyword": "미용의료기기",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202509150741347560106335",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -488,7 +624,15 @@
       "sector": "화장품",
       "extraction_clue": "이를 반영한 회사의 기업가치는 1000억 원 수준이 거론된다",
       "target_keyword": "화장용 퍼프",
-      "target_biz_no": "109-81-59151"
+      "target_biz_no": "109-81-59151",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/article/14020656",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -513,7 +657,15 @@
       "sector": "화장품",
       "extraction_clue": "(이미지=에스티로더그룹 제공)\n미국 화장품 그룹 에스티로더컴퍼니즈(이하 에스티로더)가 2019년 1조원대에 인수한 K-뷰티 브랜드 '닥터자르트(Dr",
       "target_keyword": "화장품",
-      "target_biz_no": "214-87-63681"
+      "target_biz_no": "214-87-63681",
+      "news_sources": [
+        {
+          "url": "https://www.newstopkorea.com/news/articleView.html?idxno=41576",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -538,7 +690,15 @@
       "sector": "화장품",
       "extraction_clue": "이후 실적이 급성장하며 시장에서 거론되는 현재 바임의 기업가치는 2조원 안팎까지 치솟았다",
       "target_keyword": "피부미용 의료기기 (스킨부스터)",
-      "target_biz_no": "757-87-01595"
+      "target_biz_no": "757-87-01595",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202602091105320240103372",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -563,7 +723,15 @@
       "sector": "화장품",
       "extraction_clue": "매각 희망가는 약 500억 원 수준으로 알려졌다",
       "target_keyword": "헤어·바디케어",
-      "target_biz_no": "869-87-00472"
+      "target_biz_no": "869-87-00472",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/article/14149011",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "인수 검토",
@@ -589,7 +757,15 @@
       "extraction_clue": "시장에서는 이를 감안한 토리든의 기업가치를 5000억 원 이상으로 추정했다",
       "target_keyword": "화장품",
       "acquirer_biz_no": "107-81-98143",
-      "target_biz_no": "760-86-00222"
+      "target_biz_no": "760-86-00222",
+      "news_sources": [
+        {
+          "url": "https://m.sedaily.com/amparticle/20000707",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "매각 거론",
@@ -613,7 +789,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "이스라엘에 본사를 둔 인모드는 나스닥 상장사로 현재 시가총액은 9억 2400만 달러(약 1조 3000억 원) 규모다",
-      "target_keyword": "미용의료기기 RF"
+      "target_keyword": "미용의료기기 RF",
+      "news_sources": [
+        {
+          "url": "https://m.sedaily.com/amparticle/20008025",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-03-27",
@@ -640,7 +824,15 @@
       "sector": "화장품",
       "extraction_clue": "최근 누적 운용자산(AUM)은 3조 원에 달한다",
       "target_keyword": "화장품",
-      "target_biz_no": "730-81-02087"
+      "target_biz_no": "730-81-02087",
+      "news_sources": [
+        {
+          "url": "https://signal.sedaily.com/article/20031379?ref=nate",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-03-26",
@@ -670,7 +862,15 @@
       "target_keyword": "화장품, 생활용품",
       "acquirer_biz_no": "610-81-02593",
       "target_biz_no": "113-81-11573",
-      "purpose": "성장동력 돌파구"
+      "purpose": "성장동력 돌파구",
+      "news_sources": [
+        {
+          "url": "https://www.yna.co.kr/view/AKR20260326092100030",
+          "outlet": "연합뉴스",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-03-04",
@@ -696,7 +896,15 @@
       "extraction_clue": "취득금액(원) | 16,661,117,979 |",
       "target_keyword": "미용의료기기 유통사",
       "acquirer_biz_no": "107-88-39288",
-      "purpose": "남미 진출"
+      "purpose": "남미 진출",
+      "news_sources": [
+        {
+          "url": "https://www.hitnews.co.kr/news/articleView.html?idxno=74335",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-03-03",
@@ -722,7 +930,15 @@
       "extraction_clue": "취득가액 (원) | 2,380,197,933 |",
       "target_keyword": "화장품",
       "acquirer_biz_no": "392-87-00797",
-      "target_biz_no": "505-87-01198"
+      "target_biz_no": "505-87-01198",
+      "news_sources": [
+        {
+          "url": "https://www.topdaily.kr/articles/109175",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-02-10",
@@ -747,7 +963,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "화장품 유통사",
-      "acquirer_biz_no": "151-87-00589"
+      "acquirer_biz_no": "151-87-00589",
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2026020288511",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-12-30",
@@ -773,7 +997,15 @@
       "extraction_clue": "90억원",
       "target_keyword": "화장품",
       "acquirer_biz_no": "232-88-00610",
-      "target_biz_no": "819-88-01925"
+      "target_biz_no": "819-88-01925",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202602051448362360104540",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-12-29",
@@ -797,7 +1029,15 @@
       "discrepancy_fields": [],
       "sector": "화장품",
       "extraction_clue": "",
-      "target_keyword": "화장품 용기업체"
+      "target_keyword": "화장품 용기업체",
+      "news_sources": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2540610",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-12-26",
@@ -823,7 +1063,15 @@
       "extraction_clue": "취득금액(원) | 81,243,720,000 |",
       "target_keyword": "화장품",
       "acquirer_biz_no": "139-81-12555",
-      "target_biz_no": "842-86-01047"
+      "target_biz_no": "842-86-01047",
+      "news_sources": [
+        {
+          "url": "https://news.bizwatch.co.kr/article/market/2025/12/26/0031",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-12-05",
@@ -852,7 +1100,15 @@
       "target_keyword": "미용의료기기",
       "acquirer_biz_no": "892-81-00368",
       "target_biz_no": "211-88-73299",
-      "purpose": "미용의료 볼트온"
+      "purpose": "미용의료 볼트온",
+      "news_sources": [
+        {
+          "url": "https://signalm.sedaily.com/article/14156816",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-11-28",
@@ -879,7 +1135,15 @@
       "sector": "화장품",
       "extraction_clue": "400억원",
       "target_keyword": "화장품 OEM·ODM",
-      "target_biz_no": "140-81-14325"
+      "target_biz_no": "140-81-14325",
+      "news_sources": [
+        {
+          "url": "https://m.thebell.co.kr/m/newsview.asp?svccode=&newskey=202511281153267400103989",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-11-20",
@@ -906,7 +1170,15 @@
       "sector": "화장품",
       "extraction_clue": "520억원",
       "target_keyword": "화장품",
-      "target_biz_no": "196-81-02410"
+      "target_biz_no": "196-81-02410",
+      "news_sources": [
+        {
+          "url": "https://biz.chosun.com/stock/market_trend/2025/10/20/SO67GSRFLZFR3NWUEDALKFJ3HM/",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-10-22",
@@ -932,7 +1204,15 @@
       "extraction_clue": "6000억원",
       "target_keyword": "화장품",
       "acquirer_biz_no": "151-87-00589",
-      "target_biz_no": "843-88-00934"
+      "target_biz_no": "843-88-00934",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202510221500293280107579",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-10-20",
@@ -957,7 +1237,8 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "화장품 (색조)",
-      "target_biz_no": "752-81-01851"
+      "target_biz_no": "752-81-01851",
+      "news_sources": []
     },
     {
       "closing_date": "2025-10-31",
@@ -983,7 +1264,15 @@
       "extraction_clue": "2850억원",
       "target_keyword": "화장품 (색조) ODM",
       "target_biz_no": "135-86-38179",
-      "purpose": "유통망 결합 및 시너지"
+      "purpose": "유통망 결합 및 시너지",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202505221637184040105979",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-10-01",
@@ -1012,7 +1301,15 @@
       "target_keyword": "화장품",
       "is_followon": true,
       "target_biz_no": "138-81-03204",
-      "purpose": "토털 라이프케어 플랫폼 기업으로의 진화"
+      "purpose": "토털 라이프케어 플랫폼 기업으로의 진화",
+      "news_sources": [
+        {
+          "url": "https://www.etnews.com/20251001000246",
+          "outlet": "전자신문",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-09-30",
@@ -1038,7 +1335,15 @@
       "extraction_clue": "190억원",
       "target_keyword": "화장품",
       "acquirer_biz_no": "424-81-03196",
-      "target_biz_no": "225-88-01659"
+      "target_biz_no": "225-88-01659",
+      "news_sources": [
+        {
+          "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=580979",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-07-09",
@@ -1068,7 +1373,15 @@
       "target_keyword": "미용의료기기 RF",
       "acquirer_biz_no": "892-81-00368",
       "target_biz_no": "114-86-53880",
-      "purpose": "공개매수 진행 후 상장폐지 예정"
+      "purpose": "공개매수 진행 후 상장폐지 예정",
+      "news_sources": [
+        {
+          "url": "https://heraldk.com/2025/07/15/vig%ed%8c%8c%ed%8a%b8%eb%84%88%ec%8a%a4-%eb%b9%84%ec%98%ac-%ec%a7%80%eb%b6%84-89-%ed%99%95%eb%b3%b4-%e2%80%9c%ea%b3%b5%ea%b0%9c%eb%a7%a4%ec%88%98-%eb%8c%80%ec%a3%bc%ec%a3%bc-%ea%b6%8c%eb%a6%ac/",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-09-19",
@@ -1095,7 +1408,15 @@
       "sector": "화장품",
       "extraction_clue": "약 170억원",
       "target_keyword": "헤어·바디케어",
-      "target_biz_no": "276-88-01851"
+      "target_biz_no": "276-88-01851",
+      "news_sources": [
+        {
+          "url": "https://m.thebell.co.kr/m/newsview.asp?svccode=&newskey=202510271640257320105751",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-09-15",
@@ -1121,7 +1442,15 @@
       "extraction_clue": "65억원",
       "target_keyword": "헤어케어",
       "acquirer_biz_no": "121-86-34816",
-      "target_biz_no": "121-86-34816"
+      "target_biz_no": "121-86-34816",
+      "news_sources": [
+        {
+          "url": "https://www.press9.kr/news/articleView.html?idxno=66800",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-09-04",
@@ -1146,7 +1475,15 @@
       "sector": "화장품",
       "extraction_clue": "7330억원",
       "target_keyword": "화장품 용기업체",
-      "target_biz_no": "119-81-87974"
+      "target_biz_no": "119-81-87974",
+      "news_sources": [
+        {
+          "url": "https://www.mk.co.kr/news/stock/11411142?utm",
+          "outlet": "매일경제",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-09-01",
@@ -1171,7 +1508,15 @@
       "sector": "화장품",
       "extraction_clue": "약 1500억원",
       "target_keyword": "화장품",
-      "target_biz_no": "125-81-54503"
+      "target_biz_no": "125-81-54503",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202507290744418020105746",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-25",
@@ -1198,7 +1543,15 @@
       "target_keyword": "피부 진단",
       "acquirer_biz_no": "105-87-70267",
       "acquirer_brand": "덴프스 (건기식)",
-      "purpose": "뷰티·헬스케어 영역으로 사업 포트폴리오 확장"
+      "purpose": "뷰티·헬스케어 영역으로 사업 포트폴리오 확장",
+      "news_sources": [
+        {
+          "url": "https://news.mt.co.kr/mtview.php?no=2025082511021519983",
+          "outlet": "머니투데이",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-21",
@@ -1226,7 +1579,15 @@
       "sector": "화장품",
       "extraction_clue": "530억원",
       "target_keyword": "화장품",
-      "target_biz_no": "763-87-00999"
+      "target_biz_no": "763-87-00999",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202508211253381360104113",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-07",
@@ -1252,7 +1613,15 @@
       "extraction_clue": "2000억원",
       "target_keyword": "화장품",
       "acquirer_biz_no": "892-81-00368",
-      "purpose": "볼트온"
+      "purpose": "볼트온",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/146300",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-07-23",
@@ -1280,7 +1649,15 @@
       "extraction_clue": "1365억원",
       "target_keyword": "화장품 ODM, OEM",
       "acquirer_biz_no": "107-88-28821",
-      "target_biz_no": "125-81-84521"
+      "target_biz_no": "125-81-84521",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202507231025466080107044",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-06-25",
@@ -1305,7 +1682,15 @@
       "sector": "화장품",
       "extraction_clue": "거래 규모는 해당 금액의 절반 수준으로 추산된다",
       "target_keyword": "화장품, OEM·ODM",
-      "target_biz_no": "131-86-30461"
+      "target_biz_no": "131-86-30461",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202506171002074920103326",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-06-30",
@@ -1334,7 +1719,15 @@
       "target_keyword": "화장품, OEM·ODM",
       "is_followon": true,
       "acquirer_biz_no": "863-86-03455",
-      "target_biz_no": "130-86-60341"
+      "target_biz_no": "130-86-60341",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/2DEFGEY8FV",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-06-11",
@@ -1359,7 +1752,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "화장품",
-      "target_biz_no": "138-81-03204"
+      "target_biz_no": "138-81-03204",
+      "news_sources": [
+        {
+          "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=570645",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-04-30",
@@ -1385,7 +1786,15 @@
       "extraction_clue": "| 자기자금(원) | 190,000,000,000 |",
       "target_keyword": "화장품",
       "acquirer_biz_no": "338-87-03446",
-      "target_biz_no": "108-86-00365"
+      "target_biz_no": "108-86-00365",
+      "news_sources": [
+        {
+          "url": "https://www.bloter.net/news/articleView.html?idxno=633587",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-04-18",
@@ -1412,7 +1821,15 @@
       "target_keyword": "화장품 용기",
       "acquirer_biz_no": "113-81-11573",
       "target_biz_no": "403-81-84950",
-      "purpose": "수직계열화"
+      "purpose": "수직계열화",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/141098",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-03-31",
@@ -1439,7 +1856,15 @@
       "target_keyword": "피부미용 (필러)",
       "acquirer_biz_no": "113-81-03336",
       "target_biz_no": "395-88-03067",
-      "purpose": "미용·성형 시장 본격 진출, 필러 기술 활용을 통한 사업 확대 및 글로벌 시너지 창출"
+      "purpose": "미용·성형 시장 본격 진출, 필러 기술 활용을 통한 사업 확대 및 글로벌 시너지 창출",
+      "news_sources": [
+        {
+          "url": "https://www.dailypharm.com/Users/News/NewsView.html?ID=323243&utm_",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-03-01",
@@ -1466,7 +1891,15 @@
       "target_keyword": "화장품 유리 용기 (B2B)",
       "acquirer_biz_no": "848-88-02941",
       "target_biz_no": "124-81-37059",
-      "purpose": "글로벌 경쟁력을 갖춘 화장품 패키징 전문 회사로 키우겠다는 구상"
+      "purpose": "글로벌 경쟁력을 갖춘 화장품 패키징 전문 회사로 키우겠다는 구상",
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/202503193078r",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-02-06",
@@ -1493,7 +1926,15 @@
       "target_keyword": "화장품 ODM, OEM",
       "is_followon": true,
       "acquirer_biz_no": "303-81-24119",
-      "purpose": "현지 고객사 확보로 미국 시장 진출"
+      "purpose": "현지 고객사 확보로 미국 시장 진출",
+      "news_sources": [
+        {
+          "url": "https://www.mk.co.kr/news/stock/11233944",
+          "outlet": "매일경제",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-01-20",
@@ -1519,7 +1960,15 @@
       "extraction_clue": "인수가격은 1000억원대 초중반이다",
       "target_keyword": "뷰티 디바이스(마사지기)",
       "acquirer_biz_no": "120-86-00439",
-      "target_biz_no": "548-87-02137"
+      "target_biz_no": "548-87-02137",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202501200654032720102882",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-01-08",
@@ -1546,7 +1995,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "874-88-01655",
       "target_biz_no": "119-86-51286",
-      "purpose": "바이오 헬스케어 신사업 본격 추진"
+      "purpose": "바이오 헬스케어 신사업 본격 추진",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/135080",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024년 말",
@@ -1574,7 +2031,15 @@
       "sector": "화장품",
       "extraction_clue": "같은 기간 12억원 수준이었던 영업이익도 530억원으로 4316% 폭등했다",
       "target_keyword": "피부미용 의료기기 (스킨부스터)",
-      "is_followon": true
+      "is_followon": true,
+      "news_sources": [
+        {
+          "url": "https://www.newstopkorea.com/news/articleView.html?idxno=40868",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-12-23",
@@ -1602,7 +2067,15 @@
       "extraction_clue": "로레알, 닥터지 2550억원에 인수 등",
       "target_keyword": "화장품",
       "target_biz_no": "209-81-23948",
-      "purpose": "스킨케어 포트폴리오 보완"
+      "purpose": "스킨케어 포트폴리오 보완",
+      "news_sources": [
+        {
+          "url": "https://www.donga.com/news/Economy/article/all/20250212/131019699/2",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-12-11",
@@ -1631,7 +2104,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "218-81-01953",
       "target_biz_no": "792-86-00267",
-      "purpose": "사업다각화를 통한 새로운 성장동력 확보"
+      "purpose": "사업다각화를 통한 새로운 성장동력 확보",
+      "news_sources": [
+        {
+          "url": "https://www.bloter.net/news/articleView.html?idxno=629801",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-12-01",
@@ -1658,7 +2139,15 @@
       "sector": "화장품",
       "extraction_clue": "KB증권 PE본부와 나우IB캐피탈이 인가전 인수합병(M＆A) 매물로 나왔던 화장품 제조사 이시스코스메틱을 900억 원에 인수한다",
       "target_keyword": "화장품, OEM·ODM",
-      "target_biz_no": "423-86-00298"
+      "target_biz_no": "423-86-00298",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/2DI5MM85WN",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-09-01",
@@ -1686,7 +2175,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품, OEM·ODM",
       "acquirer_biz_no": "863-86-03455",
-      "target_biz_no": "130-86-60341"
+      "target_biz_no": "130-86-60341",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/2DEFGEY8FV",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-10-01",
@@ -1712,7 +2209,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품 개발, 수출",
       "acquirer_biz_no": "120-81-22608",
-      "target_biz_no": "307-81-32061"
+      "target_biz_no": "307-81-32061",
+      "news_sources": [
+        {
+          "url": "https://zdnet.co.kr/view/?no=20241016133342",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-09-01",
@@ -1738,7 +2243,15 @@
       "extraction_clue": "| 양수도 대금(원) | 120,719,188,800",
       "target_keyword": "피부미용 의료기기",
       "acquirer_biz_no": "110-81-00102",
-      "target_biz_no": "206-86-21359"
+      "target_biz_no": "206-86-21359",
+      "news_sources": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01079126639019792&mediaCodeNo=257&OutLnkChk=Y",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-09-01",
@@ -1766,7 +2279,15 @@
       "extraction_clue": "100억원",
       "target_keyword": "화장품 유통",
       "acquirer_biz_no": "424-81-03196",
-      "target_biz_no": "761-88-01117"
+      "target_biz_no": "761-88-01117",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202501061509028960106648",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-08-20",
@@ -1794,7 +2315,15 @@
       "extraction_clue": "",
       "target_keyword": "피부미용 의료기기",
       "is_followon": true,
-      "target_biz_no": "424-87-00852"
+      "target_biz_no": "424-87-00852",
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2024/06/10/2024061080032.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-08-02",
@@ -1821,7 +2350,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "151-87-00589",
       "acquirer_brand": "조선미녀",
-      "target_biz_no": "261-81-14845"
+      "target_biz_no": "261-81-14845",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/132518",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-08-02",
@@ -1848,7 +2385,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "201-81-53657",
       "target_biz_no": "392-87-00797",
-      "purpose": "포트폴리오 확대를 통한 국내/외 코스메틱 사업 확장"
+      "purpose": "포트폴리오 확대를 통한 국내/외 코스메틱 사업 확장",
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2024080285511",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-06-17",
@@ -1875,7 +2420,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "151-87-00589",
       "acquirer_brand": "조선미녀",
-      "target_biz_no": "763-87-00999"
+      "target_biz_no": "763-87-00999",
+      "news_sources": [
+        {
+          "url": "https://news.mt.co.kr/mtview.php?no=2024061713365194030",
+          "outlet": "머니투데이",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-07-24",
@@ -1900,7 +2453,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "피부미용 의료기기",
-      "target_biz_no": "424-87-00852"
+      "target_biz_no": "424-87-00852",
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2024/06/10/2024061080032.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-05-22",
@@ -1925,7 +2486,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "특수 화장품 원료",
-      "target_biz_no": "575-86-03048"
+      "target_biz_no": "575-86-03048",
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/202404294873i",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-04-22",
@@ -1954,7 +2523,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "151-87-00589",
       "acquirer_brand": "조선미녀",
-      "target_biz_no": "845-86-01347"
+      "target_biz_no": "845-86-01347",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202404190755572140107055",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-04-01",
@@ -1981,7 +2558,15 @@
       "target_keyword": "화장품 유통",
       "acquirer_biz_no": "211-86-22189",
       "acquirer_brand": "클리오",
-      "purpose": "일본 뷰티 시장 유통 및 마케팅 경쟁력 강화를 통한 글로벌 매출 확대"
+      "purpose": "일본 뷰티 시장 유통 및 마케팅 경쟁력 강화를 통한 글로벌 매출 확대",
+      "news_sources": [
+        {
+          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=349684",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-04-01",
@@ -2008,7 +2593,15 @@
       "target_keyword": "화장품 유통",
       "acquirer_biz_no": "211-86-22189",
       "acquirer_brand": "클리오",
-      "purpose": "일본 화장품 제조판매업허가 보유 기업 인수를 통해 일본 현지 안정적 판매 구조 확보"
+      "purpose": "일본 화장품 제조판매업허가 보유 기업 인수를 통해 일본 현지 안정적 판매 구조 확보",
+      "news_sources": [
+        {
+          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=349684",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-04-01",
@@ -2034,7 +2627,15 @@
       "extraction_clue": "총 인수대금은 167억원이며, 티앤알바이오팹은 60억원을 투입하고, 나머지는 SPC를 통한 펀딩으로 충당한다",
       "target_keyword": "화장품, OEM, 패키징",
       "acquirer_biz_no": "140-81-73187",
-      "target_biz_no": "109-81-80936"
+      "target_biz_no": "109-81-80936",
+      "news_sources": [
+        {
+          "url": "https://www.pharmnews.com/news/articleView.html?idxno=243117",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-02-01",
@@ -2063,7 +2664,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "101-86-15872",
       "target_biz_no": "132-86-30770",
-      "purpose": "높은 실적 성장세, 글로벌 시장에서 높은 인기"
+      "purpose": "높은 실적 성장세, 글로벌 시장에서 높은 인기",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202402011529584960107812&lcode=00&page=14&svccode=01",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-01-01",
@@ -2090,7 +2699,15 @@
       "target_keyword": "화장품, OEM·ODM",
       "acquirer_biz_no": "206-81-84567",
       "acquirer_brand": "JM솔루션",
-      "target_biz_no": "124-81-60808"
+      "target_biz_no": "124-81-60808",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/116187",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-01-01",
@@ -2117,7 +2734,15 @@
       "sector": "화장품",
       "extraction_clue": "구체적인 계약 내용은 공개되지 않았으나, 거래 규모는 약 3천500억원 수준으로 알려졌다",
       "target_keyword": "피부미용 의료기기",
-      "acquirer_biz_no": "229-81-28272"
+      "acquirer_biz_no": "229-81-28272",
+      "news_sources": [
+        {
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4295546",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-11-12",
@@ -2142,7 +2767,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "화장품",
-      "target_biz_no": "769-86-01723"
+      "target_biz_no": "769-86-01723",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/29X7H9CC5Z",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-10-31",
@@ -2172,7 +2805,15 @@
       "acquirer_biz_no": "106-86-43373",
       "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
       "target_biz_no": "144-81-20381",
-      "purpose": "글로벌 뷰티 시장 공략의 노하우를 상호 교환하며 높은 시너지를 창출할 계획, 연구기술 및 생산 인프라 공유, 상품 개발 등의 협업 체제를 만들어갈 예정"
+      "purpose": "글로벌 뷰티 시장 공략의 노하우를 상호 교환하며 높은 시너지를 창출할 계획, 연구기술 및 생산 인프라 공유, 상품 개발 등의 협업 체제를 만들어갈 예정",
+      "news_sources": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01561286635778496&mediaCodeNo=257&OutLnkChk=Y",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-10-01",
@@ -2199,7 +2840,8 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "220-86-60192",
       "target_biz_no": "260-87-00321",
-      "purpose": "사업시너지 확보를 통한 경쟁력 강화"
+      "purpose": "사업시너지 확보를 통한 경쟁력 강화",
+      "news_sources": []
     },
     {
       "closing_date": "2023-09-26",
@@ -2224,7 +2866,15 @@
       "sector": "화장품",
       "extraction_clue": "당시 890억원을 투입해 티르티르 주식 50%를 인수했다",
       "target_keyword": "화장품",
-      "target_biz_no": "845-86-01347"
+      "target_biz_no": "845-86-01347",
+      "news_sources": [
+        {
+          "url": "https://marketinsight.hankyung.com/article/202309260056r",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-09-26",
@@ -2252,7 +2902,15 @@
       "acquirer_biz_no": "107-81-98143",
       "acquirer_brand": "더페이스샵",
       "target_biz_no": "632-88-00936",
-      "purpose": "색조 화장품 경쟁 역량 확보"
+      "purpose": "색조 화장품 경쟁 역량 확보",
+      "news_sources": [
+        {
+          "url": "https://www.cosmorning.com/news/article.html?no=46505",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-09-01",
@@ -2279,7 +2937,15 @@
       "target_keyword": "피부미용 의료기기",
       "acquirer_biz_no": "107-88-39288",
       "target_biz_no": "123-86-07799",
-      "purpose": "전략적 파트너십 구축 및 기존 사업과의 시너지 창출"
+      "purpose": "전략적 파트너십 구축 및 기존 사업과의 시너지 창출",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/29UKC4PJ8A",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-07-14",
@@ -2306,7 +2972,15 @@
       "sector": "화장품",
       "extraction_clue": "약 3000억원",
       "target_keyword": "화장품 용기업체",
-      "target_biz_no": "113-81-44792"
+      "target_biz_no": "113-81-44792",
+      "news_sources": [
+        {
+          "url": "https://marketinsight.hankyung.com/article/202307105723r",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-07-11",
@@ -2333,7 +3007,15 @@
       ],
       "sector": "화장품",
       "extraction_clue": "프리미어는 지난 2014년 크래프톤에 100억원을 투자했다",
-      "target_keyword": "피부미용 의료기기 (스킨부스터)"
+      "target_keyword": "피부미용 의료기기 (스킨부스터)",
+      "news_sources": [
+        {
+          "url": "https://www.newstopkorea.com/news/articleView.html?idxno=40868",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-06-01",
@@ -2360,7 +3042,15 @@
       "sector": "화장품",
       "extraction_clue": "2353억원",
       "target_keyword": "화장품",
-      "target_biz_no": "843-88-00934"
+      "target_biz_no": "843-88-00934",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202307141155514800107031&lcode=00",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-06-01",
@@ -2387,7 +3077,15 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "피부미용 의료기기",
-      "target_biz_no": "229-81-28272"
+      "target_biz_no": "229-81-28272",
+      "news_sources": [
+        {
+          "url": "http://www.hitnews.co.kr/news/articleView.html?idxno=45932",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-04-01",
@@ -2414,7 +3112,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "120-86-46911",
       "target_biz_no": "211-87-15370",
-      "purpose": "중국 시장 공략"
+      "purpose": "중국 시장 공략",
+      "news_sources": [
+        {
+          "url": "https://news.mt.co.kr/mtview.php?no=2023041109183763017",
+          "outlet": "머니투데이",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-02-01",
@@ -2439,7 +3145,15 @@
       "sector": "화장품",
       "extraction_clue": "스카이레이크에쿼티파트너스는 이르면 3일 솔루스바이오텍 지분 100%를 크로다에 매각하는 주식매매계약(SPA)을 체결할 예정이다.",
       "target_keyword": "화장품",
-      "target_biz_no": "247-86-02649"
+      "target_biz_no": "247-86-02649",
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2023020214601",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-12-29",
@@ -2466,7 +3180,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "669-88-00530",
       "target_biz_no": "206-87-00220",
-      "purpose": "사업 포트폴리오 확장"
+      "purpose": "사업 포트폴리오 확장",
+      "news_sources": [
+        {
+          "url": "https://www.topdaily.kr/articles/92694",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-10-25",
@@ -2492,7 +3214,15 @@
       "extraction_clue": "코스톤아시아는 약 370억원을 투입해 하이네이처를 인수했다.",
       "target_keyword": "화장품",
       "acquirer_biz_no": "105-87-31094",
-      "target_biz_no": "507-88-00644"
+      "target_biz_no": "507-88-00644",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/97770",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-09-08",
@@ -2519,7 +3249,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "260-86-00101",
       "target_biz_no": "676-86-01187",
-      "purpose": "프랑스 컨템포러리 브랜드까지 상품 구성을 확장, 상품 구성의 다양화 및 기존 주요 고객층인 20-30대 유저 외에 구매력이 우수한 30-40대 여성 고객까지 확보하며 기존 서비스 성장세에 더욱 탄력, 유럽 현지 물류 창고 운영을 바탕으로 본격적인 상품 카테고리 확장 작업 및 물류 효율화를 통해 지속적인 성장세"
+      "purpose": "프랑스 컨템포러리 브랜드까지 상품 구성을 확장, 상품 구성의 다양화 및 기존 주요 고객층인 20-30대 유저 외에 구매력이 우수한 30-40대 여성 고객까지 확보하며 기존 서비스 성장세에 더욱 탄력, 유럽 현지 물류 창고 운영을 바탕으로 본격적인 상품 카테고리 확장 작업 및 물류 효율화를 통해 지속적인 성장세",
+      "news_sources": [
+        {
+          "url": "https://www.venturesquare.net/864610",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-09-01",
@@ -2546,7 +3284,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "106-86-43373",
       "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
-      "purpose": "글로벌 시장으로의 진출을 가속화"
+      "purpose": "글로벌 시장으로의 진출을 가속화",
+      "news_sources": [
+        {
+          "url": "https://www.meconomynews.com/news/articleView.html?idxno=70261",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-06-16",
@@ -2575,7 +3321,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "101-86-48596",
       "target_biz_no": "130-81-69444",
-      "purpose": "화성코스메틱 볼트온"
+      "purpose": "화성코스메틱 볼트온",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202207201825273200109678&lcode=00",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-04-28",
@@ -2601,7 +3355,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품",
       "acquirer_biz_no": "113-81-11573",
-      "target_biz_no": "298-88-02073"
+      "target_biz_no": "298-88-02073",
+      "news_sources": [
+        {
+          "url": "https://biz.chosun.com/distribution/fashion-beauty/2022/05/16/33XTICTIGBFUXJ3GL6RJMHLNFY/",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-04-13",
@@ -2628,7 +3390,15 @@
       "target_keyword": "화장품 용기",
       "acquirer_biz_no": "307-81-38444",
       "target_biz_no": "137-81-10376",
-      "purpose": "화장품 사업의 밸류체인 경쟁력을 강화하고, 글로벌 시장에서의 확실한 성장 모멘텀을 확보해 나간다는 계획"
+      "purpose": "화장품 사업의 밸류체인 경쟁력을 강화하고, 글로벌 시장에서의 확실한 성장 모멘텀을 확보해 나간다는 계획",
+      "news_sources": [
+        {
+          "url": "https://www.pharmnews.com/news/articleView.html?idxno=203114",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-04-01",
@@ -2654,7 +3424,15 @@
       "extraction_clue": "1485억원",
       "target_keyword": "화장품",
       "acquirer_biz_no": "107-81-98143",
-      "acquirer_brand": "더페이스샵"
+      "acquirer_brand": "더페이스샵",
+      "news_sources": [
+        {
+          "url": "https://www.ajunews.com/view/20220420163330387",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-04-01",
@@ -2680,7 +3458,15 @@
       "extraction_clue": "| 취득금액(원) | 3,095,087,500 |",
       "target_keyword": "피부미용 의료기기",
       "acquirer_biz_no": "425-86-01594",
-      "target_biz_no": "509-87-01716"
+      "target_biz_no": "509-87-01716",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202411211217501240109425",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-01-01",
@@ -2707,7 +3493,15 @@
       "sector": "화장품",
       "extraction_clue": "약 6700억원",
       "target_keyword": "피부미용 의료기기",
-      "target_biz_no": "107-88-39288"
+      "target_biz_no": "107-88-39288",
+      "news_sources": [
+        {
+          "url": "https://news.mt.co.kr/mtview.php?no=2022012714115046089",
+          "outlet": "머니투데이",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-11-17",
@@ -2734,7 +3528,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "617-86-16037",
       "target_biz_no": "126-81-26790",
-      "purpose": "독자적 신약개발 플랫폼기술인 약리물질 생체 내 전송기술(TSDT)의 범용성 확대 및 미래성장동력을 확보하기 위해"
+      "purpose": "독자적 신약개발 플랫폼기술인 약리물질 생체 내 전송기술(TSDT)의 범용성 확대 및 미래성장동력을 확보하기 위해",
+      "news_sources": [
+        {
+          "url": "https://www.asiae.co.kr/article/2021111709102024926",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-11-05",
@@ -2760,7 +3562,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품",
       "target_biz_no": "649-88-00410",
-      "purpose": "‘위드 코로나’(단계적 일상회복) 국면을 맞이해 수혜가 예상되는 업종을 선제적으로 투자/동남아 시장을 기반으로 중동아시아 등 주변 시장으로 확대해 지속적인 성장을 이끌어내겠다는 복안"
+      "purpose": "‘위드 코로나’(단계적 일상회복) 국면을 맞이해 수혜가 예상되는 업종을 선제적으로 투자/동남아 시장을 기반으로 중동아시아 등 주변 시장으로 확대해 지속적인 성장을 이끌어내겠다는 복안",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202112081003515240104761&lcode=00",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-11-05",
@@ -2786,7 +3596,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품 용기",
       "target_biz_no": "134-81-63156",
-      "purpose": "친환경 플라스틱 부문은 잠재력이 높은 데다 환경·책임·투명경영(ESG) 투자 트렌드와도 부합"
+      "purpose": "친환경 플라스틱 부문은 잠재력이 높은 데다 환경·책임·투명경영(ESG) 투자 트렌드와도 부합",
+      "news_sources": [
+        {
+          "url": "https://www.mk.co.kr/news/stock/10144359",
+          "outlet": "매일경제",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-09-17",
@@ -2815,7 +3633,15 @@
       "acquirer_biz_no": "106-86-43373",
       "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
       "target_biz_no": "144-81-20381",
-      "purpose": "글로벌 뷰티 시장 공략의 노하우를 상호 교환하며 높은 시너지를 창출할 계획, 연구기술 및 생산 인프라 공유, 상품 개발 등의 협업 체제를 만들어갈 예정"
+      "purpose": "글로벌 뷰티 시장 공략의 노하우를 상호 교환하며 높은 시너지를 창출할 계획, 연구기술 및 생산 인프라 공유, 상품 개발 등의 협업 체제를 만들어갈 예정",
+      "news_sources": [
+        {
+          "url": "http://www.cncnews.co.kr/news/article.html?no=6188",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-08-01",
@@ -2841,7 +3667,15 @@
       "extraction_clue": "엄\n패션\n헤어케어\n브랜드\n'\n알틱폭스\n'(Arctic Fox)\n를\n소유한\n㈜보인카\n(Boinca)\n의\n지분\n56%\n를\n1\n억\n달러\n(\n한화\n약\n1170\n억\n원\n)\n에\n인수했다고\n31\n일\n밝혔다\n.\n알틱폭스는\n2014\n년\n미국에서\n출시된\n비건\n브랜드로\n고급\n패션\n염모제가\n주력\n상품이다\n.\n이\n회사의\n염",
       "target_keyword": "헤어제품",
       "acquirer_biz_no": "107-81-98143",
-      "acquirer_brand": "더페이스샵"
+      "acquirer_brand": "더페이스샵",
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2021/08/31/2021083180109.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-04-30",
@@ -2870,7 +3704,15 @@
       "extraction_clue": "은행(IB) 업계에 따르면 헬리오스PE는 최근 솔레오코스메틱 지분 67%와 경영권을 인수하는 주식매매계약(SPA)을 체결했다. 거래 지분가치는 400억원 내외로 추정된다.\n거래에 정통한 IB 관계자는 \"헬리오스PE는 기존 경영진과 특수관계인이 보유한 지분 중 경영권 행사가 가능한 지분까지 인수하",
       "target_keyword": "화장품, OEM·ODM",
       "target_biz_no": "229-81-29359",
-      "purpose": "코로나19 사태 이후 시장 상황 개선을 노림"
+      "purpose": "코로나19 사태 이후 시장 상황 개선을 노림",
+      "news_sources": [
+        {
+          "url": "https://www.mk.co.kr/news/stock/10080153",
+          "outlet": "매일경제",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-04-08",
@@ -2896,7 +3738,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품",
       "target_biz_no": "220-86-44305",
-      "purpose": "지배구조 정리"
+      "purpose": "지배구조 정리",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202104261001460360109070&lcode=00",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-03-30",
@@ -2924,7 +3774,15 @@
       "extraction_clue": "다.\n13일 VIG파트너스는 \"생활용품 브랜드 '쿤달(KUNDAL)'을 보유한 ㈜더스킨팩토리의 지분 100%를 인수했다\"고 밝혔다. 거래금액은 1000억원 후반대다.\n쿤달은 2016년10월 설립된 생활용품 전문 업체다. 샴푸와 트리트먼트 등 헤어케어 제품에서 시작해 바디케어, 스킨케어, 핸드케어,",
       "target_keyword": "화장품",
       "target_biz_no": "669-88-00530",
-      "purpose": "제품과 유통채널의 차별화를 통해 고객들에게 명확한 가치를 제안하는 케이케어(K-Care)의 대표 기업으로 성장할 수 있을 것이라고 확신/제품군 다변화와 해외 유통채널 확대를 통해 회사의 성장을 도모"
+      "purpose": "제품과 유통채널의 차별화를 통해 고객들에게 명확한 가치를 제안하는 케이케어(K-Care)의 대표 기업으로 성장할 수 있을 것이라고 확신/제품군 다변화와 해외 유통채널 확대를 통해 회사의 성장을 도모",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202105131621145960105145&lcode=00",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-02-22",
@@ -2950,7 +3808,15 @@
       "extraction_clue": "썼다. 자금 수혈과 더불어 잦은 최대주주 변동으로 불안정했던 지배구조를 재정립해 나가는 모습이다.\n스킨앤스킨은 지난 24일 더편한을 대상으로 125억원 규모 제3자 배정 유상증자를 결정했다. 신주 1억2135만9223주를 103원에 발행한다. 다음달 5일 납입 절차를 마치면 더편한이 지분 46",
       "target_keyword": "화장품, OEM, 패키징",
       "acquirer_biz_no": "639-86-00971",
-      "target_biz_no": "129-81-98293"
+      "target_biz_no": "129-81-98293",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202102261324382400106019&lcode=00",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-02-01",
@@ -2977,7 +3843,8 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "529-86-00091",
       "acquirer_brand": "본느",
-      "target_biz_no": "113-86-44332"
+      "target_biz_no": "113-86-44332",
+      "news_sources": []
     },
     {
       "closing_date": "2020-06-01",
@@ -3006,7 +3873,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품",
       "acquirer_biz_no": "107-81-98143",
-      "acquirer_brand": "더페이스샵"
+      "acquirer_brand": "더페이스샵",
+      "news_sources": [
+        {
+          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=180808",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2020-05-01",
@@ -3033,7 +3908,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "106-86-43373",
       "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
-      "purpose": "오세아니아 시장 럭셔리 브랜드 포트폴리오 강화, 맞춤형 화장품 솔루션 분야 강화"
+      "purpose": "오세아니아 시장 럭셔리 브랜드 포트폴리오 강화, 맞춤형 화장품 솔루션 분야 강화",
+      "news_sources": [
+        {
+          "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4087496",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2020-05-01",
@@ -3062,7 +3945,8 @@
       "target_keyword": "화장품 유통",
       "acquirer_biz_no": "124-81-60808",
       "target_biz_no": "128-86-89758",
-      "purpose": "용기, 수출, 유통 사업 영역 확대"
+      "purpose": "용기, 수출, 유통 사업 영역 확대",
+      "news_sources": []
     },
     {
       "closing_date": "2019-12-01",
@@ -3091,7 +3975,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "106-86-43373",
       "acquirer_brand": "이니스프리, 에뛰드, 아이오페 등",
-      "purpose": "클린뷰티, 아리따움에 밀크메이크업 입점"
+      "purpose": "클린뷰티, 아리따움에 밀크메이크업 입점",
+      "news_sources": [
+        {
+          "url": "https://www.apgroup.com/int/ko/misc/news/2019-12-17.html",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2019-11-01",
@@ -3118,7 +4010,15 @@
       "sector": "화장품",
       "extraction_clue": "12,240\nCopy Link\nAHC, 3CE 그리고 최근 닥터자르트까지… 글로벌 기업이 인수한 한국 토종 뷰티 브랜드다. 유니레버, 로레알, 에스티로더 등 이름만 대면 알 만한 해외 뷰티 기업은 1~3조대의 거금을 주고 이들 브랜드를 각각 품에 안았다. K뷰티의 위상이 한국을 넘어 해외에서도",
       "target_keyword": "화장품",
-      "target_biz_no": "214-87-63681"
+      "target_biz_no": "214-87-63681",
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/175359",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2019-09-01",
@@ -3145,7 +4045,15 @@
       "sector": "화장품",
       "extraction_clue": "던졌다. 회생계획안은 100% 채무 변제다.\n파인트리파트너스가 스킨푸드 및 아이피어리스 인수대금으로 제시한 규모는 2000억원으로, 스킨푸드는 이 자금을 채무 변제액으로 지급할 계획이다.\n이에 따라 스킨푸드 가맹점",
       "target_keyword": "화장품",
-      "target_biz_no": "125-81-54503"
+      "target_biz_no": "125-81-54503",
+      "news_sources": [
+        {
+          "url": "https://news.mtn.co.kr/news-detail/2019090515592236624",
+          "outlet": "머니투데이방송",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2019-09-01",
@@ -3172,7 +4080,15 @@
       "sector": "화장품",
       "extraction_clue": "던졌다. 회생계획안은 100% 채무 변제다.\n파인트리파트너스가 스킨푸드 및 아이피어리스 인수대금으로 제시한 규모는 2000억원으로, 스킨푸드는 이 자금을 채무 변제액으로 지급할 계획이다.\n이에 따라 스킨푸드 가맹점",
       "target_keyword": "화장품",
-      "target_biz_no": "220-86-43932"
+      "target_biz_no": "220-86-43932",
+      "news_sources": [
+        {
+          "url": "https://news.mtn.co.kr/news-detail/2019090515592236624",
+          "outlet": "머니투데이방송",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2019-07-01",
@@ -3200,7 +4116,15 @@
       "extraction_clue": "체 매출액을 반영한 프로포마(Pro-Forma) 매출액은 2019년 868억원에서 지난해 1221억원으로 연평균 8.9% 성장했다.",
       "target_keyword": "화장품, OEM·ODM",
       "acquirer_biz_no": "101-86-48596",
-      "target_biz_no": "130-81-43987"
+      "target_biz_no": "130-81-43987",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202406170837160980101259",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2019-04-01",
@@ -3227,7 +4151,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "107-81-98143",
       "acquirer_brand": "더페이스샵",
-      "purpose": "북미사업 교두보 확보"
+      "purpose": "북미사업 교두보 확보",
+      "news_sources": [
+        {
+          "url": "https://news.bizwatch.co.kr/article/consumer/2019/04/26/0003",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2019-01-01",
@@ -3257,7 +4189,8 @@
       "target_keyword": "화장품 유통",
       "acquirer_biz_no": "119-81-34685",
       "acquirer_brand": "미샤",
-      "target_biz_no": "220-88-47325"
+      "target_biz_no": "220-88-47325",
+      "news_sources": []
     },
     {
       "closing_date": "2019-01-01",
@@ -3286,7 +4219,8 @@
       "extraction_clue": "",
       "target_keyword": "화장품",
       "acquirer_biz_no": "119-81-34685",
-      "acquirer_brand": "미샤"
+      "acquirer_brand": "미샤",
+      "news_sources": []
     },
     {
       "closing_date": "2019-01-01",
@@ -3313,7 +4247,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "107-81-98143",
       "acquirer_brand": "더페이스샵",
-      "purpose": "중국 내 화장품 및 생활용품 생산시설 확보"
+      "purpose": "중국 내 화장품 및 생활용품 생산시설 확보",
+      "news_sources": [
+        {
+          "url": "https://www.lg.co.kr/media/release/20077",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-12-01",
@@ -3340,7 +4282,8 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "109-86-17345",
       "acquirer_brand": "메디힐",
-      "target_biz_no": "108-86-00365"
+      "target_biz_no": "108-86-00365",
+      "news_sources": []
     },
     {
       "closing_date": "2018-12-01",
@@ -3367,7 +4310,15 @@
       "target_keyword": "헤어제품",
       "is_followon": true,
       "acquirer_biz_no": "107-81-98143",
-      "acquirer_brand": "더페이스샵"
+      "acquirer_brand": "더페이스샵",
+      "news_sources": [
+        {
+          "url": "https://www.consumerwide.com/news/articleView.html?idxno=40124",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-11-01",
@@ -3397,7 +4348,8 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "119-81-34685",
       "acquirer_brand": "미샤",
-      "target_biz_no": "206-87-00972"
+      "target_biz_no": "206-87-00972",
+      "news_sources": []
     },
     {
       "closing_date": "2018-08-01",
@@ -3424,7 +4376,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "225-81-00025",
       "target_biz_no": "215-87-16032",
-      "purpose": "화장품 신규 진출"
+      "purpose": "화장품 신규 진출",
+      "news_sources": [
+        {
+          "url": "https://news.mtn.co.kr/news-detail/2018082018344881847",
+          "outlet": "머니투데이방송",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-08-01",
@@ -3451,7 +4411,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "117-81-33642",
       "target_biz_no": "402-81-45615",
-      "purpose": "EM 접목 제품 개발"
+      "purpose": "EM 접목 제품 개발",
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2018081543441",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-07-01",
@@ -3479,7 +4447,15 @@
       "extraction_clue": "약 300억원",
       "target_keyword": "화장품",
       "target_biz_no": "209-81-23948",
-      "purpose": "미벨AG 원료 적용 화장품 개발"
+      "purpose": "미벨AG 원료 적용 화장품 개발",
+      "news_sources": [
+        {
+          "url": "https://www.inews24.com/view/1111746",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-07-01",
@@ -3507,7 +4483,15 @@
       "acquirer_biz_no": "220-87-23971",
       "acquirer_brand": "잇츠스킨",
       "target_biz_no": "131-81-88162",
-      "purpose": "색조 라인 강화"
+      "purpose": "색조 라인 강화",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=201807270100050030003128",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-07-01",
@@ -3534,7 +4518,15 @@
       "target_keyword": "화장품 용기",
       "acquirer_biz_no": "124-81-60808",
       "target_biz_no": "364-81-01391",
-      "purpose": "용기, 수출, 유통 사업 영역 확대"
+      "purpose": "용기, 수출, 유통 사업 영역 확대",
+      "news_sources": [
+        {
+          "url": "https://mdtoday.co.kr/news/view/179529808928301",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-06-01",
@@ -3561,7 +4553,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "125-81-26555",
       "target_biz_no": "515-81-39817",
-      "purpose": "화장품 신규 진출"
+      "purpose": "화장품 신규 진출",
+      "news_sources": [
+        {
+          "url": "https://www.newspim.com/news/view/20180620000283",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-05-01",
@@ -3586,7 +4586,8 @@
       "sector": "화장품",
       "extraction_clue": "",
       "target_keyword": "화장품",
-      "target_biz_no": "130-86-24632"
+      "target_biz_no": "130-86-24632",
+      "news_sources": []
     },
     {
       "closing_date": "2018-04-01",
@@ -3612,7 +4613,15 @@
       "extraction_clue": "80억원",
       "target_keyword": "화장품 처리공정 제어장비",
       "target_biz_no": "130-86-86259",
-      "purpose": "화장품 원료, 용기 부자재 제조 확대"
+      "purpose": "화장품 원료, 용기 부자재 제조 확대",
+      "news_sources": [
+        {
+          "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A201804060334&t=NN",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-04-01",
@@ -3639,7 +4648,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "107-81-98143",
       "acquirer_brand": "더페이스샵",
-      "purpose": "일본사업 강화"
+      "purpose": "일본사업 강화",
+      "news_sources": [
+        {
+          "url": "https://www.hani.co.kr/arti/economy/marketing/841878.html",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-04-01",
@@ -3665,7 +4682,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품 ODM, OEM",
       "acquirer_biz_no": "303-81-24119",
-      "purpose": "현지 고객사 확보로 미국 시장 진출"
+      "purpose": "현지 고객사 확보로 미국 시장 진출",
+      "news_sources": [
+        {
+          "url": "https://view.asiae.co.kr/news/view.htm?idxno=2018042411072952908",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2018-03-01",
@@ -3694,7 +4719,15 @@
       "acquirer_biz_no": "107-81-98143",
       "acquirer_brand": "더페이스샵",
       "target_biz_no": "124-81-34163",
-      "purpose": "화장품 사업의 경쟁력 강화"
+      "purpose": "화장품 사업의 경쟁력 강화",
+      "news_sources": [
+        {
+          "url": "https://mdtoday.co.kr/news/view/1065598838473935",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2017-11-01",
@@ -3724,7 +4757,8 @@
       "acquirer_biz_no": "107-81-98143",
       "acquirer_brand": "더페이스샵",
       "target_biz_no": "124-81-34163",
-      "purpose": "화장품 사업의 경쟁력 강화"
+      "purpose": "화장품 사업의 경쟁력 강화",
+      "news_sources": []
     },
     {
       "closing_date": "2017-09-01",
@@ -3753,7 +4787,15 @@
       "target_keyword": "화장품",
       "acquirer_brand": "도브, 바세린",
       "target_biz_no": "105-87-62694",
-      "purpose": "중국시장 재도약"
+      "purpose": "중국시장 재도약",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/1OL5XNVB16",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2017-08-01",
@@ -3782,7 +4824,8 @@
       "target_keyword": "약국용 화장품",
       "acquirer_biz_no": "114-86-53270",
       "acquirer_brand": "토니모리",
-      "target_biz_no": "124-81-34163"
+      "target_biz_no": "124-81-34163",
+      "news_sources": []
     },
     {
       "closing_date": "2017-04-01",
@@ -3809,7 +4852,15 @@
       "sector": "화장품",
       "extraction_clue": "지난 2017년 회사 창립자인 서영필 전 회장의 보유 지분 25.5%를 1882억원에 인수하고",
       "target_keyword": "화장품",
-      "target_biz_no": "119-81-34685"
+      "target_biz_no": "119-81-34685",
+      "news_sources": [
+        {
+          "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=404638",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2017-03-01",
@@ -3839,7 +4890,15 @@
       "target_keyword": "화장품",
       "is_followon": true,
       "acquirer_biz_no": "107-81-98143",
-      "acquirer_brand": "더페이스샵"
+      "acquirer_brand": "더페이스샵",
+      "news_sources": [
+        {
+          "url": "https://www.consumerwide.com/news/articleView.html?idxno=40124",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2016-11-01",
@@ -3866,7 +4925,15 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "107-81-98143",
       "acquirer_brand": "더페이스샵",
-      "purpose": "아시아 사업 확장"
+      "purpose": "아시아 사업 확장",
+      "news_sources": [
+        {
+          "url": "https://www.lghnh.com/m/news/press/view.jsp?seq=2566",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2016-06-01",
@@ -3893,7 +4960,15 @@
       "sector": "화장품",
       "extraction_clue": "우리 돈으로 3조611억원에 달한다",
       "target_keyword": "화장품",
-      "target_biz_no": "105-87-62694"
+      "target_biz_no": "105-87-62694",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/1OL5XNVB16",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2015-10-01",
@@ -3919,7 +4994,15 @@
       "extraction_clue": "",
       "target_keyword": "화장품",
       "is_followon": true,
-      "target_biz_no": "214-87-63681"
+      "target_biz_no": "214-87-63681",
+      "news_sources": [
+        {
+          "url": "https://www.edaily.co.kr/News/Read?newsId=01820406609536856&mediaCodeNo=257&OutLnkChk=Y",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2015-07-01",
@@ -3947,7 +5030,15 @@
       "acquirer_biz_no": "107-81-98143",
       "acquirer_brand": "더페이스샵",
       "target_biz_no": "221-81-19973",
-      "purpose": "색조화장품 시장에서 기술 경쟁력을 높이고 제품공급 안정성 확보"
+      "purpose": "색조화장품 시장에서 기술 경쟁력을 높이고 제품공급 안정성 확보",
+      "news_sources": [
+        {
+          "url": "https://www.bizhankook.com/bk/article/8953",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2015-07-01",
@@ -3972,7 +5063,15 @@
       "sector": "화장품",
       "extraction_clue": "마유(馬乳) 크림으로 유명한 화장품 주문자상표부착생산(OEM) 업체 비앤비코리아가 최근 1300억 원에 매각된 것으로 파악됐다. 최근 K뷰티가 인기를 끌면서 인수합병(M＆A) 시장에서도 성과가 하나둘 나오고 있다. 25일 투자은행(IB) 업계에 따르면 사모펀드(PEF) 운용사인 SKS 프라이빗에쿼티(PE)와 워터브릿지파트너스는 2015년 비앤비코리아를 인수한 지 10년 만인 이달 비앤비코리아 자금 회수(엑시트)에 성공했다. 비앤비코리아의 지분 100%를 인수한 기업은 주식회사 진백글로벌이라는 국내 기업으로 알려졌다. 업계에서는 SKS PE와 워터브릿지파트너스가 인고의 시간을 견디고 ‘본전은 건졌다’는 평가를 내놓고 있다. 이들은 2015년 비앤비코리아 경영권 인수를 위한 특수목적법인(SPC) 더블유에스뷰티를 설립하고 1250억 원에 회사를 매입했다. 하지만 바로 이듬해 ‘중국 사드 사태’가 터졌고 주요 매출처인 중국 납품이 끊겼다. 매출은 505억 원에서 100억 원으로 수직 하락했고 영업이익도 적자로 돌아섰다. SKS PE와 워터브릿지파트너스는 2022년 비앤비코리아를 매물로 내놓았다. 희망 매도가는 매입가의 절반인 600억 원 수준으로 알려졌지만 이마저도 시장에서 비싸다는 반응이 나오자 절치부심했던 것으로 알려졌다. 비앤비코리아는 국내 화장품 브랜드인 달바나 메디큐브·시드물 등과 위탁 생산 파트너십을 맺고 제품을 생산해오는 등 활로를 찾았다. 특히 글로벌 시장에서 K뷰티가 흥행하며 매출도 상승했다. 매출은 2020년 225억 원 수준에서 지난해 443억 원으로 2배로 늘었다. 최근 나노 기술을 보유한 국내 화장품 OEM사인 피코스텍도 매물로 나오는 등 한국산 화장품에 대한 M＆A 시도가 많은 상황이다. 피코스텍은 삼일PwC를 자문사로 선정, 회사가 희망하는 기업가치는 1000억 원 내외로 알려졌다. 리서치 업체 BR인사이트에 따르면 전 세계 화장품 OEM 및 제조자개발생산(ODM) 업체는 연평균 5.6% 성장해 2032년까지 5억 2198만 달러(약 6960억 원)로 증가할 것으로 전망된다. 지난해 한국의 화장품 수출액은 84억 6000만 달러(약 11조 2839억 원)로 역대 2위 규모다. 프랑스와 미국·독일 이어 세계 4위 수준으로 파악됐다.\n뉴스 듣기\n글자 크기\n글자 크기 설정\n가\n보통\n가\n크게\n가\n아주 크게\n기사 공유\n기사공유\n페이스북",
       "target_keyword": "화장품, OEM·ODM",
-      "target_biz_no": "130-86-60341"
+      "target_biz_no": "130-86-60341",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/2DEFGEY8FV",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2015-01-01",
@@ -4002,7 +5101,15 @@
       "target_keyword": "헤어제품",
       "is_followon": true,
       "acquirer_biz_no": "107-81-98143",
-      "acquirer_brand": "더페이스샵"
+      "acquirer_brand": "더페이스샵",
+      "news_sources": [
+        {
+          "url": "https://www.consumerwide.com/news/articleView.html?idxno=40124",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2014-10-01",
@@ -4031,7 +5138,15 @@
       "extraction_clue": "240\n억원을 지불하고 인수한 계열사다",
       "target_keyword": "화장품",
       "acquirer_biz_no": "107-81-98143",
-      "acquirer_brand": "더페이스샵"
+      "acquirer_brand": "더페이스샵",
+      "news_sources": [
+        {
+          "url": "https://www.consumerwide.com/news/articleView.html?idxno=40124",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2013-02-01",
@@ -4059,7 +5174,15 @@
       "extraction_clue": "240\n억원을 지불하고 인수한 계열사다",
       "target_keyword": "헤어제품",
       "acquirer_biz_no": "107-81-98143",
-      "acquirer_brand": "더페이스샵"
+      "acquirer_brand": "더페이스샵",
+      "news_sources": [
+        {
+          "url": "https://www.consumerwide.com/news/articleView.html?idxno=40124",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2012-03-01",
@@ -4086,7 +5209,8 @@
       "target_keyword": "화장품",
       "acquirer_biz_no": "201-81-53657",
       "target_biz_no": "211-87-31837",
-      "purpose": "신규사업 추가"
+      "purpose": "신규사업 추가",
+      "news_sources": []
     },
     {
       "closing_date": "2010-01-01",
@@ -4114,7 +5238,15 @@
       "extraction_clue": "최종 총 매매가는 3400억원으로 당초보다 100억원 줄었다. LG생활건강 관계자는 \"당초 총 매매가는 계약서상 가격 4200억원에 더페이스샵의 회수 가능한 유보 현금 700억원을 감안해 3500억원으로 예상됐지만 회수 가능한 유보현금이 800억원으로 증가해 실질적인 인수가격은 100억원이 줄었다\"고 설명했다.",
       "target_keyword": "화장품",
       "acquirer_biz_no": "107-81-98143",
-      "acquirer_brand": "더페이스샵"
+      "acquirer_brand": "더페이스샵",
+      "news_sources": [
+        {
+          "url": "https://news.mt.co.kr/mtview.php?no=2010011710552607119",
+          "outlet": "머니투데이",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-02-01",
@@ -4140,7 +5272,15 @@
       "extraction_clue": "사조대림은 전분당업체인 인그리디언코리아를 3840억원에 인수한다고 12일 밝혔다.",
       "target_keyword": "식료품 제조",
       "acquirer_biz_no": "114-81-34190",
-      "purpose": "수직계열화(원재료 내재화)"
+      "purpose": "수직계열화(원재료 내재화)",
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/202311120557i",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-06-24",
@@ -4166,7 +5306,15 @@
       "extraction_clue": "사조오양 800억/31.70%(타법인주식양수결정) + 사조씨피케이 취득원가 1,723억/68.16%(사조CPK 2024 감사보고서 주석) = 합산 2,523억",
       "target_keyword": "식자재 유통",
       "purpose": "포트폴리오 확장(식자재 유통)",
-      "reference": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250402000098&dcmNo=10505188&eleId=4&offset=81816&length=386606&dtd=dart4.xsd#:~:text=푸디스트"
+      "reference": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250402000098&dcmNo=10505188&eleId=4&offset=81816&length=386606&dtd=dart4.xsd#:~:text=푸디스트",
+      "news_sources": [
+        {
+          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=356573",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-08-16",
@@ -4193,7 +5341,15 @@
       "target_keyword": "외식",
       "target_biz_no": "521-81-02386",
       "purpose": "해외(한국) 진출",
-      "reference": "https://mb.com.ph/2024/11/12/jollibee-s-q3-earnings-growth-boosted-by-compose-coffee-acquisition"
+      "reference": "https://mb.com.ph/2024/11/12/jollibee-s-q3-earnings-growth-boosted-by-compose-coffee-acquisition",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/2DBLG0KK17",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-10-11",
@@ -4219,7 +5375,15 @@
       "extraction_clue": "UCK파트너스가 설빙 지분 90%를 1,305억원에 인수(기업가치 1,450억), 이달 11일 마무리. 정선희 대표 10% 2대주주 잔류 (더벨 2023-10-12).",
       "target_keyword": "외식",
       "target_biz_no": "602-81-62460",
-      "purpose": "포트폴리오 확장(카페·디저트)"
+      "purpose": "포트폴리오 확장(카페·디저트)",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202310121013074960106649",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-06-22",
@@ -4245,7 +5409,15 @@
       "extraction_clue": "케이스톤파트너스는 한성그린팩토리 보통주와 전환사채(CB)를 포함해 지분 80%를 400억원에 인수하는 계약을 체결했다.",
       "target_keyword": "식료품 제조",
       "acquirer_biz_no": "107-86-93518",
-      "purpose": "포트폴리오 확장(식료품 제조)"
+      "purpose": "포트폴리오 확장(식료품 제조)",
+      "news_sources": [
+        {
+          "url": "https://keistone.co.kr/news/%EC%BC%80%EC%9D%B4%EC%8A%A4%ED%86%A4-%ED%95%9C%EC%84%B1%EA%B7%B8%EB%A6%B0%ED%8C%A9%ED%86%A0%EB%A6%AC-%EA%B2%BD%EC%98%81%EA%B6%8C-%EC%9D%B8%EC%88%98/",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-05-07",
@@ -4273,7 +5445,15 @@
       "acquirer_biz_no": "107-86-93518",
       "target_biz_no": "132-86-24093",
       "purpose": "포트폴리오 확장(식자재 유통)",
-      "reference": "https://biz.heraldcorp.com/view.php?ud=20240507050077 (헤럴드 투자360 종합기사: 700억대/90%)"
+      "reference": "https://biz.heraldcorp.com/view.php?ud=20240507050077 (헤럴드 투자360 종합기사: 700억대/90%)",
+      "news_sources": [
+        {
+          "url": "https://biz.heraldcorp.com/article/3387604",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-09-04",
@@ -4298,7 +5478,15 @@
       "sector": "F&B",
       "extraction_clue": "당기말 현재 지배기업의 납입자본금은 500백만원이며, 당기 중 지배기업의 주주가 변경되었습니다. (주)임마누엘코퍼레이션 50,000주 100.00% (MFG코리아 2024 감사보고서 주석)",
       "target_keyword": "외식",
-      "purpose": "포트폴리오 확장(외식)"
+      "purpose": "포트폴리오 확장(외식)",
+      "news_sources": [
+        {
+          "url": "https://m.edaily.co.kr/News/Read?newsId=03440726639017496&mediaCodeNo=257",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-11-08",
@@ -4325,7 +5513,15 @@
       "target_keyword": "음료 제조",
       "acquirer_biz_no": "126-81-32671",
       "target_biz_no": "616-81-88509",
-      "purpose": "포트폴리오 확장(주류)"
+      "purpose": "포트폴리오 확장(주류)",
+      "news_sources": [
+        {
+          "url": "https://biz.heraldcorp.com/article/3850121",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-05-28",
@@ -4352,7 +5548,15 @@
       "target_keyword": "외식",
       "target_biz_no": "226-81-28273",
       "purpose": "포트폴리오 확장(카페·커피)",
-      "reference": "https://www.newstopkorea.com/news/articleView.html?idxno=42997 (뉴스톱 더비스타: 2024-05 13% 추가→누적 50.1% 경영권, 전기 2021년 37%/약 650억)"
+      "reference": "https://www.newstopkorea.com/news/articleView.html?idxno=42997 (뉴스톱 더비스타: 2024-05 13% 추가→누적 50.1% 경영권, 전기 2021년 37%/약 650억)",
+      "news_sources": [
+        {
+          "url": "https://www.asiae.co.kr/article/2024052814372586360",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-01-01",
@@ -4378,7 +5582,15 @@
       "extraction_clue": "주요주주: 유니슨엄지식품유한회사 상환전환우선주 60,656주 80.2% (수지스퀴진 2023 감사보고서 주석). 인수금액 170억은 언론(서울경제·더벨·블로터, 주석엔 금액 無).",
       "target_keyword": "식료품 제조",
       "target_biz_no": "106-86-81644",
-      "purpose": "HMR 전문성 확보 및 포트폴리오 강화"
+      "purpose": "HMR 전문성 확보 및 포트폴리오 강화",
+      "news_sources": [
+        {
+          "url": "https://m.thebell.co.kr/m/newsview.asp?newskey=202304281452092440102277",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-10-01",
@@ -4404,7 +5616,15 @@
       "extraction_clue": "(*) 2025년 10월 중 삼양스파이스(주)의 지분을 100% 취득하였습니다.",
       "target_keyword": "식료품 제조",
       "acquirer_biz_no": "",
-      "purpose": "수직계열화(라면 스프 원재료 내재화)"
+      "purpose": "수직계열화(라면 스프 원재료 내재화)",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/144543",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-05-15",
@@ -4431,7 +5651,15 @@
       "target_keyword": "식자재 유통",
       "acquirer_biz_no": "101-81-30747",
       "target_biz_no": "107-81-76324",
-      "purpose": "포트폴리오 확장(급식사업) 및 시너지 강화"
+      "purpose": "포트폴리오 확장(급식사업) 및 시너지 강화",
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2025/05/15/2025051580008.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-01",
@@ -4458,7 +5686,15 @@
       "target_keyword": "식료품 제조",
       "acquirer_biz_no": "108-81-61052",
       "target_biz_no": "133-81-22171",
-      "purpose": "수직계열화(장류·조미식품 원재료 내재화)"
+      "purpose": "수직계열화(장류·조미식품 원재료 내재화)",
+      "news_sources": [
+        {
+          "url": "https://biz.newdaily.co.kr/site/data/html/2025/07/25/2025072500228.html",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-13",
@@ -4484,7 +5720,15 @@
       "extraction_clue": "LF푸드는 500억원에 해당 기업의 지분 100%를 취득한다.",
       "target_keyword": "식료품 제조",
       "target_biz_no": "127-86-36321",
-      "purpose": "포트폴리오 확장(소스·조미료 역량 강화)"
+      "purpose": "포트폴리오 확장(소스·조미료 역량 강화)",
+      "news_sources": [
+        {
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20250701010000823",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-05-31",
@@ -4510,7 +5754,15 @@
       "extraction_clue": "PEF 운용사인 케이클라비스인베스트먼트와 윈터골드프라이빗에쿼티는 한국피자헛의 영업권을 약 110억 원에 매입하기로 결정했다.",
       "target_keyword": "외식",
       "target_biz_no": "120-81-63948",
-      "purpose": "브랜드 존속형 회생(영업권 인수)"
+      "purpose": "브랜드 존속형 회생(영업권 인수)",
+      "news_sources": [
+        {
+          "url": "https://mdtoday.co.kr/news/view/1065578805690564",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-04-20",
@@ -4535,7 +5787,15 @@
       "sector": "F&B",
       "extraction_clue": "필리핀 졸리비푸드가 올데이프레쉬(샤브올데이 운영사) 지분 100%를 약 1,300억원에 인수, 2026-04-20 SPA 최종 완료(newsis). 모기업 명륜당에서 완전 분리·독립해 졸리비 계열사 편입.",
       "target_keyword": "외식",
-      "purpose": "국내 식음료 포트폴리오 강화"
+      "purpose": "국내 식음료 포트폴리오 강화",
+      "news_sources": [
+        {
+          "url": "https://www.newsis.com/view/NISX20260420_0003597590",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-05-29",
@@ -4560,7 +5820,15 @@
       "sector": "F&B",
       "extraction_clue": "취득금액(원) | 387,679,600,000",
       "target_keyword": "식료품 제조",
-      "purpose": "신사업 진출(향료·향장사업으로 외연 확대)"
+      "purpose": "신사업 진출(향료·향장사업으로 외연 확대)",
+      "news_sources": [
+        {
+          "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1710658",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-09-22",
@@ -4585,7 +5853,15 @@
       "sector": "F&B",
       "extraction_clue": "박상용 대표 등 공동창업자 2인의 지분 100%를 440억원에 인수했다",
       "target_keyword": "외식",
-      "purpose": "사업 확장(점포 확대 및 해외 진출)"
+      "purpose": "사업 확장(점포 확대 및 해외 진출)",
+      "news_sources": [
+        {
+          "url": "https://plus.hankyung.com/apps/newsinside.view?aid=202309242968r&sns=y",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-04-27",
@@ -4610,7 +5886,15 @@
       "sector": "F&B",
       "extraction_clue": "당기말 현재 주요주주: Orchestra Private Equity VI, L.P 2,047,658주 100%. 당사 지분 67.43% 보유 케이지써닝라이프와 32.57% 스마트인슈가 2023년 4월 27일 전량 매각(주요주주 변경). (KFC코리아 2023 감사보고서 주석)",
       "target_keyword": "외식",
-      "purpose": "포트폴리오 확장(외식 프랜차이즈)"
+      "purpose": "포트폴리오 확장(외식 프랜차이즈)",
+      "news_sources": [
+        {
+          "url": "https://www.fnnews.com/news/202304271544558548",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-04-17",
@@ -4635,7 +5919,15 @@
       "sector": "F&B",
       "extraction_clue": "이번 거래의 매각 대금은 2000억 원 초중반대로 알려졌다",
       "target_keyword": "외식",
-      "reference": "https://www.fnnews.com/news/202512201228218451 (fn마켓워치: SPA 2025-12·클로징 2026Q1·약 2000억, 오케스트라 매입가 ~1000억 MOIC 3배)"
+      "reference": "https://www.fnnews.com/news/202512201228218451 (fn마켓워치: SPA 2025-12·클로징 2026Q1·약 2000억, 오케스트라 매입가 ~1000억 MOIC 3배)",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/article/20033747",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-05-29",
@@ -4661,7 +5953,15 @@
       "extraction_clue": "오케스트라PE는 이달 초 매머드커피 운영사 매머드커피랩과 원두 로스팅 업체 서진로스터즈의 지분 100%를 약 1000억원에 인수하는 주식매매계약(SPA)을 체결했다",
       "target_keyword": "외식",
       "purpose": "수직계열화(원두 조달부터 가맹 운영까지 통합)",
-      "reference": "https://www.bloter.net/news/articleView.html?idxno=663966 (블로터 PE 종합: 1000억/100%)"
+      "reference": "https://www.bloter.net/news/articleView.html?idxno=663966 (블로터 PE 종합: 1000억/100%)",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/155381",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-12-25",
@@ -4688,7 +5988,15 @@
       "target_keyword": "외식",
       "target_biz_no": "621-86-03303",
       "purpose": "포트폴리오 확장(중저가·스페셜티 커피 프랜차이즈 성장 베팅)",
-      "reference": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260402002974 | https://v.daum.net/v/20251226052541527 | https://zdnet.co.kr/view/?no=20251229090047"
+      "reference": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260402002974 | https://v.daum.net/v/20251226052541527 | https://zdnet.co.kr/view/?no=20251229090047",
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2025122549381",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-09-30",
@@ -4714,7 +6022,15 @@
       "extraction_clue": "거래 규모는 1000억원 수준이 될 것으로 거론된다",
       "target_keyword": "외식",
       "target_biz_no": "101-81-26409",
-      "purpose": "해외(중동/카타르) 투자자의 한국 시장 진출"
+      "purpose": "해외(중동/카타르) 투자자의 한국 시장 진출",
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2024/09/30/2024093080192.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-01-29",
@@ -4741,7 +6057,15 @@
       "target_keyword": "외식",
       "acquirer_biz_no": "525-81-01526",
       "purpose": "포트폴리오 확장(다중 외식 브랜드 통합)",
-      "reference": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202512091532251080109114 (더벨: 리딩에이스 2,800억 3사 통합딜)"
+      "reference": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202512091532251080109114 (더벨: 리딩에이스 2,800억 3사 통합딜)",
+      "news_sources": [
+        {
+          "url": "https://biz.chosun.com/stock/market_trend/2026/01/29/VK65EASIX5AP7ONBFJ7TRZB674/",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-04-10",
@@ -4766,7 +6090,15 @@
       "sector": "F&B",
       "extraction_clue": "처분금액 15,715백만원 (Vietnam Lotteria, 거래상대방 롯데지알에스)",
       "target_keyword": "외식",
-      "purpose": "자회사 구조 재편(소유·경영 일치화)"
+      "purpose": "자회사 구조 재편(소유·경영 일치화)",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202503121448212560102869",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-05-15",
@@ -4790,7 +6122,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "매각 측이 3조 원 수준의 기업가치를 제시한 가운데 베인캐피털과 제너럴애틀랜틱 등 글로벌 PEF 운용사 다수가 인수를 검토하는 것으로 전해졌다",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/article/20044597",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-08-01",
@@ -4817,7 +6157,15 @@
       "target_keyword": "외식",
       "acquirer_biz_no": "503-81-17066",
       "target_biz_no": "696-86-02195",
-      "purpose": "포트폴리오 확장(디저트 브랜드)"
+      "purpose": "포트폴리오 확장(디저트 브랜드)",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202408010939415480108632",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-10-22",
@@ -4843,7 +6191,15 @@
       "extraction_clue": "포레스트파트너스가 명륜진사갈비 1600억에 경영권 인수 추진…배타적협상권 확보",
       "target_keyword": "외식",
       "acquirer_biz_no": "456-88-00384",
-      "purpose": "경영 효율화(오너 리스크 해소로 기업가치 제고)"
+      "purpose": "경영 효율화(오너 리스크 해소로 기업가치 제고)",
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2024/10/22/2024102280246.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-06-10",
@@ -4868,7 +6224,15 @@
       "sector": "F&B",
       "extraction_clue": "예상 매각가는 1000억원 중반대다. 졸리비를 노랑통닭 인수 우선협상대상자로 선정하는 MOU를 체결했으나 이후 협상이 결렬됐다.",
       "target_keyword": "외식",
-      "purpose": "글로벌 사업 확장"
+      "purpose": "글로벌 사업 확장",
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2025/06/10/2025061080136.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-09-28",
@@ -4894,7 +6258,15 @@
       "extraction_clue": "시장에서는 예상 매각가로 2000억원 중반대를 점쳤다. UCK는 엄지식품 매각 주관사로 삼정KPMG를 선정했다.",
       "target_keyword": "식료품 제조",
       "target_biz_no": "134-86-05205",
-      "purpose": "투자금 회수"
+      "purpose": "투자금 회수",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/2GY2TOXIY3",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-03-26",
@@ -4920,7 +6292,15 @@
       "extraction_clue": "취득금액(원) | 119,480,894,820 (지분 100%)",
       "target_keyword": "식료품 제조",
       "target_biz_no": "318-81-06151",
-      "purpose": "포트폴리오 확장(김/조미식품)"
+      "purpose": "포트폴리오 확장(김/조미식품)",
+      "news_sources": [
+        {
+          "url": "https://www.mt.co.kr/industry/2025/12/26/2025122618055979653",
+          "outlet": "머니투데이",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-25",
@@ -4945,7 +6325,15 @@
       "sector": "F&B",
       "extraction_clue": "국내 사모펀드 JKL파트너스가 런던베이글뮤지엄 지분 100%를 2000억원에 인수했다.",
       "target_keyword": "외식",
-      "purpose": "국내외 입점 확대"
+      "purpose": "국내외 입점 확대",
+      "news_sources": [
+        {
+          "url": "https://www.foodbank.co.kr/news/articleView.html?idxno=66549",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-05",
@@ -4971,7 +6359,15 @@
       "extraction_clue": "UCK파트너스는 최근 만전식품 지분 80%를 약 2100억원에 인수하는 주식매매계약(SPA)을 체결했다.",
       "target_keyword": "식료품 제조",
       "target_biz_no": "126-81-21228",
-      "purpose": "해외(글로벌) 진출(김)"
+      "purpose": "해외(글로벌) 진출(김)",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/article/20042526",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-12-17",
@@ -4997,7 +6393,15 @@
       "extraction_clue": "매각가는 600억원대로 관측된다.",
       "target_keyword": "외식",
       "target_biz_no": "583-86-02507",
-      "purpose": "포트폴리오 확장(프리미엄 버거 체인)"
+      "purpose": "포트폴리오 확장(프리미엄 버거 체인)",
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2025/12/18/2025121880150.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-02-19",
@@ -5021,7 +6425,15 @@
       "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "화장품",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "news_sources": [
+        {
+          "url": "https://m.thebell.co.kr/m/newsview.asp?newskey=202602191414305240105019",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-06-01",
@@ -5045,7 +6457,15 @@
       "is_amount_estimated": true,
       "discrepancy_fields": [],
       "sector": "화장품",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202508211253381360104113",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-11-28",
@@ -5071,7 +6491,15 @@
       "sector": "F&B",
       "target_keyword": "단체급식",
       "acquirer_biz_no": "107-81-76324",
-      "purpose": "사업 재편/구조조정"
+      "purpose": "사업 재편/구조조정",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/Content/ArticleView.asp?key=202508281727474360106283",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-07-31",
@@ -5099,7 +6527,15 @@
       "acquirer_biz_no": "229-81-11150",
       "target_biz_no": "214-86-68729",
       "purpose": "자회사 완전자회사 전환",
-      "is_intragroup": true
+      "is_intragroup": true,
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202504151136289160107141",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-27",
@@ -5124,7 +6560,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "target_keyword": "음료 제조",
-      "acquirer_biz_no": "105-87-51367"
+      "acquirer_biz_no": "105-87-51367",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202508271337155560104350",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-01-19",
@@ -5152,7 +6596,15 @@
       "acquirer_biz_no": "881-87-01258",
       "target_biz_no": "135-81-66291",
       "purpose": "포트폴리오 확장(B2B 단체급식 강화, 병원·시니어 시설로 BaaS 확대)",
-      "reference": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202601190813015680107334"
+      "reference": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202601190813015680107334",
+      "news_sources": [
+        {
+          "url": "https://biz.chosun.com/stock/market_trend/2026/02/27/AD7OXMUKKJB45MHCLJXS2WVDFE/",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-09-01",
@@ -5179,7 +6631,15 @@
       "target_keyword": "식자재 유통",
       "acquirer_biz_no": "881-87-01258",
       "target_biz_no": "752-87-00835",
-      "purpose": "포트폴리오 확장(B2B 간식 공급 강화)"
+      "purpose": "포트폴리오 확장(B2B 간식 공급 강화)",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202511051424131720105289",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-01",
@@ -5204,7 +6664,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "target_keyword": "식료품 제조",
-      "reference": "https://m.thebell.co.kr/m/newsview.asp?svccode=&newskey=202401300811529460107773 (더벨 2024-01: 메디쿼터스 푸드사업부 영업양수도 매각 추진, 삼정KPMG 주관)"
+      "reference": "https://m.thebell.co.kr/m/newsview.asp?svccode=&newskey=202401300811529460107773 (더벨 2024-01: 메디쿼터스 푸드사업부 영업양수도 매각 추진, 삼정KPMG 주관)",
+      "news_sources": [
+        {
+          "url": "https://www.hinews.co.kr/view.php?ud=2025080110162042656aa9cc43d0_48",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-04-27",
@@ -5228,7 +6696,15 @@
       "is_amount_estimated": true,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202604271858456720102692",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-11-12",
@@ -5252,7 +6728,15 @@
       "is_amount_estimated": false,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202511121111471520105875",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-11-14",
@@ -5278,7 +6762,15 @@
       "sector": "F&B",
       "target_keyword": "외식",
       "purpose": "포트폴리오 확장(한우구이 프랜차이즈 강화)",
-      "reference": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240401000233&dcmNo=9792078&eleId=8&offset=118112&length=166037&dtd=dart4.xsd#:~:text=호박패밀리 (LIG 별도 감사보고서 주석6 지분법: 85.93%/139.65억, 연말 잔액)"
+      "reference": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240401000233&dcmNo=9792078&eleId=8&offset=118112&length=166037&dtd=dart4.xsd#:~:text=호박패밀리 (LIG 별도 감사보고서 주석6 지분법: 85.93%/139.65억, 연말 잔액)",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202405080926418400101342",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-02-11",
@@ -5302,7 +6794,15 @@
       "is_amount_estimated": true,
       "discrepancy_fields": [],
       "sector": "화장품",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202502111228114040105862",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-06-12",
@@ -5328,7 +6828,15 @@
       "sector": "F&B",
       "target_keyword": "식료품 제조",
       "target_biz_no": "310-81-23326",
-      "reference": "https://www.mk.co.kr/news/stock/12022011 (매경: 광천김 IPO 추진·삼성증권 주관)"
+      "reference": "https://www.mk.co.kr/news/stock/12022011 (매경: 광천김 IPO 추진·삼성증권 주관)",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202507091535490120109075",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-06",
@@ -5352,7 +6860,15 @@
       "is_amount_estimated": true,
       "discrepancy_fields": [],
       "sector": "F&B",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "news_sources": [
+        {
+          "url": "https://thebell.co.kr/free/content/ArticleView.asp?key=202508201541129360108218",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-07-17",
@@ -5376,7 +6892,15 @@
       "is_amount_estimated": true,
       "discrepancy_fields": [],
       "sector": "화장품",
-      "target_keyword": "화장품"
+      "target_keyword": "화장품",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202507171658144800107179",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-12-18",
@@ -5404,7 +6928,15 @@
       "acquirer_biz_no": "681-86-00031",
       "target_biz_no": "145-86-01441",
       "purpose": "볼트온(샐러디 포트폴리오 확장)",
-      "acquirer_brand": "샐러디"
+      "acquirer_brand": "샐러디",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202412181009063840108790",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-11-30",
@@ -5429,7 +6961,15 @@
       "sector": "F&B",
       "extraction_clue": "오구: 지분율 100%, 취득간주일 2024.11.30, 취득원가 8,551,750(천원) (반올림피자 2024 감사보고서 주석)",
       "target_keyword": "외식",
-      "purpose": "볼트온(반올림피자 포트폴리오 강화)"
+      "purpose": "볼트온(반올림피자 포트폴리오 강화)",
+      "news_sources": [
+        {
+          "url": "https://www.asiae.co.kr/article/2024120916042897586",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-12-20",
@@ -5455,7 +6995,15 @@
       "extraction_clue": "㈜앤리치(고돼지)가 ㈜인푸드(김순례 순살치킨강정)를 인수·합병 (e2news 2023-12-21 기사, M&A 2023-12-20)",
       "target_keyword": "외식",
       "purpose": "신사업 진출(치킨시장)",
-      "acquirer_brand": "고돼지"
+      "acquirer_brand": "고돼지",
+      "news_sources": [
+        {
+          "url": "https://www.e2news.com/news/articleView.html?idxno=304268",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-01-30",
@@ -5481,7 +7029,15 @@
       "extraction_clue": "최대주주 한앤코19호(52.63%, 378,938주), 대법원 판결로 대금완납. 거래가 약 3,107억(보도).",
       "target_keyword": "식료품 제조",
       "target_biz_no": "202-81-04367",
-      "purpose": "경영체제 전환(오너경영체제 종료)"
+      "purpose": "경영체제 전환(오너경영체제 종료)",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/117299",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-03-09",
@@ -5508,7 +7064,15 @@
       "target_keyword": "식자재 유통",
       "acquirer_biz_no": "603-81-11270",
       "target_biz_no": "479-86-00423",
-      "purpose": "신성장동력(온라인 식자재 유통)"
+      "purpose": "신성장동력(온라인 식자재 유통)",
+      "news_sources": [
+        {
+          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=429661",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-07-09",
@@ -5535,7 +7099,15 @@
       "target_keyword": "음료 제조",
       "acquirer_biz_no": "301-81-71746",
       "target_biz_no": "615-81-19616",
-      "purpose": "수원지 확보(생수공장)"
+      "purpose": "수원지 확보(생수공장)",
+      "news_sources": [
+        {
+          "url": "https://m.ceoscoredaily.com/page/view/2024123112001399013",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-04-01",
@@ -5562,7 +7134,15 @@
       "target_keyword": "식료품 제조",
       "acquirer_biz_no": "109-81-14886",
       "target_biz_no": "109-81-57115",
-      "purpose": "시너지 강화(식육 유통사업)"
+      "purpose": "시너지 강화(식육 유통사업)",
+      "news_sources": [
+        {
+          "url": "https://biz.heraldcorp.com/article/10446019",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-11-25",
@@ -5593,7 +7173,15 @@
       "acquirer_brand": "",
       "target_biz_no": "616-86-27415",
       "purpose": "경영권 인수 + 시설자금 조달",
-      "reference": "https://news.bizwatch.co.kr/article/market/2025/05/13/0018 (사명변경), https://www.etoday.co.kr/news/view/2541572 (한울반도체 전량 재인수), https://www.etoday.co.kr/news/view/2537299 (255억 부동산 양수 철회)"
+      "reference": "https://news.bizwatch.co.kr/article/market/2025/05/13/0018 (사명변경), https://www.etoday.co.kr/news/view/2541572 (한울반도체 전량 재인수), https://www.etoday.co.kr/news/view/2537299 (255억 부동산 양수 철회)",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202601051313488800101496",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-04-15",
@@ -5621,7 +7209,15 @@
       "acquirer_biz_no": "205-87-00436",
       "target_biz_no": "681-86-00031",
       "purpose": "포트폴리오 강화(샐러드 프랜차이즈)",
-      "reference": "https://www.thebell.co.kr/front/newsview.asp?key=202303311613043720104544 (더벨: 약 350억 거래대금, 클로징 4월 중순. 300억 MG새마을금고+50억 산은/IBK/농협캐피탈)"
+      "reference": "https://www.thebell.co.kr/front/newsview.asp?key=202303311613043720104544 (더벨: 약 350억 거래대금, 클로징 4월 중순. 300억 MG새마을금고+50억 산은/IBK/농협캐피탈)",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/article/13624179",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-06-09",
@@ -5648,7 +7244,15 @@
       "target_keyword": "음료 제조",
       "acquirer_biz_no": "307-81-08858",
       "target_biz_no": "271-86-01148",
-      "purpose": "수원지 확보(생수사업)"
+      "purpose": "수원지 확보(생수사업)",
+      "news_sources": [
+        {
+          "url": "https://biz.newdaily.co.kr/site/data/html/2023/08/18/2023081800047.html",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-12-01",
@@ -5676,7 +7280,15 @@
       "acquirer_biz_no": "229-81-12289",
       "target_biz_no": "215-81-03457",
       "purpose": "포트폴리오 확장(조미김 영역)",
-      "is_intragroup": true
+      "is_intragroup": true,
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/149735",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-05",
@@ -5703,7 +7315,15 @@
       "target_keyword": "식자재 유통",
       "target_biz_no": "134-87-35900",
       "purpose": "포트폴리오 확장(베이커리·카페 식자재 플랫폼)",
-      "is_intragroup": true
+      "is_intragroup": true,
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/131393",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-04-03",
@@ -5729,7 +7349,15 @@
       "extraction_clue": "사내 카페테리아 1위 넥스트씨앤씨 인수(위펀 B2B 푸드 볼트온). 금액 미공개.",
       "target_keyword": "단체급식",
       "acquirer_biz_no": "881-87-01258",
-      "purpose": "볼트온(B2B 사내 카페테리아 플랫폼 강화)"
+      "purpose": "볼트온(B2B 사내 카페테리아 플랫폼 강화)",
+      "news_sources": [
+        {
+          "url": "https://www.venturesquare.net/921474/",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-10-01",
@@ -5756,7 +7384,15 @@
       "target_keyword": "단체급식",
       "acquirer_biz_no": "881-87-01258",
       "target_biz_no": "688-87-01440",
-      "purpose": "신사업 진출(B2B 중식 구독 시장)"
+      "purpose": "신사업 진출(B2B 중식 구독 시장)",
+      "news_sources": [
+        {
+          "url": "https://platum.kr/archives/279700",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-04-01",
@@ -5780,7 +7416,15 @@
       "discrepancy_fields": [],
       "sector": "F&B",
       "extraction_clue": "맘스터치앤컴퍼니 매각 재개(주관사 씨티·삼정), 희망가 약 1조원 거론.",
-      "target_keyword": "외식"
+      "target_keyword": "외식",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/article/20045932",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-10-01",
@@ -5805,7 +7449,15 @@
       "sector": "F&B",
       "extraction_clue": "VIG파트너스 보유 본촌인터내셔날(본촌치킨) 경영권 매각 막바지 — 우선협상대상자로 외국계 SI 선정, SPA 협의 중(뉴스톱 2026-06-04). 매각주관사 BDA파트너스·윌리엄블레어. 거론가 최대 1,000억.",
       "target_keyword": "외식",
-      "reference": "https://www.newstopkorea.com/news/articleView.html?idxno=45330 (뉴스톱 2026-06-04: 우협=외국계 SI 선정·SPA 협의 막바지)"
+      "reference": "https://www.newstopkorea.com/news/articleView.html?idxno=45330 (뉴스톱 2026-06-04: 우협=외국계 SI 선정·SPA 협의 막바지)",
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2025/10/29/2025102980171.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-12-20",
@@ -5830,7 +7482,15 @@
       "sector": "F&B",
       "extraction_clue": "치킨·햄버거 프랜차이즈 파파이스(파파이스코리아)가 약 500억원에 M&A 매물로 출회. 운영사 신라교역(2021년 말 글로벌 RBI 마스터 프랜차이즈 계약으로 인수)이 수익성 악화·매장 축소 속에 매각 추진(서울경제TV 2025-12-20).",
       "target_keyword": "외식",
-      "reference": null
+      "reference": null,
+      "news_sources": [
+        {
+          "url": "https://www.sentv.co.kr/article/view/sentv202512160148",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-04-13",
@@ -5855,7 +7515,15 @@
       "sector": "F&B",
       "extraction_clue": "피자나라치킨공주(운영사 법인 리치빔, 창업주 남양우 대표)가 2년 만에 희망가를 500억 높여 2,500억에 매각 재도전. 2024년 매출 960억·영업익 212억, 매장 550여개(딜사이트 2026-04-13). 1차 시도(SG프라이빗에쿼티, 2,000억 초반)는 교착·무산.",
       "target_keyword": "외식",
-      "reference": null
+      "reference": null,
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/159187",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-09-29",
@@ -5882,7 +7550,15 @@
       "target_keyword": "음료 제조",
       "acquirer_biz_no": "214-81-07770",
       "purpose": "동남아 거점 확보(필리핀 시장)",
-      "reference": "https://www.kedglobal.com/mergers-acquisitions/newsView/ked202310040012 (영문, 73.6%·완료 확인); 2019~2020 공개매수: 2.134억주×P1.95=P4.16B(별개)"
+      "reference": "https://www.kedglobal.com/mergers-acquisitions/newsView/ked202310040012 (영문, 73.6%·완료 확인); 2019~2020 공개매수: 2.134억주×P1.95=P4.16B(별개)",
+      "news_sources": [
+        {
+          "url": "https://www.etnews.com/20231004000021",
+          "outlet": "전자신문",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-03",
@@ -5908,7 +7584,15 @@
       "extraction_clue": "총 이전대가 중 취득일 공정가치로 이전된 현금 30,575백만원, 취득일 인식 영업권 21,344백만원 (대상 2023 사업보고서 주석34 사업양수도, 럭키푸즈)",
       "target_keyword": "식료품 제조",
       "acquirer_biz_no": "109-81-14886",
-      "purpose": "북미(미국) 진출(김치 시장 확대)"
+      "purpose": "북미(미국) 진출(김치 시장 확대)",
+      "news_sources": [
+        {
+          "url": "https://www.thinkfood.co.kr/news/articleView.html?idxno=98090",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-08",
@@ -5935,7 +7619,15 @@
       "target_keyword": "외식",
       "target_biz_no": "112-81-22058",
       "is_intragroup": true,
-      "reference": "https://www.foodbank.co.kr/news/articleView.html?idxno=66551 (기존 출처, 53%/120억은 부정확)"
+      "reference": "https://www.foodbank.co.kr/news/articleView.html?idxno=66551 (기존 출처, 53%/120억은 부정확)",
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/269YKUN1UR",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-10-17",
@@ -5960,7 +7652,15 @@
       "sector": "F&B",
       "extraction_clue": "외식기업 오픈(도쿄등심·암소서울·모도우 등 7개 브랜드 운영)이 삼정KPMG를 매각주관사로 선정하고 본격 매각 절차에 착수(더벨 2025-10-17). 2025 예상 매출 310억·EBITDA 40~50억·매장 17개.",
       "target_keyword": "외식",
-      "reference": null
+      "reference": null,
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202510171402576160104686",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-01-23",
@@ -5986,7 +7686,15 @@
       "extraction_clue": "수제맥주 어메이징브루잉컴퍼니, 회생 M&A(경영권 매각) 실패 — 서울회생법원 2026-01-23 회생절차 폐지 결정 → 파산 전환. 인수자 확보 실패, VC 투자금 전액 손실(조선비즈 2026-01-27).",
       "target_keyword": "음료 제조",
       "target_biz_no": "526-86-00239",
-      "reference": "https://www.bloter.net/news/articleView.html?idxno=643513 (블로터: 스토킹호스 불발→공개경쟁입찰, 2025)"
+      "reference": "https://www.bloter.net/news/articleView.html?idxno=643513 (블로터: 스토킹호스 불발→공개경쟁입찰, 2025)",
+      "news_sources": [
+        {
+          "url": "https://biz.chosun.com/topics/law_firm/2026/01/27/HOCDKJXR5ZGYBD3NABMLSHQ62Y/",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-11-28",
@@ -6013,7 +7721,15 @@
       "target_keyword": "식료품 제조",
       "target_biz_no": "420-86-00381",
       "purpose": "포트폴리오 확장(면류 제조)",
-      "reference": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240405002964 (한스코리아 FY2023 감사보고서: 신규 주주 90% 반영, 이전대가 미기재)"
+      "reference": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240405002964 (한스코리아 FY2023 감사보고서: 신규 주주 90% 반영, 이전대가 미기재)",
+      "news_sources": [
+        {
+          "url": "https://biz.newdaily.co.kr/site/data/html/2023/11/28/2023112800072.html",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-12-01",
@@ -6040,7 +7756,15 @@
       "target_keyword": "식료품 제조",
       "acquirer_biz_no": "383-87-01055",
       "purpose": "북미 진출(미국 프리미엄 육가공, K-바베큐 현지생산)",
-      "reference": "https://www.globenewswire.com/news-release/2025/12/02/3198469/0/ko/ | https://biz.heraldcorp.com/article/10629827"
+      "reference": "https://www.globenewswire.com/news-release/2025/12/02/3198469/0/ko/ | https://biz.heraldcorp.com/article/10629827",
+      "news_sources": [
+        {
+          "url": "https://www.joongang.co.kr/article/25387369",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "sector": "F&B",
@@ -6071,7 +7795,15 @@
       "deal_size_krw": "4700000000",
       "valuation_krw": "68700000000",
       "status": "클로징",
-      "verification_level": "공시검증"
+      "verification_level": "공시검증",
+      "news_sources": [
+        {
+          "url": "https://www.businesspost.co.kr/BP?command=article_view&num=346097",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "sector": "F&B",
@@ -6102,7 +7834,15 @@
       "deal_size_krw": "10000000000",
       "valuation_krw": "41300000000",
       "status": "클로징",
-      "verification_level": "공시검증"
+      "verification_level": "공시검증",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/132524",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "sector": "F&B",
@@ -6133,7 +7873,15 @@
       "deal_size_krw": "48000000000",
       "valuation_krw": "48000000000",
       "status": "클로징",
-      "verification_level": "언론검증"
+      "verification_level": "언론검증",
+      "news_sources": [
+        {
+          "url": "https://kpinews.kr/newsView/1065566643197355",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "acquirer_biz_no": "",
@@ -6162,7 +7910,15 @@
       "reference": null,
       "is_followon": null,
       "is_intragroup": null,
-      "status": "클로징"
+      "status": "클로징",
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/160557",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "acquirer_biz_no": "",
@@ -6191,7 +7947,15 @@
       "reference": "https://www.thekbs.co.kr/news/articleView.html?idxno=14761",
       "is_followon": null,
       "is_intragroup": null,
-      "status": "SPA체결"
+      "status": "SPA체결",
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202605280936086720103164",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-06-01",
@@ -6219,7 +7983,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/164309",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-06-30",
@@ -6247,7 +8019,21 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/front/newsview.asp?key=202606190827479260108077",
+          "outlet": "더벨",
+          "role": "종합",
+          "note": "기업가치(EV) 약 600억·EV/EBITDA 8배, 투자논리(프리미엄 유아동복·텐포켓)"
+        },
+        {
+          "url": "https://news.mtn.co.kr/news-detail/2026061815251787284",
+          "outlet": "머니투데이방송",
+          "role": "최초",
+          "note": "매도자=개인 창업자 김서원40%·박세권60%, 지분100% SPA체결, 인수자금 미확보로 클로징 지연"
+        }
+      ]
     },
     {
       "closing_date": "2026-04-01",
@@ -6275,7 +8061,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=226270",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-03-01",
@@ -6303,7 +8097,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=224634",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-03-31",
@@ -6331,7 +8133,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.ktnews.com/news/articleView.html?idxno=143232",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-01-01",
@@ -6359,7 +8169,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": true,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://fashionbiz.co.kr/article/222320",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-01-01",
@@ -6387,7 +8205,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://fashionbiz.co.kr/article/226222",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-09-01",
@@ -6415,7 +8241,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://fashionbiz.co.kr/article/219776",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-08-01",
@@ -6443,7 +8277,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=219456",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-03-01",
@@ -6471,7 +8313,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=216123",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-02-01",
@@ -6499,7 +8349,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://marketin.edaily.co.kr/News/Read?newsId=02141846642167936",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-01-20",
@@ -6527,7 +8385,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/135290",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-01-01",
@@ -6555,7 +8421,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=202375",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-01-01",
@@ -6583,7 +8457,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.ktnews.com/news/articleView.html?idxno=138541",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-10-12",
@@ -6611,7 +8493,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2024090222881",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-09-06",
@@ -6639,7 +8529,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://dealsite.co.kr/articles/129275",
+          "outlet": "딜사이트",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-06-01",
@@ -6667,7 +8565,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/202406044873Y",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-06-01",
@@ -6695,7 +8601,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=212625",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-05-01",
@@ -6723,7 +8637,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=208130",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-05-13",
@@ -6751,7 +8673,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.ktnews.com/news/articleView.html?idxno=123588",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-12-26",
@@ -6779,7 +8709,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.sedaily.com/NewsView/29YO9ITCNH",
+          "outlet": "이데일리",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-11-01",
@@ -6807,7 +8745,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=206462",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-09-01",
@@ -6835,7 +8781,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.ktnews.com/news/articleView.html?idxno=125249",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-09-29",
@@ -6863,7 +8817,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.bizhankook.com/bk/article/24115",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-07-20",
@@ -6891,7 +8853,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=199042",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-06-01",
@@ -6919,7 +8889,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=198808",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-07-15",
@@ -6947,7 +8925,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=199248",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-03-01",
@@ -6975,7 +8961,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/economy/article/2022032993811",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-01-01",
@@ -7003,7 +8997,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2093257",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-11-01",
@@ -7031,7 +9033,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=217581",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-12-01",
@@ -7059,7 +9069,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202112201441075120108958",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-12-01",
@@ -7087,7 +9105,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=189610",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-11-01",
@@ -7115,7 +9141,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.itnk.co.kr/news/articleView.html?idxno=69164",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-11-01",
@@ -7143,7 +9177,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=188810",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-05-01",
@@ -7171,7 +9213,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2029532",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-02-01",
@@ -7199,7 +9249,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2024122949311",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-01-01",
@@ -7227,7 +9285,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=217581",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-01-01",
@@ -7255,7 +9321,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=208943",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-01-01",
@@ -7283,7 +9357,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=217581",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-01-01",
@@ -7311,7 +9393,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=217581",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-03-04",
@@ -7339,7 +9429,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.greened.kr/news/articleView.html?idxno=337661",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-01-01",
@@ -7367,7 +9465,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.unicornfactory.co.kr/article/2026011813251666722",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-07-01",
@@ -7395,7 +9501,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202507081104117840107796&lcode=00",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-10-02",
@@ -7423,7 +9537,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=533280",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-04-01",
@@ -7451,7 +9573,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.investchosun.com/site/data/html_dir/2024/04/09/2024040980119.html",
+          "outlet": "조선비즈",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-07-11",
@@ -7479,7 +9609,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.asiae.co.kr/article/2022071211322998591",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2026-01-01",
@@ -7507,7 +9645,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2026012145801",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-01-01",
@@ -7535,7 +9681,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=210835",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2024-06-17",
@@ -7563,7 +9717,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": true,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2024071677825",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-07-01",
@@ -7591,7 +9753,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.apparelnews.co.kr/news/news_view/?idx=199381",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-01-01",
@@ -7619,7 +9789,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2022010328621",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-12-01",
@@ -7647,7 +9825,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2539617",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2022-12-01",
@@ -7675,7 +9861,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202212051500359880109611",
+          "outlet": "더벨",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-08-01",
@@ -7703,7 +9897,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2021050796681",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-07-01",
@@ -7731,7 +9933,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/it/article/2021040838491",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-04-01",
@@ -7759,7 +9969,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.ktnews.com/news/articleView.html?idxno=118800",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2025-02-01",
@@ -7787,7 +10005,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2589971",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-07-01",
@@ -7815,7 +10041,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.fashionbiz.co.kr/article/view.asp?idx=186053",
+          "outlet": "",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2021-06-01",
@@ -7843,7 +10077,15 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": [
+        {
+          "url": "https://www.hankyung.com/article/202106105198i",
+          "outlet": "한경",
+          "role": "",
+          "note": ""
+        }
+      ]
     },
     {
       "closing_date": "2023-01-16",
@@ -7871,7 +10113,8 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": []
     },
     {
       "closing_date": "2024-11-12",
@@ -7899,7 +10142,8 @@
       "acquirer_biz_no": "",
       "target_biz_no": "",
       "is_intragroup": false,
-      "is_followon": false
+      "is_followon": false,
+      "news_sources": []
     }
   ]
 }
