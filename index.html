@@ -41,6 +41,15 @@
         .sector-tab:hover { border-color: var(--blue); color: var(--blue); }
         .sector-tab.active { background: var(--blue); border-color: var(--blue); color: #fff; }
         .sector-tab .tab-count { font-size: 0.72rem; opacity: 0.85; }
+        /* 검토 탭 — 로컬 review_server에서 서빙될 때만 JS가 표시(fetch('/api/pending') 200).
+           공개(GitHub Pages)에서는 /api/pending이 404라 절대 노출되지 않음. 섹터 탭과 구분되게
+           점선 보더 + 보라 계열로 별도 스타일. */
+        .sector-tab.review-tab { display: none; border-style: dashed; color: var(--purple); }
+        .sector-tab.review-tab:hover { border-color: var(--purple); color: var(--purple); }
+        .sector-tab.review-tab.active { background: var(--purple); border-color: var(--purple); color: #fff; }
+        #dashboardContent { display: contents; }
+        #reviewPane { display: none; flex: 1 1 auto; min-height: 0; }
+        #reviewPane iframe { width: 100%; height: 100%; border: none; display: block; background: #0b0f14; }
 
         .empty-state { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 60px 20px; color: var(--muted); gap: 10px; }
         .empty-state .empty-icon { font-size: 2rem; }
@@ -164,6 +173,7 @@
         <button class="sector-tab" data-sector="fnb">F&amp;B <span class="tab-count" id="fnbTotal">0</span></button>
         <button class="sector-tab" data-sector="fashion">패션 <span class="tab-count" id="fashionTotal">0</span></button>
         <button class="sector-tab" data-sector="wellness">웰니스 <span class="tab-count" id="wellnessTotal">0</span></button>
+        <button class="sector-tab review-tab" id="reviewTab" data-sector="review">🔍 검토 <span class="tab-count" id="reviewCount"></span></button>
     </div>
 
     <div class="f-sec">
@@ -210,6 +220,9 @@
         <div class="updated" id="updatedBadge">UPDATED —</div>
     </div>
 
+    <!-- 검토 탭이 아닐 때만 보이는 기존 대시보드 콘텐츠 전체(통계/차트/표). display:contents라
+         main의 flex 레이아웃에 영향 없음 — JS가 'contents'/'none'만 토글. -->
+    <div id="dashboardContent">
     <!-- Stats -->
     <div class="stats-row">
         <div class="stat"><div class="stat-lbl">Completed</div><div class="stat-val"><span id="sCompleted">—</span><span class="stat-unit">건</span></div></div>
@@ -271,6 +284,15 @@
             </thead>
             <tbody id="tblBody"></tbody>
         </table>
+    </div>
+    </div><!-- /dashboardContent -->
+
+    <!-- 검토 탭 콘텐츠 — 로컬 review_server(127.0.0.1)에서만 채워짐. 기존 review.html의
+         검토 로직(블라인드 프로토콜·근거게이팅 등)을 그대로 iframe으로 임베드해 재구현하지
+         않는다(회귀 위험). src는 상대경로 '/review' — index.html이 review_server에서 서빙될
+         때만 그 서버의 /review로 해석된다. -->
+    <div id="reviewPane">
+        <iframe id="reviewFrame" title="검토"></iframe>
     </div>
 </main>
 
@@ -763,7 +785,9 @@ function doExportExcel() {
     XLSX.writeFile(wb, 'MMP Deal Case Archive.xlsx');
 }
 
-async function loadData() {
+// dashboard_data.json을 (재)불러와 카운트/뱃지/pill/표를 갱신. 최초 로드와, 검토 탭에서
+// 결정이 커밋된 뒤(postMessage) 양쪽에서 호출된다 — 이벤트 바인딩은 여기 없음(중복바인딩 방지).
+async function refreshDashboardData() {
     const res  = await fetch('dashboard_data.json?v=' + Date.now(), { cache: 'no-store' });
     const data = await res.json();
     allDeals   = data.deals;
@@ -797,12 +821,62 @@ async function loadData() {
     // Keyword pills — 활성 섹터의 딜에서만 키워드 수집 (섹터 전환 시 재생성)
     buildKeywordPills();
 
-    // 섹터 탭
+    render();
+}
+
+// ── 검토 탭 표시 여부 — 로컬 review_server에서 서빙될 때만 tab을 보인다 ──────────
+// 절대경로/localhost 하드코딩 금지: 상대경로 fetch('/api/pending')이 현재 페이지와
+// 같은 origin으로 해석되므로, 공개(GitHub Pages) 배포본에서는 자연히 404/네트워크
+// 오류가 나 탭이 그대로 숨겨진다. 실패 시 아무것도 하지 않는다(탭은 CSS 기본 display:none).
+async function initReviewTab() {
+    const tab = document.getElementById('reviewTab');
+    if (!tab) return;
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 1500);
+    try {
+        const res = await fetch('/api/pending', { signal: ctrl.signal });
+        clearTimeout(timer);
+        if (!res.ok) return;               // 404 등 — 공개 사이트에서는 여기서 끝남
+        const data = await res.json();
+        const items = data.items || [];
+        const pendingCount = items.filter(i => i.status === 'pending').length;
+        tab.style.display = 'inline-flex'; // .sector-tab 기본 display를 그대로 복원
+        const badge = document.getElementById('reviewCount');
+        if (badge && pendingCount) badge.textContent = pendingCount;
+    } catch (e) {
+        clearTimeout(timer);
+        // 네트워크 오류/타임아웃 — 탭 노출 안 함(안전 기본값)
+    }
+}
+
+function showDashboardPane() {
+    document.getElementById('dashboardContent').style.display = 'contents';
+    document.getElementById('reviewPane').style.display = 'none';
+}
+
+function showReviewPane() {
+    document.getElementById('dashboardContent').style.display = 'none';
+    const pane = document.getElementById('reviewPane');
+    pane.style.display = 'flex';
+    const frame = document.getElementById('reviewFrame');
+    if (!frame.getAttribute('src')) frame.setAttribute('src', '/review'); // lazy — 클릭 전엔 요청 없음
+}
+
+async function loadData() {
+    await refreshDashboardData();
+
+    // 섹터 탭(+ 검토 탭 — 같은 컨테이너의 button.sector-tab이라 클릭 위임을 공유하지만
+    // data-sector === 'review'는 별도 분기로 처리, dealInSector/render 경로를 타지 않음)
     document.querySelector('.sector-tabs').addEventListener('click', e => {
         const tab = e.target.closest('.sector-tab');
         if (!tab) return;
         document.querySelectorAll('.sector-tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
+        if (tab.dataset.sector === 'review') {
+            showReviewPane();
+            return;
+        }
+        showDashboardPane();
         state.sector = tab.dataset.sector;
         buildYearPills();      // 섹터별 연도 pill 재생성 (F&B 2023+)
         buildKeywordPills();   // 섹터별 키워드 pill 재생성 (+ 타섹터 키워드 선택 해제)
@@ -817,11 +891,20 @@ async function loadData() {
         state.search = e.target.value;
         render();
     });
-
-    render();
 }
 
+// 검토 iframe이 결정 커밋 후 보내는 신호 — 부모 대시보드 데이터를 새로 받아온다.
+// 실패해도(핸들러 자체 오류) 다른 기능에 영향 없도록 방어적으로 감싼다.
+window.addEventListener('message', (e) => {
+    try {
+        if (e && e.data && e.data.type === 'review-decision') {
+            refreshDashboardData().catch(() => {});
+        }
+    } catch (err) { /* no-op — 방어적 */ }
+});
+
 loadData();
+initReviewTab();
 </script>
 </body>
 </html>
